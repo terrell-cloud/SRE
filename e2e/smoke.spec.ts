@@ -6,7 +6,7 @@ test('boots, sims an exhibition, and renders a box score', async ({ page }) => {
 
   await expect(page.getByRole('heading', { name: /Campus Ball/i })).toBeVisible()
 
-  await page.getByRole('button', { name: 'New Exhibition' }).click()
+  await page.getByRole('button', { name: 'Quick Sim' }).click()
 
   // Final banner + line score render.
   await expect(page.getByText(/^Final/)).toBeVisible()
@@ -24,5 +24,5 @@ test('boots, sims an exhibition, and renders a box score', async ({ page }) => {
 
   // And we can navigate home.
   await page.getByRole('button', { name: 'Home', exact: true }).click()
-  await expect(page.getByRole('button', { name: 'New Exhibition' })).toBeVisible()
+  await expect(page.getByRole('button', { name: 'Play Exhibition' })).toBeVisible()
 })

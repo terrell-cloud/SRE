@@ -60,18 +60,23 @@ export function aiPitchPlan(pitcher: Player, _batter: Player, count: Count, rng:
   return { type: chosen.type, target }
 }
 
-/** Apply the pitcher's control error to the plan: intent -> actual pitch. */
+/** Apply the pitcher's control error to the plan: intent -> actual pitch.
+ * `errorScale` lets the human accuracy-ring mechanic tighten or worsen the
+ * scatter (perfect tap < 1, botched tap > 1); the default of 1 keeps AI
+ * behavior — and the stat calibration — byte-identical. */
 export function applyControl(
   plan: PitchPlan,
   pitcher: Player,
   fatiguePitches: number,
   rng: Rng,
+  errorScale = 1,
 ): PitchActual {
   const def = PITCH_TYPES[plan.type]
   const overStamina = Math.max(0, fatiguePitches - pitcher.ratings.stamina)
   const sd =
-    PI.controlSdBase * (1 - PI.controlSdSpread * spread(pitcher.ratings.control)) +
-    overStamina * PI.fatigueSdPerPitch
+    (PI.controlSdBase * (1 - PI.controlSdSpread * spread(pitcher.ratings.control)) +
+      overStamina * PI.fatigueSdPerPitch) *
+    errorScale
   const loc: ZoneXY = {
     x: plan.target.x + gaussian(rng, 0, sd),
     y: plan.target.y + gaussian(rng, 0, sd),

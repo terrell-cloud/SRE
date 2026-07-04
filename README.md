@@ -7,6 +7,13 @@ high-school classes, and chase the 64-team postseason tournament.
 
 ## Status
 
+**Milestone 2 — Interactive Baseball 9-style gameplay** ✅
+Play full exhibition games with two-thumb batting (one thumb moves the
+bat-aim marker, the other taps SWING for precise timing) and interactive
+pitching (pick a pitch, drag the target, tap the shrinking accuracy ring).
+Auto/sim controls at every level keep games fast. Rookie-difficulty assists
+keep the first hours forgiving without touching the calibrated sim.
+
 **Milestone 1 — Exhibition sim** ✅
 Generate two fictional college programs and sim a full 9-inning (or extras)
 game on a pitch-by-pitch Monte Carlo engine, with a line score and full

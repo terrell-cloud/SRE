@@ -2,6 +2,7 @@ import { useGameStore } from '../../state/gameStore'
 
 export default function HomeScreen() {
   const newExhibition = useGameStore((s) => s.newExhibition)
+  const startExhibition = useGameStore((s) => s.startExhibition)
 
   return (
     <div className="flex min-h-dvh flex-col items-center justify-center gap-10 px-6">
@@ -18,10 +19,17 @@ export default function HomeScreen() {
       <div className="flex w-full max-w-xs flex-col gap-3">
         <button
           type="button"
-          onClick={() => newExhibition()}
+          onClick={() => startExhibition()}
           className="rounded-2xl bg-dirt-400 px-6 py-4 text-lg font-bold text-field-900 shadow-lg transition active:scale-95"
         >
-          New Exhibition
+          Play Exhibition
+        </button>
+        <button
+          type="button"
+          onClick={() => newExhibition()}
+          className="rounded-2xl border border-field-50/25 px-6 py-4 text-lg font-bold text-field-50/90"
+        >
+          Quick Sim
         </button>
         <button
           type="button"
@@ -33,7 +41,7 @@ export default function HomeScreen() {
         </button>
       </div>
 
-      <p className="text-xs text-field-50/40">v0.1 — exhibition sim milestone</p>
+      <p className="text-xs text-field-50/40">v0.2 — play ball!</p>
     </div>
   )
 }

@@ -11,7 +11,9 @@ import type {
   GameState,
   GameTeam,
   PitchActual,
+  PitchEvent,
   Player,
+  PlayResult,
   School,
   SwingInput,
 } from './types'
@@ -125,13 +127,20 @@ export function currentPitcher(gs: GameState): Player {
 export interface StepOptions {
   /** Human batting: the tap converted to a SwingInput. Omitted = aiSwing. */
   swing?: SwingInput
-  /** Human pitching: a pre-built pitch (M6). Omitted = AI plan + control. */
+  /** Human pitching: a pre-built pitch. Omitted = AI plan + control. */
   pitch?: PitchActual
 }
 
-/** Advance the game by exactly one pitch. Mutates and returns gs. */
-export function stepPitch(gs: GameState, rng: Rng, opts: StepOptions = {}): GameState {
-  if (gs.gameOver) return gs
+/** What one pitch produced — the UI builds outcome banners from this. */
+export interface StepResult {
+  event: PitchEvent | null
+  /** Set only when the ball was put in play. */
+  play: PlayResult | null
+}
+
+/** Advance the game by exactly one pitch. Mutates gs in place. */
+export function stepPitch(gs: GameState, rng: Rng, opts: StepOptions = {}): StepResult {
+  if (gs.gameOver) return { event: null, play: null }
 
   const batter = currentBatter(gs)
   const pitcher = currentPitcher(gs)
@@ -146,6 +155,7 @@ export function stepPitch(gs: GameState, rng: Rng, opts: StepOptions = {}): Game
     opts.pitch ?? applyControl(aiPitchPlan(pitcher, batter, gs.count, rng), pitcher, pitchCount, rng)
   const swing = opts.swing ?? aiSwing(batter, pitch, gs.count, rng)
   const event = resolvePitch(batter, pitcher, pitch, swing, rng)
+  let playResult: PlayResult | null = null
 
   switch (event.kind) {
     case 'ball': {
@@ -179,6 +189,7 @@ export function stepPitch(gs: GameState, rng: Rng, opts: StepOptions = {}): Game
     }
     case 'inPlay': {
       const play = resolveBattedBall(event.battedBall, batter, offense, defense, gs.bases, gs.outs, rng)
+      playResult = play
       const bLine = battingLineOf(gs.batting, batter.id)
       const pLine = pitchingLineOf(gs.pitching, pitcher.id)
 
@@ -207,7 +218,7 @@ export function stepPitch(gs: GameState, rng: Rng, opts: StepOptions = {}): Game
 
   checkPitchingChange(gs)
   checkHalfInningAndGameEnd(gs)
-  return gs
+  return { event, play: playResult }
 }
 
 // ---------------------------------------------------------------------------
@@ -322,6 +333,31 @@ export function toResult(gs: GameState): GameResult {
     pitching: gs.pitching,
     awaySchoolId: gs.away.school.id,
     homeSchoolId: gs.home.school.id,
+  }
+}
+
+/** Sim to the end of the current half-inning (or the game, if it ends). */
+export function simHalfInning(gs: GameState, rng: Rng): void {
+  const { half, inning } = gs
+  let guard = 0
+  while (!gs.gameOver && gs.half === half && gs.inning === inning && guard++ < 600) {
+    stepPitch(gs, rng)
+  }
+}
+
+/** Sim until the current plate appearance ends (batter or half changes). */
+export function simPlateAppearance(gs: GameState, rng: Rng): void {
+  const team = battingTeam(gs)
+  const startHalf = gs.half
+  const startIndex = team.battingIndex
+  let guard = 0
+  while (
+    !gs.gameOver &&
+    gs.half === startHalf &&
+    battingTeam(gs).battingIndex === startIndex &&
+    guard++ < 30
+  ) {
+    stepPitch(gs, rng)
   }
 }
 

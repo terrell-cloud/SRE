@@ -110,4 +110,51 @@ export const BALANCE = {
     innings: 9,
     maxInnings: 20,
   },
+
+  /** Interactive at-bat scene timing/layout (presentation only, no sim effect). */
+  scene: {
+    /** Ball flight ms at 90 mph; actual = base * 90/speed, clamped below. */
+    flightBaseMs: 850,
+    flightMinMs: 650,
+    flightMaxMs: 1150,
+    windupMs: 420,
+    /** Late-tap window after plate crossing that still counts as a swing. */
+    swingGraceMs: 80,
+    bannerShortMs: 700,
+    bannerLongMs: 1200,
+    interPitchMs: 350,
+    /** Zone units the PCI may roam (chase-able but bounded). */
+    pciClampRange: 1.6,
+    /** Drawn PCI radius in zone units. */
+    pciRadiusZone: 0.42,
+    /** The PCI rides this many px above the aiming finger. */
+    pciThumbOffsetPx: 90,
+    /** Shrinking accuracy ring duration for interactive pitching. */
+    accuracyRingMs: 900,
+  },
+
+  /**
+   * Human-input shaping ONLY — applied in scenes/atbat/input.ts, never in
+   * src/engine. Shrinking the human's raw errors implicitly widens their
+   * effective contact window without touching the calibrated resolver.
+   */
+  assist: {
+    /** Multiplies raw human timing error (tap - cross), per difficulty. */
+    timingForgiveness: { rookie: 0.55, standard: 0.75, hard: 0.92 },
+    /** Contact rating further shrinks timing error (± this at extremes). */
+    timingContactSpread: 0.25,
+    /** Multiplies the raw PCI aim offset, per difficulty. */
+    aimShrink: { rookie: 0.45, standard: 0.3, hard: 0.12 },
+    /** Inside this zone-distance the aim gets an extra magnetic pull... */
+    aimMagnetRadius: 0.35,
+    /** ...shrinking the remaining offset by this fraction. */
+    aimMagnetPull: 0.5,
+    /** Accuracy-ring result -> control error multiplier for human pitching. */
+    pitchAccuracy: {
+      errorScaleMin: 0.35,
+      errorScaleMax: { rookie: 1.15, standard: 1.4, hard: 1.6 },
+    },
+  },
 } as const
+
+export type Difficulty = 'rookie' | 'standard' | 'hard'
