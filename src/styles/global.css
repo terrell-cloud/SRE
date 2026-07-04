@@ -1,0 +1,79 @@
+@import "tailwindcss";
+
+/*
+ * Brand tokens — PROVISIONAL palette pending the official logo from the
+ * Google Drive "pictures and video" folder. Swap the three brand-* hues
+ * below once the logo colors are sampled; everything else derives.
+ */
+@theme {
+  /* Deep southern navy — headers, footer, primary text on light */
+  --color-brand-900: #0f1f33;
+  --color-brand-800: #16293f;
+  --color-brand-700: #1e3a5f;
+  --color-brand-600: #2c4f7c;
+  --color-brand-500: #3d6398;
+  --color-brand-100: #dce6f2;
+  --color-brand-50: #f0f5fa;
+
+  /* Conversion red — CTA buttons only, never decorative */
+  --color-cta-700: #a31621;
+  --color-cta-600: #c0202e;
+  --color-cta-500: #d92637;
+  --color-cta-50: #fdeef0;
+
+  /* Warm working neutrals */
+  --color-stone-warm-50: #faf9f7;
+  --color-stone-warm-100: #f3f1ec;
+  --color-stone-warm-200: #e5e1d8;
+
+  /* Star / trust gold */
+  --color-star: #f5a623;
+
+  --font-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --font-body: "Barlow", system-ui, sans-serif;
+}
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+    -webkit-text-size-adjust: 100%;
+  }
+  body {
+    font-family: var(--font-body);
+    color: var(--color-brand-900);
+    background: white;
+  }
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    text-wrap: balance;
+  }
+  /* room for the sticky mobile bar */
+  @media (max-width: 767px) {
+    body {
+      padding-bottom: calc(4.25rem + env(safe-area-inset-bottom));
+    }
+  }
+}
+
+@layer components {
+  .btn-cta {
+    @apply inline-flex items-center justify-center gap-2 rounded-md bg-cta-600 px-6 py-3.5 font-display text-lg font-bold uppercase tracking-wide text-white shadow-lg transition hover:bg-cta-700 focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-cta-600;
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border-2 border-brand-800 px-6 py-3 font-display text-lg font-bold uppercase tracking-wide text-brand-800 transition hover:bg-brand-800 hover:text-white;
+  }
+  .btn-ghost-light {
+    @apply inline-flex items-center justify-center gap-2 rounded-md border-2 border-white/80 px-6 py-3 font-display text-lg font-bold uppercase tracking-wide text-white transition hover:bg-white hover:text-brand-900;
+  }
+  .section-pad {
+    @apply px-4 py-14 sm:px-6 md:py-20 lg:px-8;
+  }
+  .container-site {
+    @apply mx-auto w-full max-w-6xl;
+  }
+  .eyebrow {
+    @apply font-display text-sm font-bold uppercase tracking-widest text-cta-600;
+  }
+}
