@@ -1,0 +1,32 @@
+# Global pipeline settings. Env vars referenced as ${VAR} are resolved at load.
+company: "S&E Roofing & Exteriors"
+timezone: America/New_York
+week_start: monday
+backfill_months: 12
+owner_email: terrell@srande.com
+
+# Where CAC customer attribution comes from: leap (job source field) | ghl (won opportunities)
+cac_attribution: leap
+
+ghl:
+  location_id: "${GHL_LOCATION_ID}"
+  # If a contact's source is empty, fetch the full contact for attribution data.
+  hydrate_missing_source: true
+  hydrate_cap: 200          # max per-week hydration calls
+  hydrate_cap_backfill: 1000
+
+leap:
+  base_url: https://api.jobprogress.com/api/v3/
+  # bearer -> "Authorization: Bearer <token>"; token-header -> "Authorization: <token>"
+  # FILL FROM DISCOVERY: confirm which scheme the Leap API accepts.
+  auth_scheme: bearer
+
+dashboard:
+  title: "SRE Weekly KPIs"
+  trend_weeks: 12
+  # Rep closing % rendered as count-only (no bar/percent) below this decision count.
+  small_sample_n: 4
+  # The published Claude Artifact. Weekly runs MUST redeploy dist/dashboard.html
+  # to this same URL (pass it as `url` to the Artifact tool) so the link the
+  # owner bookmarked keeps working. Favicon: 🏠 (keep unchanged).
+  artifact_url: "https://claude.ai/code/artifact/6d4136e0-100c-4e72-9c8a-860385f45a56"

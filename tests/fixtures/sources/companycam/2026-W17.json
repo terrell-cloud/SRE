@@ -1,0 +1,272 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-06T10:35:00-04:00",
+  "records": [
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-04-21T11:11:00",
+      "last_capture": "2026-04-21T11:56:00",
+      "photo_count": 33,
+      "project_id": "cc_p_766",
+      "project_name": "2843 Maple Ave"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-04-25T15:03:00",
+      "last_capture": "2026-04-25T15:59:00",
+      "photo_count": 25,
+      "project_id": "cc_p_767",
+      "project_name": "3946 Willow Way"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-04-20T09:25:00",
+      "last_capture": "2026-04-20T10:12:00",
+      "photo_count": 27,
+      "project_id": "cc_p_768",
+      "project_name": "8176 Hickory Rd"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-04-23T08:55:00",
+      "last_capture": "2026-04-23T10:21:00",
+      "photo_count": 22,
+      "project_id": "cc_p_769",
+      "project_name": "7347 Oakwood Dr"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-04-25T13:15:00",
+      "last_capture": "2026-04-25T14:09:00",
+      "photo_count": 14,
+      "project_id": "cc_p_770",
+      "project_name": "1710 Elm St"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-04-25T09:36:00",
+      "last_capture": "2026-04-25T10:55:00",
+      "photo_count": 23,
+      "project_id": "cc_p_771",
+      "project_name": "5475 Hickory Rd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-04-21T13:05:00",
+      "last_capture": "2026-04-21T13:55:00",
+      "photo_count": 7,
+      "project_id": "cc_p_772",
+      "project_name": "749 Maple Ave"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-04-23T09:35:00",
+      "last_capture": "2026-04-23T10:52:00",
+      "photo_count": 31,
+      "project_id": "cc_p_773",
+      "project_name": "1241 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-04-23T08:52:00",
+      "last_capture": "2026-04-23T09:30:00",
+      "photo_count": 22,
+      "project_id": "cc_p_774",
+      "project_name": "278 Cedar Ln"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-04-22T12:04:00",
+      "last_capture": "2026-04-22T12:31:00",
+      "photo_count": 12,
+      "project_id": "cc_p_775",
+      "project_name": "9421 Willow Way"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-04-21T12:19:00",
+      "last_capture": "2026-04-21T13:39:00",
+      "photo_count": 11,
+      "project_id": "cc_p_776",
+      "project_name": "1182 Maple Ave"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-04-24T15:28:00",
+      "last_capture": "2026-04-24T16:18:00",
+      "photo_count": 34,
+      "project_id": "cc_p_777",
+      "project_name": "8291 Cedar Ln"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-04-25T09:27:00",
+      "last_capture": "2026-04-25T09:51:00",
+      "photo_count": 31,
+      "project_id": "cc_p_778",
+      "project_name": "4637 Cedar Ln"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-04-22T12:30:00",
+      "last_capture": "2026-04-22T12:56:00",
+      "photo_count": 33,
+      "project_id": "cc_p_779",
+      "project_name": "8429 Cedar Ln"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-04-24T11:45:00",
+      "last_capture": "2026-04-24T12:56:00",
+      "photo_count": 7,
+      "project_id": "cc_p_780",
+      "project_name": "3420 Willow Way"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-04-23T10:32:00",
+      "last_capture": "2026-04-23T11:52:00",
+      "photo_count": 33,
+      "project_id": "cc_p_781",
+      "project_name": "5676 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-04-21T12:31:00",
+      "last_capture": "2026-04-21T13:16:00",
+      "photo_count": 37,
+      "project_id": "cc_p_782",
+      "project_name": "8021 Chestnut St"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-04-23T14:39:00",
+      "last_capture": "2026-04-23T15:49:00",
+      "photo_count": 26,
+      "project_id": "cc_p_783",
+      "project_name": "4767 Hickory Rd"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-04-25T14:27:00",
+      "last_capture": "2026-04-25T15:37:00",
+      "photo_count": 30,
+      "project_id": "cc_p_784",
+      "project_name": "6111 Maple Ave"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-04-22T14:08:00",
+      "last_capture": "2026-04-22T15:08:00",
+      "photo_count": 20,
+      "project_id": "cc_p_785",
+      "project_name": "5253 Chestnut St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-04-23T14:06:00",
+      "last_capture": "2026-04-23T14:34:00",
+      "photo_count": 31,
+      "project_id": "cc_p_786",
+      "project_name": "625 Hickory Rd"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-04-25T11:12:00",
+      "last_capture": "2026-04-25T12:31:00",
+      "photo_count": 39,
+      "project_id": "cc_p_787",
+      "project_name": "148 Maple Ave"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-04-20T10:09:00",
+      "last_capture": "2026-04-20T11:02:00",
+      "photo_count": 24,
+      "project_id": "cc_p_788",
+      "project_name": "3534 Sycamore Blvd"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-04-24T08:19:00",
+      "last_capture": "2026-04-24T09:43:00",
+      "photo_count": 8,
+      "project_id": "cc_p_789",
+      "project_name": "546 Willow Way"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-04-24T14:58:00",
+      "last_capture": "2026-04-24T15:57:00",
+      "photo_count": 38,
+      "project_id": "cc_p_790",
+      "project_name": "2969 Sycamore Blvd"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-04-23T15:07:00",
+      "last_capture": "2026-04-23T15:39:00",
+      "photo_count": 24,
+      "project_id": "cc_p_791",
+      "project_name": "2751 Chestnut St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-04-24T09:36:00",
+      "last_capture": "2026-04-24T10:07:00",
+      "photo_count": 27,
+      "project_id": "cc_p_792",
+      "project_name": "863 Birchwood Ct"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-04-25T15:51:00",
+      "last_capture": "2026-04-25T16:47:00",
+      "photo_count": 35,
+      "project_id": "cc_p_793",
+      "project_name": "7911 Oakwood Dr"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-04-25T12:29:00",
+      "last_capture": "2026-04-25T13:44:00",
+      "photo_count": 36,
+      "project_id": "cc_p_794",
+      "project_name": "2367 Poplar Dr"
+    }
+  ],
+  "source": "companycam",
+  "status": "ok",
+  "week": "2026-W17",
+  "week_end": "2026-04-26",
+  "week_start": "2026-04-20"
+}

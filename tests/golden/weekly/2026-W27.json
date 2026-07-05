@@ -1,0 +1,159 @@
+{
+  "generated_at": "2026-07-06T10:45:00-04:00",
+  "kpis": {
+    "avg_job_size": 35035.53,
+    "cac_by_source": {
+      "door_knocking": null,
+      "facebook": 681.62,
+      "google": 544.67,
+      "other": null,
+      "referral": null
+    },
+    "closing_pct_insurance": {
+      "by_rep": {
+        "bwill": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        },
+        "jsmith": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        },
+        "tlee": {
+          "lost": 1,
+          "pct": 75.0,
+          "sold": 3
+        }
+      },
+      "overall": {
+        "lost": 1,
+        "pct": 83.3,
+        "sold": 5
+      }
+    },
+    "closing_pct_retail": {
+      "by_rep": {
+        "bwill": {
+          "lost": 1,
+          "pct": 50.0,
+          "sold": 1
+        },
+        "jsmith": {
+          "lost": 1,
+          "pct": 50.0,
+          "sold": 1
+        },
+        "mgarcia": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        },
+        "tlee": {
+          "lost": 1,
+          "pct": 50.0,
+          "sold": 1
+        }
+      },
+      "overall": {
+        "lost": 3,
+        "pct": 57.1,
+        "sold": 4
+      }
+    },
+    "cost_per_lead": {
+      "door_knocking": null,
+      "facebook": 61.97,
+      "google": 99.03,
+      "other": null,
+      "referral": null
+    },
+    "customers_by_source": {
+      "door_knocking": 3,
+      "facebook": 1,
+      "google": 2,
+      "other": 1,
+      "referral": 2
+    },
+    "gross_margin": {
+      "basis": "leap_job_financials",
+      "jobs_counted": 5,
+      "pct": 34.7
+    },
+    "inspections_by_rep": {
+      "bwill": 9,
+      "jsmith": 12,
+      "mgarcia": 11,
+      "tlee": 9
+    },
+    "leads_by_source": {
+      "door_knocking": 11,
+      "facebook": 11,
+      "google": 11,
+      "other": 1,
+      "referral": 5
+    },
+    "pipeline": {
+      "appointments_run": 21,
+      "appointments_set": 25,
+      "contracts_signed": 9,
+      "estimates_given": 16
+    },
+    "production": {
+      "backlog_jobs": 27,
+      "backlog_value": 806315.02,
+      "completed": 5,
+      "in_production": 18,
+      "started": 9
+    },
+    "revenue_collected": {
+      "invoiced": 247480.46,
+      "leap": 217044.79,
+      "note": "quickbooks = monthly P&L revenue pro-rated to the week (different accounting basis)",
+      "quickbooks": 125121.25
+    },
+    "revenue_sold": {
+      "contracts": 9,
+      "total": 315319.8
+    },
+    "spend_by_channel": {
+      "door_knocking": 0.0,
+      "facebook": 681.62,
+      "google": 1089.35,
+      "other": 135.1,
+      "referral": 0.0
+    }
+  },
+  "schema_version": 1,
+  "sections": {
+    "inspections": {
+      "as_of_week": "2026-W26",
+      "error": "HTTP 503 from api.companycam.com after 5 attempts",
+      "status": "stale"
+    },
+    "marketing": {
+      "as_of_week": "2026-W27",
+      "status": "ok"
+    },
+    "revenue_production": {
+      "as_of_week": "2026-W27",
+      "status": "ok"
+    },
+    "sales": {
+      "as_of_week": "2026-W27",
+      "status": "ok"
+    },
+    "spend": {
+      "as_of_week": "2026-W27",
+      "status": "ok"
+    }
+  },
+  "warnings": [
+    "1 GHL contact(s) had unmapped source 'yardsign' -> bucketed to 'other' (add to channels.yaml)",
+    "section 'inspections' is stale (HTTP 503 from api.companycam.com after 5 attempts); showing week 2026-W26"
+  ],
+  "week": "2026-W27",
+  "week_end": "2026-07-05",
+  "week_start": "2026-06-29"
+}

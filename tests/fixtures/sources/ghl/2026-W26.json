@@ -1,0 +1,305 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-06T10:35:00-04:00",
+  "records": [
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-06-27T16:16:00",
+      "id": "ghl_c_90356",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-25T17:33:00",
+      "id": "ghl_c_90357",
+      "source_raw": "GMB",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-27T12:42:00",
+      "id": "ghl_c_90358",
+      "source_raw": "GMB",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-23T15:07:00",
+      "id": "ghl_c_90359",
+      "source_raw": "GMB",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-25T18:12:00",
+      "id": "ghl_c_90360",
+      "source_raw": "LSA",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-28T13:22:00",
+      "id": "ghl_c_90361",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-25T16:41:00",
+      "id": "ghl_c_90362",
+      "source_raw": "LSA",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-25T10:26:00",
+      "id": "ghl_c_90363",
+      "source_raw": "LSA",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-06-23T18:07:00",
+      "id": "ghl_c_90364",
+      "source_raw": "GMB",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-23T13:15:00",
+      "id": "ghl_c_90365",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-06-25T08:34:00",
+      "id": "ghl_c_90366",
+      "source_raw": "GMB",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-06-23T18:16:00",
+      "id": "ghl_c_90367",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-22T14:26:00",
+      "id": "ghl_c_90368",
+      "source_raw": "LSA",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-25T11:19:00",
+      "id": "ghl_c_90369",
+      "source_raw": "GMB",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-06-28T08:15:00",
+      "id": "ghl_c_90370",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-06-27T12:38:00",
+      "id": "ghl_c_90371",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-06-24T11:51:00",
+      "id": "ghl_c_90372",
+      "source_raw": "LSA",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-23T13:45:00",
+      "id": "ghl_c_90373",
+      "source_raw": "LSA",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-06-28T15:44:00",
+      "id": "ghl_c_90374",
+      "source_raw": "Facebook",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-27T10:06:00",
+      "id": "ghl_c_90375",
+      "source_raw": "Facebook",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-06-23T13:07:00",
+      "id": "ghl_c_90376",
+      "source_raw": "Instagram",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-06-25T09:31:00",
+      "id": "ghl_c_90377",
+      "source_raw": "FB Lead Ad",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-27T13:51:00",
+      "id": "ghl_c_90378",
+      "source_raw": "Instagram",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-25T10:21:00",
+      "id": "ghl_c_90379",
+      "source_raw": "FB Lead Ad",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-06-23T08:11:00",
+      "id": "ghl_c_90380",
+      "source_raw": "FB Lead Ad",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-27T11:20:00",
+      "id": "ghl_c_90381",
+      "source_raw": "Facebook",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-06-26T12:12:00",
+      "id": "ghl_c_90382",
+      "source_raw": "Facebook",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-06-26T12:22:00",
+      "id": "ghl_c_90383",
+      "source_raw": "Facebook",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-06-26T17:03:00",
+      "id": "ghl_c_90384",
+      "source_raw": "FB Lead Ad",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-24T08:31:00",
+      "id": "ghl_c_90385",
+      "source_raw": "Door Knock",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-06-24T12:10:00",
+      "id": "ghl_c_90386",
+      "source_raw": "canvassing",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-23T17:22:00",
+      "id": "ghl_c_90387",
+      "source_raw": "canvassing",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-06-25T18:00:00",
+      "id": "ghl_c_90388",
+      "source_raw": "canvassing",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-27T12:01:00",
+      "id": "ghl_c_90389",
+      "source_raw": "Door Knock",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-25T13:14:00",
+      "id": "ghl_c_90390",
+      "source_raw": "canvassing",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-22T09:48:00",
+      "id": "ghl_c_90391",
+      "source_raw": "canvassing",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-06-23T18:11:00",
+      "id": "ghl_c_90392",
+      "source_raw": "Door Knock",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-06-24T17:42:00",
+      "id": "ghl_c_90393",
+      "source_raw": "Referral",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-24T11:11:00",
+      "id": "ghl_c_90394",
+      "source_raw": "Customer Referral",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-25T10:46:00",
+      "id": "ghl_c_90395",
+      "source_raw": "Customer Referral",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-06-24T08:02:00",
+      "id": "ghl_c_90396",
+      "source_raw": "Referral",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-06-22T10:28:00",
+      "id": "ghl_c_90397",
+      "source_raw": "Referral",
+      "type": "contact"
+    }
+  ],
+  "source": "ghl",
+  "status": "ok",
+  "week": "2026-W26",
+  "week_end": "2026-06-28",
+  "week_start": "2026-06-22"
+}

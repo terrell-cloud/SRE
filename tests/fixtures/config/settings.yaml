@@ -1,0 +1,18 @@
+company: "S&E Roofing & Exteriors (TEST)"
+timezone: America/New_York
+week_start: monday
+backfill_months: 12
+owner_email: terrell@srande.com
+cac_attribution: leap
+ghl:
+  location_id: "loc_TEST123"
+  hydrate_missing_source: true
+  hydrate_cap: 200
+  hydrate_cap_backfill: 1000
+leap:
+  base_url: https://api.jobprogress.com/api/v3/
+  auth_scheme: bearer
+dashboard:
+  title: "SRE Weekly KPIs"
+  trend_weeks: 12
+  small_sample_n: 4

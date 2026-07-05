@@ -1,0 +1,55 @@
+# Leap CRM workflow-stage classification. Stages are TENANT-CUSTOMIZED —
+# these names must exactly match this company's Leap workflow.
+#
+# FILL FROM DISCOVERY: run `python -m kpi discover --source leap` and replace
+# stage names, division_field, and source_field with what the dump shows.
+#
+# class: open | sold | lost
+#   Closing % = sold / (sold + lost) among jobs whose stage decision happened
+#   in the reporting week. Backlog = sold jobs not yet completed at week end.
+# pipeline: appointment_set | appointment_run | estimate_given | contract_signed
+#   Marks the stage that increments a pipeline counter when a job enters it.
+# production: started | in_production | completed
+#   Marks production-status stages.
+
+# Which job field distinguishes retail vs insurance.
+# Either a top-level job field name (e.g. job_type) or "custom_field:<id>".
+division_field: job_type
+division_values:
+  retail: ["Retail", "Cash", "Retail Sale"]
+  insurance: ["Insurance", "Insurance Restoration", "Claim"]
+
+# Which job field holds the lead source (for CAC attribution when
+# settings.cac_attribution == leap). Values map through channels.yaml.
+source_field: referred_by
+
+stages:
+  - name: "New Lead"
+    class: open
+  - name: "Appointment Set"
+    class: open
+    pipeline: appointment_set
+  - name: "Appointment Run"
+    class: open
+    pipeline: appointment_run
+  - name: "Estimate Sent"
+    class: open
+    pipeline: estimate_given
+  - name: "Contract Signed"
+    class: sold
+    pipeline: contract_signed
+  - name: "Job Started"
+    class: sold
+    production: started
+  - name: "In Production"
+    class: sold
+    production: in_production
+  - name: "Completed"
+    class: sold
+    production: completed
+  - name: "Invoiced"
+    class: sold
+  - name: "Lost"
+    class: lost
+  - name: "Dead"
+    class: lost

@@ -1,0 +1,14 @@
+# Secrets — never commit
+.env
+
+# Build output (regenerated every run)
+dist/
+
+# Discovery dumps contain customer PII
+discovery/
+
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+.venv/

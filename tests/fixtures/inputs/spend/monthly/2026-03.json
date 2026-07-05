@@ -1,0 +1,15 @@
+{
+  "accounts": {
+    "Advertising": 524.82,
+    "Advertising:Facebook": 1917.13,
+    "Advertising:Google": 3022.03
+  },
+  "fetched_at": "2026-07-06T10:35:00-04:00",
+  "month": "2026-03",
+  "pnl": {
+    "cogs": 271507.14,
+    "gross_profit": 139328.58,
+    "revenue": 410835.72
+  },
+  "source": "quickbooks_mcp"
+}

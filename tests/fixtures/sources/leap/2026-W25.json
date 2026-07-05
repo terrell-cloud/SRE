@@ -1,0 +1,960 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-06T10:35:00-04:00",
+  "records": [
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-16T09:00:00",
+      "customer_id": "leap_cust_4182",
+      "division_raw": "Cash",
+      "id": "leap_j_4182",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-16T14:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "Google Ads",
+      "stage_entered_at": "2026-06-16T14:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-16T14:00:00",
+          "stage": "Appointment Run"
+        }
+      ],
+      "stage_raw": "Appointment Run",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-18T09:00:00",
+      "customer_id": "leap_cust_4183",
+      "division_raw": "Insurance",
+      "id": "leap_j_4183",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-18T09:00:00",
+      "rep_leap_id": "12399",
+      "source_raw": "yardsign",
+      "stage_entered_at": "2026-06-18T09:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-18T09:00:00",
+          "stage": "Appointment Set"
+        }
+      ],
+      "stage_raw": "Appointment Set",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-16T09:00:00",
+      "customer_id": "leap_cust_4184",
+      "division_raw": "Retail",
+      "id": "leap_j_4184",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-17T16:00:00",
+      "rep_leap_id": "12399",
+      "source_raw": "Referral",
+      "stage_entered_at": "2026-06-17T16:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-16T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-17T16:00:00",
+          "stage": "Estimate Sent"
+        }
+      ],
+      "stage_raw": "Estimate Sent",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-19T09:00:00",
+      "customer_id": "leap_cust_4185",
+      "division_raw": "Retail",
+      "id": "leap_j_4185",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-20T16:00:00",
+      "rep_leap_id": "12345",
+      "source_raw": "FB Lead Ad",
+      "stage_entered_at": "2026-06-20T16:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-19T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-19T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-20T16:00:00",
+          "stage": "Estimate Sent"
+        }
+      ],
+      "stage_raw": "Estimate Sent",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-19T09:00:00",
+      "customer_id": "leap_cust_4186",
+      "division_raw": "Cash",
+      "id": "leap_j_4186",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-21T17:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "GMB",
+      "stage_entered_at": "2026-06-21T17:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-19T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-19T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-19T16:00:00",
+          "stage": "Estimate Sent"
+        },
+        {
+          "entered_at": "2026-06-21T17:00:00",
+          "stage": "Lost"
+        }
+      ],
+      "stage_raw": "Lost",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-15T09:00:00",
+      "customer_id": "leap_cust_4187",
+      "division_raw": "Retail",
+      "id": "leap_j_4187",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-15T09:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "Facebook",
+      "stage_entered_at": "2026-06-15T09:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-15T09:00:00",
+          "stage": "Appointment Set"
+        }
+      ],
+      "stage_raw": "Appointment Set",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-17T09:00:00",
+      "customer_id": "leap_cust_4188",
+      "division_raw": "Insurance",
+      "id": "leap_j_4188",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-18T16:00:00",
+      "rep_leap_id": "12345",
+      "source_raw": "canvassing",
+      "stage_entered_at": "2026-06-18T16:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-17T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-17T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-18T16:00:00",
+          "stage": "Estimate Sent"
+        }
+      ],
+      "stage_raw": "Estimate Sent",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-20T09:00:00",
+      "customer_id": "leap_cust_4189",
+      "division_raw": "Cash",
+      "id": "leap_j_4189",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-20T14:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "Referral",
+      "stage_entered_at": "2026-06-20T14:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-20T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-20T14:00:00",
+          "stage": "Appointment Run"
+        }
+      ],
+      "stage_raw": "Appointment Run",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-18T09:00:00",
+      "customer_id": "leap_cust_4190",
+      "division_raw": "Retail",
+      "id": "leap_j_4190",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-21T17:00:00",
+      "rep_leap_id": "12399",
+      "source_raw": "canvassing",
+      "stage_entered_at": "2026-06-21T17:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-18T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-18T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-19T16:00:00",
+          "stage": "Estimate Sent"
+        },
+        {
+          "entered_at": "2026-06-21T17:00:00",
+          "stage": "Lost"
+        }
+      ],
+      "stage_raw": "Lost",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-19T09:00:00",
+      "customer_id": "leap_cust_4191",
+      "division_raw": "Insurance",
+      "id": "leap_j_4191",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-19T14:00:00",
+      "rep_leap_id": "12480",
+      "source_raw": "GMB",
+      "stage_entered_at": "2026-06-19T14:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-19T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-19T14:00:00",
+          "stage": "Appointment Run"
+        }
+      ],
+      "stage_raw": "Appointment Run",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-18T09:00:00",
+      "customer_id": "leap_cust_4192",
+      "division_raw": "Cash",
+      "id": "leap_j_4192",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-19T16:00:00",
+      "rep_leap_id": "12480",
+      "source_raw": "Google Ads",
+      "stage_entered_at": "2026-06-19T16:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-18T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-18T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-19T16:00:00",
+          "stage": "Estimate Sent"
+        }
+      ],
+      "stage_raw": "Estimate Sent",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 24783.78,
+      "cost_amount": 0,
+      "created_at": "2026-06-15T09:00:00",
+      "customer_id": "leap_cust_4193",
+      "division_raw": "Cash",
+      "id": "leap_j_4193",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-17T17:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "Instagram",
+      "stage_entered_at": "2026-06-17T17:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-15T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-15T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-15T16:00:00",
+          "stage": "Estimate Sent"
+        },
+        {
+          "entered_at": "2026-06-17T17:00:00",
+          "stage": "Contract Signed"
+        }
+      ],
+      "stage_raw": "Contract Signed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-18T09:00:00",
+      "customer_id": "leap_cust_4194",
+      "division_raw": "Cash",
+      "id": "leap_j_4194",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-18T16:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "Google Ads",
+      "stage_entered_at": "2026-06-18T16:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-18T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-18T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-18T16:00:00",
+          "stage": "Estimate Sent"
+        }
+      ],
+      "stage_raw": "Estimate Sent",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-15T09:00:00",
+      "customer_id": "leap_cust_4195",
+      "division_raw": "Insurance",
+      "id": "leap_j_4195",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-16T16:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "Referral",
+      "stage_entered_at": "2026-06-16T16:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-15T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-15T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-16T16:00:00",
+          "stage": "Estimate Sent"
+        }
+      ],
+      "stage_raw": "Estimate Sent",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-15T09:00:00",
+      "customer_id": "leap_cust_4196",
+      "division_raw": "Cash",
+      "id": "leap_j_4196",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-16T16:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "yardsign",
+      "stage_entered_at": "2026-06-16T16:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-15T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-15T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-16T16:00:00",
+          "stage": "Estimate Sent"
+        }
+      ],
+      "stage_raw": "Estimate Sent",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-20T09:00:00",
+      "customer_id": "leap_cust_4197",
+      "division_raw": "Cash",
+      "id": "leap_j_4197",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-21T16:00:00",
+      "rep_leap_id": "12480",
+      "source_raw": "Google Ads",
+      "stage_entered_at": "2026-06-21T16:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-20T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-20T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-21T16:00:00",
+          "stage": "Estimate Sent"
+        }
+      ],
+      "stage_raw": "Estimate Sent",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 19456.14,
+      "cost_amount": 0,
+      "created_at": "2026-06-16T09:00:00",
+      "customer_id": "leap_cust_4198",
+      "division_raw": "Retail",
+      "id": "leap_j_4198",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-18T17:00:00",
+      "rep_leap_id": "12399",
+      "source_raw": "Google Ads",
+      "stage_entered_at": "2026-06-18T17:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-16T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-17T16:00:00",
+          "stage": "Estimate Sent"
+        },
+        {
+          "entered_at": "2026-06-18T17:00:00",
+          "stage": "Contract Signed"
+        }
+      ],
+      "stage_raw": "Contract Signed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-16T09:00:00",
+      "customer_id": "leap_cust_4199",
+      "division_raw": "Insurance",
+      "id": "leap_j_4199",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-16T09:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "Door Knock",
+      "stage_entered_at": "2026-06-16T09:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T09:00:00",
+          "stage": "Appointment Set"
+        }
+      ],
+      "stage_raw": "Appointment Set",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 38980.26,
+      "cost_amount": 0,
+      "created_at": "2026-06-19T09:00:00",
+      "customer_id": "leap_cust_4200",
+      "division_raw": "Insurance",
+      "id": "leap_j_4200",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-21T17:00:00",
+      "rep_leap_id": "12399",
+      "source_raw": "canvassing",
+      "stage_entered_at": "2026-06-21T17:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-19T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-19T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-20T16:00:00",
+          "stage": "Estimate Sent"
+        },
+        {
+          "entered_at": "2026-06-21T17:00:00",
+          "stage": "Contract Signed"
+        }
+      ],
+      "stage_raw": "Contract Signed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 42073.1,
+      "cost_amount": 0,
+      "created_at": "2026-06-15T09:00:00",
+      "customer_id": "leap_cust_4201",
+      "division_raw": "Cash",
+      "id": "leap_j_4201",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-17T17:00:00",
+      "rep_leap_id": "12345",
+      "source_raw": "GMB",
+      "stage_entered_at": "2026-06-17T17:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-15T09:00:00",
+          "stage": "Appointment Set"
+        },
+        {
+          "entered_at": "2026-06-15T14:00:00",
+          "stage": "Appointment Run"
+        },
+        {
+          "entered_at": "2026-06-15T16:00:00",
+          "stage": "Estimate Sent"
+        },
+        {
+          "entered_at": "2026-06-17T17:00:00",
+          "stage": "Contract Signed"
+        }
+      ],
+      "stage_raw": "Contract Signed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0,
+      "contract_amount": 0,
+      "cost_amount": 0,
+      "created_at": "2026-06-15T09:00:00",
+      "customer_id": "leap_cust_4202",
+      "division_raw": "Cash",
+      "id": "leap_j_4202",
+      "invoiced_amount": 0,
+      "modified_at": "2026-06-15T09:00:00",
+      "rep_leap_id": "12480",
+      "source_raw": "Referral",
+      "stage_entered_at": "2026-06-15T09:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-15T09:00:00",
+          "stage": "Appointment Set"
+        }
+      ],
+      "stage_raw": "Appointment Set",
+      "type": "job"
+    },
+    {
+      "collected_amount": 27356.87,
+      "contract_amount": 28796.71,
+      "cost_amount": 20166.84,
+      "created_at": "2026-06-17T15:00:00",
+      "customer_id": "leap_cust_4088",
+      "division_raw": "Insurance",
+      "id": "leap_j_4088",
+      "invoiced_amount": 28796.71,
+      "modified_at": "2026-06-17T15:00:00",
+      "rep_leap_id": "12345",
+      "source_raw": "Google Ads",
+      "stage_entered_at": "2026-06-17T15:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-17T15:00:00",
+          "stage": "Completed"
+        }
+      ],
+      "stage_raw": "Completed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 29860.32,
+      "contract_amount": 31431.92,
+      "cost_amount": 18963.19,
+      "created_at": "2026-06-15T15:00:00",
+      "customer_id": "leap_cust_4097",
+      "division_raw": "Cash",
+      "id": "leap_j_4097",
+      "invoiced_amount": 31431.92,
+      "modified_at": "2026-06-15T15:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "Referral",
+      "stage_entered_at": "2026-06-15T15:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-15T15:00:00",
+          "stage": "Completed"
+        }
+      ],
+      "stage_raw": "Completed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 15726.71,
+      "contract_amount": 16554.43,
+      "cost_amount": 10673.32,
+      "created_at": "2026-06-16T15:00:00",
+      "customer_id": "leap_cust_4099",
+      "division_raw": "Insurance",
+      "id": "leap_j_4099",
+      "invoiced_amount": 16554.43,
+      "modified_at": "2026-06-16T15:00:00",
+      "rep_leap_id": "12345",
+      "source_raw": "Instagram",
+      "stage_entered_at": "2026-06-16T15:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T15:00:00",
+          "stage": "Completed"
+        }
+      ],
+      "stage_raw": "Completed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 11880.16,
+      "contract_amount": 12505.43,
+      "cost_amount": 8454.74,
+      "created_at": "2026-06-16T15:00:00",
+      "customer_id": "leap_cust_4103",
+      "division_raw": "Insurance",
+      "id": "leap_j_4103",
+      "invoiced_amount": 12505.43,
+      "modified_at": "2026-06-16T15:00:00",
+      "rep_leap_id": "12399",
+      "source_raw": "FB Lead Ad",
+      "stage_entered_at": "2026-06-16T15:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T15:00:00",
+          "stage": "Completed"
+        }
+      ],
+      "stage_raw": "Completed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 34521.22,
+      "contract_amount": 36338.13,
+      "cost_amount": 25591.81,
+      "created_at": "2026-06-17T15:00:00",
+      "customer_id": "leap_cust_4138",
+      "division_raw": "Retail",
+      "id": "leap_j_4138",
+      "invoiced_amount": 36338.13,
+      "modified_at": "2026-06-17T15:00:00",
+      "rep_leap_id": "12399",
+      "source_raw": "Referral",
+      "stage_entered_at": "2026-06-17T15:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-17T15:00:00",
+          "stage": "Completed"
+        }
+      ],
+      "stage_raw": "Completed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 30544.21,
+      "contract_amount": 32151.8,
+      "cost_amount": 19394.97,
+      "created_at": "2026-06-16T15:00:00",
+      "customer_id": "leap_cust_4144",
+      "division_raw": "Insurance",
+      "id": "leap_j_4144",
+      "invoiced_amount": 32151.8,
+      "modified_at": "2026-06-16T15:00:00",
+      "rep_leap_id": "12345",
+      "source_raw": "FB Lead Ad",
+      "stage_entered_at": "2026-06-16T15:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T15:00:00",
+          "stage": "Completed"
+        }
+      ],
+      "stage_raw": "Completed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 41164.55,
+      "contract_amount": 43331.11,
+      "cost_amount": 30216.51,
+      "created_at": "2026-06-17T15:00:00",
+      "customer_id": "leap_cust_4145",
+      "division_raw": "Cash",
+      "id": "leap_j_4145",
+      "invoiced_amount": 43331.11,
+      "modified_at": "2026-06-17T15:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "GMB",
+      "stage_entered_at": "2026-06-17T15:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-17T15:00:00",
+          "stage": "Completed"
+        }
+      ],
+      "stage_raw": "Completed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 25347.23,
+      "contract_amount": 26681.3,
+      "cost_amount": 16803.58,
+      "created_at": "2026-06-16T15:00:00",
+      "customer_id": "leap_cust_4146",
+      "division_raw": "Insurance",
+      "id": "leap_j_4146",
+      "invoiced_amount": 26681.3,
+      "modified_at": "2026-06-16T15:00:00",
+      "rep_leap_id": "12345",
+      "source_raw": "GMB",
+      "stage_entered_at": "2026-06-16T15:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T15:00:00",
+          "stage": "Completed"
+        }
+      ],
+      "stage_raw": "Completed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 17636.4,
+      "contract_amount": 44091.01,
+      "cost_amount": 0,
+      "created_at": "2026-06-16T08:00:00",
+      "customer_id": "leap_cust_4158",
+      "division_raw": "Insurance",
+      "id": "leap_j_4158",
+      "invoiced_amount": 22045.51,
+      "modified_at": "2026-06-16T12:00:00",
+      "rep_leap_id": "12399",
+      "source_raw": "LSA",
+      "stage_entered_at": "2026-06-16T12:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T08:00:00",
+          "stage": "Job Started"
+        },
+        {
+          "entered_at": "2026-06-16T12:00:00",
+          "stage": "In Production"
+        }
+      ],
+      "stage_raw": "In Production",
+      "type": "job"
+    },
+    {
+      "collected_amount": 4688.21,
+      "contract_amount": 11720.52,
+      "cost_amount": 0,
+      "created_at": "2026-06-16T08:00:00",
+      "customer_id": "leap_cust_4161",
+      "division_raw": "Insurance",
+      "id": "leap_j_4161",
+      "invoiced_amount": 5860.26,
+      "modified_at": "2026-06-16T12:00:00",
+      "rep_leap_id": "12399",
+      "source_raw": "LSA",
+      "stage_entered_at": "2026-06-16T12:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T08:00:00",
+          "stage": "Job Started"
+        },
+        {
+          "entered_at": "2026-06-16T12:00:00",
+          "stage": "In Production"
+        }
+      ],
+      "stage_raw": "In Production",
+      "type": "job"
+    },
+    {
+      "collected_amount": 8028.2,
+      "contract_amount": 20070.5,
+      "cost_amount": 0,
+      "created_at": "2026-06-16T08:00:00",
+      "customer_id": "leap_cust_4168",
+      "division_raw": "Retail",
+      "id": "leap_j_4168",
+      "invoiced_amount": 10035.25,
+      "modified_at": "2026-06-16T12:00:00",
+      "rep_leap_id": "12480",
+      "source_raw": "Google Ads",
+      "stage_entered_at": "2026-06-16T12:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T08:00:00",
+          "stage": "Job Started"
+        },
+        {
+          "entered_at": "2026-06-16T12:00:00",
+          "stage": "In Production"
+        }
+      ],
+      "stage_raw": "In Production",
+      "type": "job"
+    },
+    {
+      "collected_amount": 6092.7,
+      "contract_amount": 15231.75,
+      "cost_amount": 0,
+      "created_at": "2026-06-16T08:00:00",
+      "customer_id": "leap_cust_4174",
+      "division_raw": "Insurance",
+      "id": "leap_j_4174",
+      "invoiced_amount": 7615.88,
+      "modified_at": "2026-06-16T12:00:00",
+      "rep_leap_id": "12411",
+      "source_raw": "Customer Referral",
+      "stage_entered_at": "2026-06-16T12:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T08:00:00",
+          "stage": "Job Started"
+        },
+        {
+          "entered_at": "2026-06-16T12:00:00",
+          "stage": "In Production"
+        }
+      ],
+      "stage_raw": "In Production",
+      "type": "job"
+    },
+    {
+      "collected_amount": 7835.52,
+      "contract_amount": 19588.79,
+      "cost_amount": 0,
+      "created_at": "2026-06-16T08:00:00",
+      "customer_id": "leap_cust_4178",
+      "division_raw": "Insurance",
+      "id": "leap_j_4178",
+      "invoiced_amount": 9794.4,
+      "modified_at": "2026-06-16T12:00:00",
+      "rep_leap_id": "12480",
+      "source_raw": "LSA",
+      "stage_entered_at": "2026-06-16T12:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T08:00:00",
+          "stage": "Job Started"
+        },
+        {
+          "entered_at": "2026-06-16T12:00:00",
+          "stage": "In Production"
+        }
+      ],
+      "stage_raw": "In Production",
+      "type": "job"
+    },
+    {
+      "collected_amount": 9612.04,
+      "contract_amount": 24030.11,
+      "cost_amount": 0,
+      "created_at": "2026-06-16T08:00:00",
+      "customer_id": "leap_cust_4181",
+      "division_raw": "Insurance",
+      "id": "leap_j_4181",
+      "invoiced_amount": 12015.06,
+      "modified_at": "2026-06-16T12:00:00",
+      "rep_leap_id": "12399",
+      "source_raw": "Facebook",
+      "stage_entered_at": "2026-06-16T12:00:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-06-16T08:00:00",
+          "stage": "Job Started"
+        },
+        {
+          "entered_at": "2026-06-16T12:00:00",
+          "stage": "In Production"
+        }
+      ],
+      "stage_raw": "In Production",
+      "type": "job"
+    },
+    {
+      "as_of": "2026-06-21T23:59:00",
+      "backlog_jobs": 23,
+      "backlog_value": 565716.24,
+      "in_production_jobs": 19,
+      "type": "backlog_snapshot"
+    }
+  ],
+  "source": "leap",
+  "status": "ok",
+  "week": "2026-W25",
+  "week_end": "2026-06-21",
+  "week_start": "2026-06-15"
+}

@@ -1,0 +1,31 @@
+division_field: job_type
+division_values:
+  retail: ["Retail", "Cash"]
+  insurance: ["Insurance", "Insurance Restoration"]
+source_field: referred_by
+stages:
+  - name: "New Lead"
+    class: open
+  - name: "Appointment Set"
+    class: open
+    pipeline: appointment_set
+  - name: "Appointment Run"
+    class: open
+    pipeline: appointment_run
+  - name: "Estimate Sent"
+    class: open
+    pipeline: estimate_given
+  - name: "Contract Signed"
+    class: sold
+    pipeline: contract_signed
+  - name: "Job Started"
+    class: sold
+    production: started
+  - name: "In Production"
+    class: sold
+    production: in_production
+  - name: "Completed"
+    class: sold
+    production: completed
+  - name: "Lost"
+    class: lost

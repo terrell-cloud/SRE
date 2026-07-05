@@ -1,0 +1,179 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-06T10:35:00-04:00",
+  "records": [
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-04-18T09:22:00",
+      "id": "ghl_c_90045",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-04-17T18:58:00",
+      "id": "ghl_c_90046",
+      "source_raw": "GMB",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-04-17T15:49:00",
+      "id": "ghl_c_90047",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-04-17T16:56:00",
+      "id": "ghl_c_90048",
+      "source_raw": "LSA",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-04-16T11:40:00",
+      "id": "ghl_c_90049",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-04-17T17:21:00",
+      "id": "ghl_c_90050",
+      "source_raw": "LSA",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-04-19T18:22:00",
+      "id": "ghl_c_90051",
+      "source_raw": "LSA",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-04-16T12:07:00",
+      "id": "ghl_c_90052",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-04-17T15:19:00",
+      "id": "ghl_c_90053",
+      "source_raw": "LSA",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-04-17T16:13:00",
+      "id": "ghl_c_90054",
+      "source_raw": "GMB",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-04-15T15:21:00",
+      "id": "ghl_c_90055",
+      "source_raw": "Google Ads",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-04-19T10:21:00",
+      "id": "ghl_c_90056",
+      "source_raw": "FB Lead Ad",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-04-17T15:12:00",
+      "id": "ghl_c_90057",
+      "source_raw": "FB Lead Ad",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-04-15T10:05:00",
+      "id": "ghl_c_90058",
+      "source_raw": "Facebook",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-04-19T15:03:00",
+      "id": "ghl_c_90059",
+      "source_raw": "Instagram",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-04-16T11:06:00",
+      "id": "ghl_c_90060",
+      "source_raw": "Door Knock",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-04-19T14:08:00",
+      "id": "ghl_c_90061",
+      "source_raw": "Door Knock",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-04-17T17:02:00",
+      "id": "ghl_c_90062",
+      "source_raw": "Door Knock",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "d4E5f6",
+      "date_added": "2026-04-14T12:04:00",
+      "id": "ghl_c_90063",
+      "source_raw": "canvassing",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-04-14T09:26:00",
+      "id": "ghl_c_90064",
+      "source_raw": "Door Knock",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "j1K2l3",
+      "date_added": "2026-04-13T12:23:00",
+      "id": "ghl_c_90065",
+      "source_raw": "Door Knock",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "g7H8i9",
+      "date_added": "2026-04-17T18:55:00",
+      "id": "ghl_c_90066",
+      "source_raw": "Customer Referral",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-04-18T16:54:00",
+      "id": "ghl_c_90067",
+      "source_raw": "Referral",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "a1B2c3",
+      "date_added": "2026-04-17T18:42:00",
+      "id": "ghl_c_90068",
+      "source_raw": "yardsign",
+      "type": "contact"
+    }
+  ],
+  "source": "ghl",
+  "status": "ok",
+  "week": "2026-W16",
+  "week_end": "2026-04-19",
+  "week_start": "2026-04-13"
+}

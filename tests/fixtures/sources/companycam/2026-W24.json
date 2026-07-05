@@ -1,0 +1,308 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-06T10:35:00-04:00",
+  "records": [
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-13T15:22:00",
+      "last_capture": "2026-06-13T16:27:00",
+      "photo_count": 26,
+      "project_id": "cc_p_993",
+      "project_name": "6934 Elm St"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-09T14:38:00",
+      "last_capture": "2026-06-09T15:27:00",
+      "photo_count": 34,
+      "project_id": "cc_p_994",
+      "project_name": "100 Hickory Rd"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-09T08:40:00",
+      "last_capture": "2026-06-09T09:57:00",
+      "photo_count": 13,
+      "project_id": "cc_p_995",
+      "project_name": "2350 Birchwood Ct"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-09T12:52:00",
+      "last_capture": "2026-06-09T14:14:00",
+      "photo_count": 34,
+      "project_id": "cc_p_996",
+      "project_name": "1924 Cedar Ln"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-11T11:16:00",
+      "last_capture": "2026-06-11T12:19:00",
+      "photo_count": 28,
+      "project_id": "cc_p_997",
+      "project_name": "8969 Maple Ave"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-10T10:39:00",
+      "last_capture": "2026-06-10T12:08:00",
+      "photo_count": 29,
+      "project_id": "cc_p_998",
+      "project_name": "4675 Cedar Ln"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-09T14:30:00",
+      "last_capture": "2026-06-09T15:26:00",
+      "photo_count": 18,
+      "project_id": "cc_p_999",
+      "project_name": "3946 Birchwood Ct"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-10T14:29:00",
+      "last_capture": "2026-06-10T15:25:00",
+      "photo_count": 16,
+      "project_id": "cc_p_1000",
+      "project_name": "6370 Hickory Rd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-13T15:17:00",
+      "last_capture": "2026-06-13T16:18:00",
+      "photo_count": 39,
+      "project_id": "cc_p_1001",
+      "project_name": "9057 Willow Way"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-11T13:02:00",
+      "last_capture": "2026-06-11T14:17:00",
+      "photo_count": 24,
+      "project_id": "cc_p_1002",
+      "project_name": "1119 Elm St"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-13T08:15:00",
+      "last_capture": "2026-06-13T09:40:00",
+      "photo_count": 20,
+      "project_id": "cc_p_1003",
+      "project_name": "8728 Hickory Rd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-10T10:29:00",
+      "last_capture": "2026-06-10T11:23:00",
+      "photo_count": 10,
+      "project_id": "cc_p_1004",
+      "project_name": "5048 Chestnut St"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-11T14:04:00",
+      "last_capture": "2026-06-11T15:02:00",
+      "photo_count": 18,
+      "project_id": "cc_p_1005",
+      "project_name": "3177 Maple Ave"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-10T13:57:00",
+      "last_capture": "2026-06-10T15:11:00",
+      "photo_count": 14,
+      "project_id": "cc_p_1006",
+      "project_name": "6989 Oakwood Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-10T12:31:00",
+      "last_capture": "2026-06-10T13:00:00",
+      "photo_count": 37,
+      "project_id": "cc_p_1007",
+      "project_name": "5075 Cedar Ln"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-12T13:48:00",
+      "last_capture": "2026-06-12T15:17:00",
+      "photo_count": 34,
+      "project_id": "cc_p_1008",
+      "project_name": "2556 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-08T15:40:00",
+      "last_capture": "2026-06-08T16:46:00",
+      "photo_count": 38,
+      "project_id": "cc_p_1009",
+      "project_name": "7551 Birchwood Ct"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-08T10:12:00",
+      "last_capture": "2026-06-08T11:27:00",
+      "photo_count": 19,
+      "project_id": "cc_p_1010",
+      "project_name": "5733 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-13T09:56:00",
+      "last_capture": "2026-06-13T11:14:00",
+      "photo_count": 30,
+      "project_id": "cc_p_1011",
+      "project_name": "9596 Willow Way"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-13T09:04:00",
+      "last_capture": "2026-06-13T09:48:00",
+      "photo_count": 28,
+      "project_id": "cc_p_1012",
+      "project_name": "6165 Oakwood Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-12T14:20:00",
+      "last_capture": "2026-06-12T15:09:00",
+      "photo_count": 9,
+      "project_id": "cc_p_1013",
+      "project_name": "5484 Maple Ave"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-11T13:57:00",
+      "last_capture": "2026-06-11T14:36:00",
+      "photo_count": 29,
+      "project_id": "cc_p_1014",
+      "project_name": "3206 Birchwood Ct"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-08T14:23:00",
+      "last_capture": "2026-06-08T15:12:00",
+      "photo_count": 34,
+      "project_id": "cc_p_1015",
+      "project_name": "8844 Oakwood Dr"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-10T09:19:00",
+      "last_capture": "2026-06-10T10:14:00",
+      "photo_count": 17,
+      "project_id": "cc_p_1016",
+      "project_name": "1523 Birchwood Ct"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-11T15:50:00",
+      "last_capture": "2026-06-11T16:30:00",
+      "photo_count": 26,
+      "project_id": "cc_p_1017",
+      "project_name": "6140 Chestnut St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-13T15:50:00",
+      "last_capture": "2026-06-13T17:07:00",
+      "photo_count": 11,
+      "project_id": "cc_p_1018",
+      "project_name": "9173 Maple Ave"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-11T08:42:00",
+      "last_capture": "2026-06-11T10:07:00",
+      "photo_count": 8,
+      "project_id": "cc_p_1019",
+      "project_name": "689 Birchwood Ct"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-09T08:34:00",
+      "last_capture": "2026-06-09T09:49:00",
+      "photo_count": 22,
+      "project_id": "cc_p_1020",
+      "project_name": "894 Cedar Ln"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-08T14:07:00",
+      "last_capture": "2026-06-08T15:36:00",
+      "photo_count": 11,
+      "project_id": "cc_p_1021",
+      "project_name": "9881 Hickory Rd"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-11T11:25:00",
+      "last_capture": "2026-06-11T12:11:00",
+      "photo_count": 38,
+      "project_id": "cc_p_1022",
+      "project_name": "3012 Hickory Rd"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-11T10:11:00",
+      "last_capture": "2026-06-11T10:45:00",
+      "photo_count": 37,
+      "project_id": "cc_p_1023",
+      "project_name": "209 Chestnut St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-12T10:38:00",
+      "last_capture": "2026-06-12T11:25:00",
+      "photo_count": 33,
+      "project_id": "cc_p_1024",
+      "project_name": "6048 Maple Ave"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-08T13:08:00",
+      "last_capture": "2026-06-08T13:39:00",
+      "photo_count": 19,
+      "project_id": "cc_p_1025",
+      "project_name": "1408 Cedar Ln"
+    }
+  ],
+  "source": "companycam",
+  "status": "ok",
+  "week": "2026-W24",
+  "week_end": "2026-06-14",
+  "week_start": "2026-06-08"
+}

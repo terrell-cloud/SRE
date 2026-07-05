@@ -1,0 +1,26 @@
+unmapped_policy: warn
+reps:
+  - key: jsmith
+    name: "John Smith"
+    active: true
+    leap_user_id: "12345"
+    companycam_user_id: "67890"
+    ghl_user_id: "a1B2c3"
+  - key: mgarcia
+    name: "Maria Garcia"
+    active: true
+    leap_user_id: "12399"
+    companycam_user_id: "67901"
+    ghl_user_id: "d4E5f6"
+  - key: tlee
+    name: "Tom Lee"
+    active: true
+    leap_user_id: "12411"
+    companycam_user_id: "67955"
+    ghl_user_id: "g7H8i9"
+  - key: bwill
+    name: "Bree Williams"
+    active: true
+    leap_user_id: "12480"
+    companycam_user_id: "68011"
+    ghl_user_id: "j1K2l3"

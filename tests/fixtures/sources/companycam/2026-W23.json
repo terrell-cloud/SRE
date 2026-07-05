@@ -1,0 +1,362 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-06T10:35:00-04:00",
+  "records": [
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-02T10:02:00",
+      "last_capture": "2026-06-02T11:12:00",
+      "photo_count": 31,
+      "project_id": "cc_p_954",
+      "project_name": "5700 Oakwood Dr"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-03T13:29:00",
+      "last_capture": "2026-06-03T14:28:00",
+      "photo_count": 35,
+      "project_id": "cc_p_955",
+      "project_name": "1288 Poplar Dr"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-04T15:33:00",
+      "last_capture": "2026-06-04T16:33:00",
+      "photo_count": 22,
+      "project_id": "cc_p_956",
+      "project_name": "5079 Oakwood Dr"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-01T11:03:00",
+      "last_capture": "2026-06-01T12:13:00",
+      "photo_count": 11,
+      "project_id": "cc_p_957",
+      "project_name": "9204 Maple Ave"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-04T15:51:00",
+      "last_capture": "2026-06-04T17:02:00",
+      "photo_count": 10,
+      "project_id": "cc_p_958",
+      "project_name": "2795 Birchwood Ct"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-06T10:56:00",
+      "last_capture": "2026-06-06T12:16:00",
+      "photo_count": 32,
+      "project_id": "cc_p_959",
+      "project_name": "6155 Birchwood Ct"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-02T15:50:00",
+      "last_capture": "2026-06-02T16:57:00",
+      "photo_count": 19,
+      "project_id": "cc_p_960",
+      "project_name": "5980 Oakwood Dr"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-03T11:48:00",
+      "last_capture": "2026-06-03T13:06:00",
+      "photo_count": 32,
+      "project_id": "cc_p_961",
+      "project_name": "9238 Poplar Dr"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-06-06T15:13:00",
+      "last_capture": "2026-06-06T16:09:00",
+      "photo_count": 39,
+      "project_id": "cc_p_962",
+      "project_name": "1512 Willow Way"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-06T11:49:00",
+      "last_capture": "2026-06-06T12:27:00",
+      "photo_count": 13,
+      "project_id": "cc_p_963",
+      "project_name": "7897 Maple Ave"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-06T12:36:00",
+      "last_capture": "2026-06-06T13:30:00",
+      "photo_count": 30,
+      "project_id": "cc_p_964",
+      "project_name": "6779 Oakwood Dr"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-06T10:08:00",
+      "last_capture": "2026-06-06T10:37:00",
+      "photo_count": 33,
+      "project_id": "cc_p_965",
+      "project_name": "8933 Birchwood Ct"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-03T11:58:00",
+      "last_capture": "2026-06-03T13:05:00",
+      "photo_count": 21,
+      "project_id": "cc_p_966",
+      "project_name": "4474 Cedar Ln"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-03T11:09:00",
+      "last_capture": "2026-06-03T12:14:00",
+      "photo_count": 24,
+      "project_id": "cc_p_967",
+      "project_name": "3973 Willow Way"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-01T11:19:00",
+      "last_capture": "2026-06-01T12:16:00",
+      "photo_count": 23,
+      "project_id": "cc_p_968",
+      "project_name": "939 Birchwood Ct"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-06T13:46:00",
+      "last_capture": "2026-06-06T14:43:00",
+      "photo_count": 25,
+      "project_id": "cc_p_969",
+      "project_name": "9945 Oakwood Dr"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-03T11:41:00",
+      "last_capture": "2026-06-03T12:06:00",
+      "photo_count": 39,
+      "project_id": "cc_p_970",
+      "project_name": "7349 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-02T08:29:00",
+      "last_capture": "2026-06-02T09:44:00",
+      "photo_count": 31,
+      "project_id": "cc_p_971",
+      "project_name": "7776 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-06-02T13:17:00",
+      "last_capture": "2026-06-02T13:55:00",
+      "photo_count": 20,
+      "project_id": "cc_p_972",
+      "project_name": "4118 Cedar Ln"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-03T10:54:00",
+      "last_capture": "2026-06-03T11:29:00",
+      "photo_count": 6,
+      "project_id": "cc_p_973",
+      "project_name": "979 Birchwood Ct"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-03T11:20:00",
+      "last_capture": "2026-06-03T12:42:00",
+      "photo_count": 29,
+      "project_id": "cc_p_974",
+      "project_name": "8630 Oakwood Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-06T15:22:00",
+      "last_capture": "2026-06-06T15:47:00",
+      "photo_count": 17,
+      "project_id": "cc_p_975",
+      "project_name": "3748 Poplar Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-02T11:36:00",
+      "last_capture": "2026-06-02T12:08:00",
+      "photo_count": 22,
+      "project_id": "cc_p_976",
+      "project_name": "2208 Poplar Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-02T08:21:00",
+      "last_capture": "2026-06-02T09:06:00",
+      "photo_count": 31,
+      "project_id": "cc_p_977",
+      "project_name": "3919 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-04T10:36:00",
+      "last_capture": "2026-06-04T11:28:00",
+      "photo_count": 14,
+      "project_id": "cc_p_978",
+      "project_name": "1402 Chestnut St"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-02T14:12:00",
+      "last_capture": "2026-06-02T15:05:00",
+      "photo_count": 18,
+      "project_id": "cc_p_979",
+      "project_name": "8790 Maple Ave"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-05T12:02:00",
+      "last_capture": "2026-06-05T12:59:00",
+      "photo_count": 17,
+      "project_id": "cc_p_980",
+      "project_name": "1914 Birchwood Ct"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-06-02T12:31:00",
+      "last_capture": "2026-06-02T13:41:00",
+      "photo_count": 33,
+      "project_id": "cc_p_981",
+      "project_name": "5904 Cedar Ln"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-06T10:40:00",
+      "last_capture": "2026-06-06T11:16:00",
+      "photo_count": 23,
+      "project_id": "cc_p_982",
+      "project_name": "2043 Poplar Dr"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-05T12:46:00",
+      "last_capture": "2026-06-05T14:09:00",
+      "photo_count": 24,
+      "project_id": "cc_p_983",
+      "project_name": "1369 Cedar Ln"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-01T12:38:00",
+      "last_capture": "2026-06-01T13:13:00",
+      "photo_count": 10,
+      "project_id": "cc_p_984",
+      "project_name": "7445 Willow Way"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-04T13:37:00",
+      "last_capture": "2026-06-04T14:51:00",
+      "photo_count": 19,
+      "project_id": "cc_p_985",
+      "project_name": "7208 Oakwood Dr"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-01T14:44:00",
+      "last_capture": "2026-06-01T15:10:00",
+      "photo_count": 37,
+      "project_id": "cc_p_986",
+      "project_name": "2913 Hickory Rd"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-03T13:43:00",
+      "last_capture": "2026-06-03T14:09:00",
+      "photo_count": 7,
+      "project_id": "cc_p_987",
+      "project_name": "2332 Cedar Ln"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-05T09:25:00",
+      "last_capture": "2026-06-05T09:46:00",
+      "photo_count": 9,
+      "project_id": "cc_p_988",
+      "project_name": "6193 Sycamore Blvd"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-03T13:14:00",
+      "last_capture": "2026-06-03T13:46:00",
+      "photo_count": 18,
+      "project_id": "cc_p_989",
+      "project_name": "968 Poplar Dr"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-02T10:00:00",
+      "last_capture": "2026-06-02T10:59:00",
+      "photo_count": 11,
+      "project_id": "cc_p_990",
+      "project_name": "3417 Cedar Ln"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-04T10:38:00",
+      "last_capture": "2026-06-04T11:29:00",
+      "photo_count": 20,
+      "project_id": "cc_p_991",
+      "project_name": "7883 Cedar Ln"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-06-05T11:12:00",
+      "last_capture": "2026-06-05T12:03:00",
+      "photo_count": 7,
+      "project_id": "cc_p_992",
+      "project_name": "5135 Oakwood Dr"
+    }
+  ],
+  "source": "companycam",
+  "status": "ok",
+  "week": "2026-W23",
+  "week_end": "2026-06-07",
+  "week_start": "2026-06-01"
+}

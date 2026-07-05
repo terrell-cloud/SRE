@@ -1,0 +1,290 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-06T10:35:00-04:00",
+  "records": [
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-20T14:45:00",
+      "last_capture": "2026-05-20T15:57:00",
+      "photo_count": 22,
+      "project_id": "cc_p_887",
+      "project_name": "597 Elm St"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-22T14:35:00",
+      "last_capture": "2026-05-22T15:08:00",
+      "photo_count": 9,
+      "project_id": "cc_p_888",
+      "project_name": "2511 Chestnut St"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-19T15:52:00",
+      "last_capture": "2026-05-19T17:15:00",
+      "photo_count": 36,
+      "project_id": "cc_p_889",
+      "project_name": "1204 Chestnut St"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-19T15:14:00",
+      "last_capture": "2026-05-19T15:59:00",
+      "photo_count": 11,
+      "project_id": "cc_p_890",
+      "project_name": "9676 Elm St"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-18T12:44:00",
+      "last_capture": "2026-05-18T13:26:00",
+      "photo_count": 30,
+      "project_id": "cc_p_891",
+      "project_name": "6234 Chestnut St"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-23T12:43:00",
+      "last_capture": "2026-05-23T13:31:00",
+      "photo_count": 14,
+      "project_id": "cc_p_892",
+      "project_name": "304 Willow Way"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-19T10:35:00",
+      "last_capture": "2026-05-19T11:48:00",
+      "photo_count": 35,
+      "project_id": "cc_p_893",
+      "project_name": "6608 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-19T14:39:00",
+      "last_capture": "2026-05-19T15:29:00",
+      "photo_count": 20,
+      "project_id": "cc_p_894",
+      "project_name": "8963 Poplar Dr"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-20T14:28:00",
+      "last_capture": "2026-05-20T15:36:00",
+      "photo_count": 18,
+      "project_id": "cc_p_895",
+      "project_name": "6487 Poplar Dr"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-23T08:12:00",
+      "last_capture": "2026-05-23T09:21:00",
+      "photo_count": 28,
+      "project_id": "cc_p_896",
+      "project_name": "2548 Chestnut St"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-19T13:49:00",
+      "last_capture": "2026-05-19T14:28:00",
+      "photo_count": 11,
+      "project_id": "cc_p_897",
+      "project_name": "5267 Poplar Dr"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-22T08:18:00",
+      "last_capture": "2026-05-22T08:53:00",
+      "photo_count": 18,
+      "project_id": "cc_p_898",
+      "project_name": "9598 Oakwood Dr"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-22T09:22:00",
+      "last_capture": "2026-05-22T10:32:00",
+      "photo_count": 33,
+      "project_id": "cc_p_899",
+      "project_name": "6743 Maple Ave"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-19T11:19:00",
+      "last_capture": "2026-05-19T12:04:00",
+      "photo_count": 24,
+      "project_id": "cc_p_900",
+      "project_name": "378 Elm St"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-18T08:24:00",
+      "last_capture": "2026-05-18T09:37:00",
+      "photo_count": 22,
+      "project_id": "cc_p_901",
+      "project_name": "1745 Poplar Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-18T12:18:00",
+      "last_capture": "2026-05-18T12:59:00",
+      "photo_count": 22,
+      "project_id": "cc_p_902",
+      "project_name": "3095 Willow Way"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-22T08:51:00",
+      "last_capture": "2026-05-22T09:42:00",
+      "photo_count": 8,
+      "project_id": "cc_p_903",
+      "project_name": "6305 Oakwood Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-18T11:53:00",
+      "last_capture": "2026-05-18T13:03:00",
+      "photo_count": 22,
+      "project_id": "cc_p_904",
+      "project_name": "7467 Hickory Rd"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-23T08:44:00",
+      "last_capture": "2026-05-23T09:40:00",
+      "photo_count": 8,
+      "project_id": "cc_p_905",
+      "project_name": "3886 Poplar Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-22T12:34:00",
+      "last_capture": "2026-05-22T13:52:00",
+      "photo_count": 29,
+      "project_id": "cc_p_906",
+      "project_name": "5013 Chestnut St"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-23T08:52:00",
+      "last_capture": "2026-05-23T09:23:00",
+      "photo_count": 27,
+      "project_id": "cc_p_907",
+      "project_name": "5608 Birchwood Ct"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-22T13:29:00",
+      "last_capture": "2026-05-22T14:00:00",
+      "photo_count": 25,
+      "project_id": "cc_p_908",
+      "project_name": "9765 Chestnut St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-23T09:11:00",
+      "last_capture": "2026-05-23T10:29:00",
+      "photo_count": 15,
+      "project_id": "cc_p_909",
+      "project_name": "5965 Sycamore Blvd"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-21T14:30:00",
+      "last_capture": "2026-05-21T15:49:00",
+      "photo_count": 22,
+      "project_id": "cc_p_910",
+      "project_name": "3043 Poplar Dr"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-19T10:59:00",
+      "last_capture": "2026-05-19T12:18:00",
+      "photo_count": 24,
+      "project_id": "cc_p_911",
+      "project_name": "3216 Elm St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-20T09:21:00",
+      "last_capture": "2026-05-20T10:28:00",
+      "photo_count": 19,
+      "project_id": "cc_p_912",
+      "project_name": "8854 Birchwood Ct"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-20T10:27:00",
+      "last_capture": "2026-05-20T11:27:00",
+      "photo_count": 19,
+      "project_id": "cc_p_913",
+      "project_name": "8374 Oakwood Dr"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-20T09:59:00",
+      "last_capture": "2026-05-20T10:31:00",
+      "photo_count": 27,
+      "project_id": "cc_p_914",
+      "project_name": "4556 Elm St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-20T10:46:00",
+      "last_capture": "2026-05-20T12:14:00",
+      "photo_count": 15,
+      "project_id": "cc_p_915",
+      "project_name": "3123 Birchwood Ct"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-23T11:58:00",
+      "last_capture": "2026-05-23T12:23:00",
+      "photo_count": 14,
+      "project_id": "cc_p_916",
+      "project_name": "8935 Chestnut St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-19T10:20:00",
+      "last_capture": "2026-05-19T10:46:00",
+      "photo_count": 22,
+      "project_id": "cc_p_917",
+      "project_name": "6528 Hickory Rd"
+    }
+  ],
+  "source": "companycam",
+  "status": "ok",
+  "week": "2026-W21",
+  "week_end": "2026-05-24",
+  "week_start": "2026-05-18"
+}

@@ -1,0 +1,272 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-06T10:35:00-04:00",
+  "records": [
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-11T08:52:00",
+      "last_capture": "2026-05-11T09:58:00",
+      "photo_count": 38,
+      "project_id": "cc_p_858",
+      "project_name": "2835 Poplar Dr"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-11T13:33:00",
+      "last_capture": "2026-05-11T14:40:00",
+      "photo_count": 7,
+      "project_id": "cc_p_859",
+      "project_name": "1370 Chestnut St"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-15T15:26:00",
+      "last_capture": "2026-05-15T16:16:00",
+      "photo_count": 10,
+      "project_id": "cc_p_860",
+      "project_name": "6795 Maple Ave"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-16T13:11:00",
+      "last_capture": "2026-05-16T14:02:00",
+      "photo_count": 22,
+      "project_id": "cc_p_861",
+      "project_name": "7746 Willow Way"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-14T14:37:00",
+      "last_capture": "2026-05-14T15:57:00",
+      "photo_count": 14,
+      "project_id": "cc_p_862",
+      "project_name": "4981 Maple Ave"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-13T09:01:00",
+      "last_capture": "2026-05-13T09:47:00",
+      "photo_count": 39,
+      "project_id": "cc_p_863",
+      "project_name": "7211 Hickory Rd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-11T09:08:00",
+      "last_capture": "2026-05-11T09:58:00",
+      "photo_count": 31,
+      "project_id": "cc_p_864",
+      "project_name": "7867 Chestnut St"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-12T14:24:00",
+      "last_capture": "2026-05-12T15:49:00",
+      "photo_count": 33,
+      "project_id": "cc_p_865",
+      "project_name": "8146 Birchwood Ct"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-13T11:47:00",
+      "last_capture": "2026-05-13T12:55:00",
+      "photo_count": 22,
+      "project_id": "cc_p_866",
+      "project_name": "134 Elm St"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-15T12:49:00",
+      "last_capture": "2026-05-15T14:14:00",
+      "photo_count": 30,
+      "project_id": "cc_p_867",
+      "project_name": "5308 Cedar Ln"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-15T08:29:00",
+      "last_capture": "2026-05-15T09:54:00",
+      "photo_count": 15,
+      "project_id": "cc_p_868",
+      "project_name": "8934 Maple Ave"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-14T08:17:00",
+      "last_capture": "2026-05-14T09:22:00",
+      "photo_count": 28,
+      "project_id": "cc_p_869",
+      "project_name": "107 Oakwood Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-16T09:01:00",
+      "last_capture": "2026-05-16T10:27:00",
+      "photo_count": 21,
+      "project_id": "cc_p_870",
+      "project_name": "6313 Birchwood Ct"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-12T15:21:00",
+      "last_capture": "2026-05-12T16:07:00",
+      "photo_count": 29,
+      "project_id": "cc_p_871",
+      "project_name": "2674 Willow Way"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-13T08:56:00",
+      "last_capture": "2026-05-13T09:23:00",
+      "photo_count": 21,
+      "project_id": "cc_p_872",
+      "project_name": "4265 Birchwood Ct"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-13T08:38:00",
+      "last_capture": "2026-05-13T09:50:00",
+      "photo_count": 9,
+      "project_id": "cc_p_873",
+      "project_name": "2801 Elm St"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-11T11:12:00",
+      "last_capture": "2026-05-11T12:32:00",
+      "photo_count": 38,
+      "project_id": "cc_p_874",
+      "project_name": "7945 Maple Ave"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-15T11:42:00",
+      "last_capture": "2026-05-15T13:06:00",
+      "photo_count": 31,
+      "project_id": "cc_p_875",
+      "project_name": "8393 Willow Way"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-11T09:25:00",
+      "last_capture": "2026-05-11T09:56:00",
+      "photo_count": 11,
+      "project_id": "cc_p_876",
+      "project_name": "1697 Chestnut St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-14T14:59:00",
+      "last_capture": "2026-05-14T15:21:00",
+      "photo_count": 16,
+      "project_id": "cc_p_877",
+      "project_name": "8830 Willow Way"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-16T14:38:00",
+      "last_capture": "2026-05-16T15:40:00",
+      "photo_count": 7,
+      "project_id": "cc_p_878",
+      "project_name": "7081 Sycamore Blvd"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-13T08:51:00",
+      "last_capture": "2026-05-13T10:12:00",
+      "photo_count": 7,
+      "project_id": "cc_p_879",
+      "project_name": "9465 Elm St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-16T10:58:00",
+      "last_capture": "2026-05-16T11:29:00",
+      "photo_count": 22,
+      "project_id": "cc_p_880",
+      "project_name": "3701 Oakwood Dr"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-14T10:42:00",
+      "last_capture": "2026-05-14T11:40:00",
+      "photo_count": 16,
+      "project_id": "cc_p_881",
+      "project_name": "4705 Chestnut St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-13T09:11:00",
+      "last_capture": "2026-05-13T10:20:00",
+      "photo_count": 18,
+      "project_id": "cc_p_882",
+      "project_name": "5884 Birchwood Ct"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-15T14:22:00",
+      "last_capture": "2026-05-15T14:50:00",
+      "photo_count": 35,
+      "project_id": "cc_p_883",
+      "project_name": "2960 Elm St"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-14T09:34:00",
+      "last_capture": "2026-05-14T10:21:00",
+      "photo_count": 33,
+      "project_id": "cc_p_884",
+      "project_name": "8644 Maple Ave"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-15T12:43:00",
+      "last_capture": "2026-05-15T13:28:00",
+      "photo_count": 11,
+      "project_id": "cc_p_885",
+      "project_name": "1150 Maple Ave"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-11T14:47:00",
+      "last_capture": "2026-05-11T15:57:00",
+      "photo_count": 26,
+      "project_id": "cc_p_886",
+      "project_name": "3830 Oakwood Dr"
+    }
+  ],
+  "source": "companycam",
+  "status": "ok",
+  "week": "2026-W20",
+  "week_end": "2026-05-17",
+  "week_start": "2026-05-11"
+}

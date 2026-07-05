@@ -1,0 +1,23 @@
+match: case_insensitive_trim
+default_channel: other
+channels:
+  - key: google
+    label: "Google Ads"
+    qb_account: "Advertising:Google"
+    ghl_sources: ["Google", "Google Ads", "google ads", "GMB", "LSA"]
+  - key: facebook
+    label: "Facebook / Instagram"
+    qb_account: "Advertising:Facebook"
+    ghl_sources: ["Facebook", "fb", "FB Lead Ad", "Instagram"]
+  - key: door_knocking
+    label: "Door Knocking"
+    qb_account: null
+    ghl_sources: ["Door Knock", "canvassing"]
+  - key: referral
+    label: "Referral"
+    qb_account: null
+    ghl_sources: ["Referral", "Customer Referral"]
+  - key: other
+    label: "Other"
+    qb_account: null
+    ghl_sources: []

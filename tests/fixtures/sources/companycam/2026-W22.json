@@ -1,0 +1,335 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-06T10:35:00-04:00",
+  "records": [
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-29T10:30:00",
+      "last_capture": "2026-05-29T11:19:00",
+      "photo_count": 16,
+      "project_id": "cc_p_918",
+      "project_name": "4558 Cedar Ln"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-28T11:53:00",
+      "last_capture": "2026-05-28T12:47:00",
+      "photo_count": 38,
+      "project_id": "cc_p_919",
+      "project_name": "6304 Poplar Dr"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-29T13:44:00",
+      "last_capture": "2026-05-29T15:02:00",
+      "photo_count": 26,
+      "project_id": "cc_p_920",
+      "project_name": "2769 Birchwood Ct"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-28T15:28:00",
+      "last_capture": "2026-05-28T15:48:00",
+      "photo_count": 23,
+      "project_id": "cc_p_921",
+      "project_name": "4994 Elm St"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-25T14:24:00",
+      "last_capture": "2026-05-25T15:23:00",
+      "photo_count": 8,
+      "project_id": "cc_p_922",
+      "project_name": "2221 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-26T11:13:00",
+      "last_capture": "2026-05-26T12:09:00",
+      "photo_count": 10,
+      "project_id": "cc_p_923",
+      "project_name": "5744 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-26T11:03:00",
+      "last_capture": "2026-05-26T11:35:00",
+      "photo_count": 37,
+      "project_id": "cc_p_924",
+      "project_name": "8112 Birchwood Ct"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-26T14:06:00",
+      "last_capture": "2026-05-26T15:24:00",
+      "photo_count": 28,
+      "project_id": "cc_p_925",
+      "project_name": "7294 Oakwood Dr"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-25T11:13:00",
+      "last_capture": "2026-05-25T12:14:00",
+      "photo_count": 38,
+      "project_id": "cc_p_926",
+      "project_name": "5831 Willow Way"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-25T11:31:00",
+      "last_capture": "2026-05-25T12:02:00",
+      "photo_count": 26,
+      "project_id": "cc_p_927",
+      "project_name": "9978 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-28T13:58:00",
+      "last_capture": "2026-05-28T15:21:00",
+      "photo_count": 22,
+      "project_id": "cc_p_928",
+      "project_name": "6590 Birchwood Ct"
+    },
+    {
+      "creator_id": "67890",
+      "creator_name": "John Smith",
+      "first_capture": "2026-05-28T12:30:00",
+      "last_capture": "2026-05-28T13:23:00",
+      "photo_count": 20,
+      "project_id": "cc_p_929",
+      "project_name": "7963 Elm St"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-27T11:33:00",
+      "last_capture": "2026-05-27T11:56:00",
+      "photo_count": 33,
+      "project_id": "cc_p_930",
+      "project_name": "2148 Cedar Ln"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-27T09:46:00",
+      "last_capture": "2026-05-27T11:01:00",
+      "photo_count": 19,
+      "project_id": "cc_p_931",
+      "project_name": "6703 Elm St"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-28T09:19:00",
+      "last_capture": "2026-05-28T10:10:00",
+      "photo_count": 12,
+      "project_id": "cc_p_932",
+      "project_name": "7643 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-25T13:01:00",
+      "last_capture": "2026-05-25T13:38:00",
+      "photo_count": 21,
+      "project_id": "cc_p_933",
+      "project_name": "2069 Poplar Dr"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-29T15:35:00",
+      "last_capture": "2026-05-29T16:32:00",
+      "photo_count": 39,
+      "project_id": "cc_p_934",
+      "project_name": "1508 Birchwood Ct"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-25T13:13:00",
+      "last_capture": "2026-05-25T14:22:00",
+      "photo_count": 11,
+      "project_id": "cc_p_935",
+      "project_name": "4841 Oakwood Dr"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-28T15:25:00",
+      "last_capture": "2026-05-28T16:36:00",
+      "photo_count": 26,
+      "project_id": "cc_p_936",
+      "project_name": "6982 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-27T14:17:00",
+      "last_capture": "2026-05-27T15:11:00",
+      "photo_count": 21,
+      "project_id": "cc_p_937",
+      "project_name": "4010 Birchwood Ct"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-26T12:24:00",
+      "last_capture": "2026-05-26T13:44:00",
+      "photo_count": 31,
+      "project_id": "cc_p_938",
+      "project_name": "2016 Hickory Rd"
+    },
+    {
+      "creator_id": "67901",
+      "creator_name": "Maria Garcia",
+      "first_capture": "2026-05-26T15:25:00",
+      "last_capture": "2026-05-26T16:03:00",
+      "photo_count": 28,
+      "project_id": "cc_p_939",
+      "project_name": "3755 Poplar Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-30T14:04:00",
+      "last_capture": "2026-05-30T14:39:00",
+      "photo_count": 9,
+      "project_id": "cc_p_940",
+      "project_name": "8167 Poplar Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-25T12:20:00",
+      "last_capture": "2026-05-25T13:42:00",
+      "photo_count": 30,
+      "project_id": "cc_p_941",
+      "project_name": "354 Hickory Rd"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-26T15:05:00",
+      "last_capture": "2026-05-26T15:25:00",
+      "photo_count": 7,
+      "project_id": "cc_p_942",
+      "project_name": "120 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-25T13:59:00",
+      "last_capture": "2026-05-25T14:50:00",
+      "photo_count": 14,
+      "project_id": "cc_p_943",
+      "project_name": "7318 Sycamore Blvd"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-27T09:21:00",
+      "last_capture": "2026-05-27T10:16:00",
+      "photo_count": 11,
+      "project_id": "cc_p_944",
+      "project_name": "1735 Birchwood Ct"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-29T13:41:00",
+      "last_capture": "2026-05-29T14:51:00",
+      "photo_count": 7,
+      "project_id": "cc_p_945",
+      "project_name": "1664 Poplar Dr"
+    },
+    {
+      "creator_id": "67955",
+      "creator_name": "Tom Lee",
+      "first_capture": "2026-05-29T13:56:00",
+      "last_capture": "2026-05-29T14:44:00",
+      "photo_count": 10,
+      "project_id": "cc_p_946",
+      "project_name": "6789 Oakwood Dr"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-30T10:01:00",
+      "last_capture": "2026-05-30T10:38:00",
+      "photo_count": 36,
+      "project_id": "cc_p_947",
+      "project_name": "3096 Cedar Ln"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-30T08:05:00",
+      "last_capture": "2026-05-30T08:37:00",
+      "photo_count": 32,
+      "project_id": "cc_p_948",
+      "project_name": "694 Maple Ave"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-26T13:13:00",
+      "last_capture": "2026-05-26T14:10:00",
+      "photo_count": 11,
+      "project_id": "cc_p_949",
+      "project_name": "5790 Willow Way"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-29T09:18:00",
+      "last_capture": "2026-05-29T10:03:00",
+      "photo_count": 20,
+      "project_id": "cc_p_950",
+      "project_name": "3089 Willow Way"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-26T09:53:00",
+      "last_capture": "2026-05-26T10:40:00",
+      "photo_count": 17,
+      "project_id": "cc_p_951",
+      "project_name": "279 Willow Way"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-27T10:45:00",
+      "last_capture": "2026-05-27T11:17:00",
+      "photo_count": 8,
+      "project_id": "cc_p_952",
+      "project_name": "1121 Hickory Rd"
+    },
+    {
+      "creator_id": "68011",
+      "creator_name": "Bree Williams",
+      "first_capture": "2026-05-25T15:05:00",
+      "last_capture": "2026-05-25T15:38:00",
+      "photo_count": 6,
+      "project_id": "cc_p_953",
+      "project_name": "8307 Birchwood Ct"
+    }
+  ],
+  "source": "companycam",
+  "status": "ok",
+  "week": "2026-W22",
+  "week_end": "2026-05-31",
+  "week_start": "2026-05-25"
+}

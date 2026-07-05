@@ -1,0 +1,22 @@
+# Canonical sales-rep identity map. The `key` is the canonical ID used in
+# snapshots and dashboards; each system's user ID maps back to it.
+#
+# FILL FROM DISCOVERY: replace the placeholder reps and IDs with real ones
+# from `python -m kpi discover --source leap|companycam|ghl`.
+#
+# Keep departed reps with active: false so history keeps rendering.
+unmapped_policy: warn   # warn | error — what compute does with unknown user IDs
+
+reps:
+  - key: rep_a
+    name: "Rep A (placeholder)"
+    active: true
+    leap_user_id: "FILL_FROM_DISCOVERY"
+    companycam_user_id: "FILL_FROM_DISCOVERY"
+    ghl_user_id: "FILL_FROM_DISCOVERY"
+  - key: rep_b
+    name: "Rep B (placeholder)"
+    active: true
+    leap_user_id: "FILL_FROM_DISCOVERY_2"
+    companycam_user_id: "FILL_FROM_DISCOVERY_2"
+    ghl_user_id: "FILL_FROM_DISCOVERY_2"
