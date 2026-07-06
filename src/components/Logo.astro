@@ -1,0 +1,27 @@
+---
+/**
+ * Text-mark fallback logo. Swapped for the real logo file from the Drive
+ * "pictures and video" folder as soon as it's available (drop the file at
+ * src/assets/images/brand/logo.svg|png and replace this component's body
+ * with an <Image> — the header/footer already size it).
+ */
+interface Props {
+  class?: string;
+  /** Light variant for dark footers */
+  light?: boolean;
+}
+const { class: className, light = false } = Astro.props;
+---
+
+<svg
+  class={className}
+  viewBox="0 0 300 64"
+  role="img"
+  aria-label="Southern Roofing & Exteriors"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path d="M6 34 L30 16 L54 34" fill="none" stroke="#c0202e" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"></path>
+  <path d="M14 34 L30 22 L46 34 L46 50 L14 50 Z" fill={light ? '#ffffff' : '#16293f'}></path>
+  <text x="66" y="32" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-weight="700" font-size="27" letter-spacing="0.5" fill={light ? '#ffffff' : '#16293f'}>SOUTHERN</text>
+  <text x="66" y="55" font-family="'Barlow Condensed', 'Arial Narrow', sans-serif" font-weight="600" font-size="17" letter-spacing="2.2" fill="#c0202e">ROOFING &amp; EXTERIORS</text>
+</svg>

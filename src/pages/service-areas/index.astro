@@ -1,0 +1,78 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import AreaMap from '@components/AreaMap.astro';
+import CtaSection from '@components/CtaSection.astro';
+import { cities } from '@data/cities';
+import { breadcrumbSchema, businessSchema } from '@lib/schema';
+
+const seo = {
+  title: 'Service Areas | Roofing Across NW Georgia & Chattanooga | Southern Roofing & Exteriors',
+  description:
+    'Southern Roofing & Exteriors serves Dalton, Calhoun, Ringgold, Rome, Cartersville, Chattanooga, Cleveland, and more. Find local roofing, siding, window, and gutter service near you.',
+  path: '/service-areas/',
+};
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Service Areas', path: '/service-areas/' },
+];
+const schemas = [businessSchema(cities.map((c) => `${c.name}, ${c.state}`)), breadcrumbSchema(crumbs)];
+
+const gaCities = cities.filter((c) => c.state === 'GA');
+const tnCities = cities.filter((c) => c.state === 'TN');
+---
+
+<BaseLayout seo={seo} schemas={schemas}>
+  <Breadcrumbs crumbs={crumbs} />
+  <section class="container-site section-pad !pt-8">
+    <p class="eyebrow">Where we work</p>
+    <h1 class="mt-1 font-display text-4xl font-bold text-brand-900 md:text-5xl">
+      Local Crews, Local Roads
+    </h1>
+    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-brand-800">
+      From our shop in Dalton we cover Northwest Georgia and the Chattanooga area — usually within
+      a 45-minute drive. If you're close to any pin on this map, you're in our backyard. Outside
+      it? Call anyway; we regularly travel for the right project.
+    </p>
+
+    <div class="mt-8"><AreaMap /></div>
+
+    <div class="mt-12 grid gap-10 md:grid-cols-2">
+      {
+        [
+          { label: 'Georgia', list: gaCities },
+          { label: 'Tennessee', list: tnCities },
+        ].map(({ label, list }) => (
+          <div>
+            <h2 class="font-display text-2xl font-bold text-brand-900">{label}</h2>
+            <ul class="mt-4 grid gap-3">
+              {list.map((city) => (
+                <li>
+                  <a
+                    href={`/service-areas/${city.slug}/`}
+                    class="group flex items-center justify-between rounded-lg border border-stone-warm-200 bg-white px-5 py-4 transition hover:border-brand-500 hover:shadow-sm"
+                  >
+                    <span>
+                      <span class="font-display text-xl font-bold text-brand-900 group-hover:text-cta-600">
+                        {city.name}, {city.state}
+                      </span>
+                      <span class="ml-2 text-sm text-brand-700/70">{city.county} County</span>
+                    </span>
+                    <span class="text-sm font-semibold text-brand-700/80">
+                      {city.distanceMiles === 0 ? 'Home base' : `~${city.distanceMiles} mi from our shop`}
+                    </span>
+                  </a>
+                </li>
+              ))}
+            </ul>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+  <CtaSection
+    heading="Not Sure If We Cover You?"
+    body="If you can see Northwest Georgia or Chattanooga from your roof, odds are good. Book the free inspection and we'll confirm."
+  />
+</BaseLayout>

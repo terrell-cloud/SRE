@@ -1,0 +1,90 @@
+---
+import { siteConfig } from '@data/siteConfig';
+import { services } from '@data/services';
+import Logo from '@components/Logo.astro';
+
+const nav = [
+  { label: 'Services', href: '/services/', children: services.map((s) => ({ label: s.shortName, href: `/services/${s.slug}/` })) },
+  { label: 'Service Areas', href: '/service-areas/' },
+  { label: 'Reviews', href: '/reviews/' },
+  { label: 'Our Team', href: '/about/' },
+  { label: 'Blog', href: '/blog/' },
+  { label: 'Contact', href: '/contact/' },
+];
+---
+
+<header id="site-header" class="sticky top-0 z-40 bg-white shadow-sm transition-shadow [&.is-scrolled]:shadow-md">
+  <div class="container-site flex items-center justify-between gap-4 px-4 py-3 lg:px-8">
+    <a href="/" class="shrink-0" aria-label={`${siteConfig.name} — home`}>
+      <Logo class="h-11 w-auto md:h-13" />
+    </a>
+
+    <nav class="hidden items-center gap-6 lg:flex" aria-label="Main">
+      {
+        nav.map((item) =>
+          item.children ? (
+            <div class="group relative">
+              <a href={item.href} class="flex items-center gap-1 py-2 font-semibold text-brand-800 hover:text-cta-600">
+                {item.label}
+                <svg class="h-3 w-3" viewBox="0 0 12 12" fill="none" aria-hidden="true"><path d="M2 4l4 4 4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
+              </a>
+              <div class="invisible absolute left-0 top-full min-w-56 rounded-md border border-stone-warm-200 bg-white py-2 opacity-0 shadow-lg transition group-hover:visible group-hover:opacity-100 group-focus-within:visible group-focus-within:opacity-100">
+                {item.children.map((child) => (
+                  <a href={child.href} class="block px-4 py-2 text-brand-800 hover:bg-brand-50 hover:text-cta-600">
+                    {child.label}
+                  </a>
+                ))}
+              </div>
+            </div>
+          ) : (
+            <a href={item.href} class="py-2 font-semibold text-brand-800 hover:text-cta-600">
+              {item.label}
+            </a>
+          ),
+        )
+      }
+    </nav>
+
+    <div class="flex items-center gap-3">
+      <a href={`tel:${siteConfig.phone.e164}`} class="hidden items-center gap-2 font-display text-lg font-bold text-brand-900 hover:text-cta-600 md:flex">
+        <svg class="h-5 w-5 text-cta-600" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M6.6 10.8a15.9 15.9 0 006.6 6.6l2.2-2.2a1 1 0 011-.25 11.4 11.4 0 003.6.58 1 1 0 011 1V20a1 1 0 01-1 1A17 17 0 013 4a1 1 0 011-1h3.5a1 1 0 011 1 11.4 11.4 0 00.58 3.6 1 1 0 01-.25 1z"/></svg>
+        {siteConfig.phone.display}
+      </a>
+      <button type="button" class="btn-cta hidden !py-2.5 text-base sm:inline-flex" data-open-inspection>
+        Free Inspection
+      </button>
+      <button
+        type="button"
+        id="nav-toggle"
+        class="rounded-md p-2 text-brand-900 hover:bg-brand-50 lg:hidden"
+        aria-label="Toggle menu"
+        aria-expanded="false"
+        aria-controls="mobile-menu"
+      >
+        <svg class="h-7 w-7" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round"/></svg>
+      </button>
+    </div>
+  </div>
+
+  <div id="mobile-menu" class="hidden border-t border-stone-warm-200 bg-white lg:hidden">
+    <nav class="container-site flex flex-col px-4 py-3" aria-label="Mobile">
+      {
+        nav.map((item) => (
+          <>
+            <a href={item.href} class="border-b border-stone-warm-100 py-3 font-display text-xl font-semibold text-brand-900">
+              {item.label}
+            </a>
+            {item.children?.map((child) => (
+              <a href={child.href} class="border-b border-stone-warm-100 py-2.5 pl-5 text-brand-700">
+                {child.label}
+              </a>
+            ))}
+          </>
+        ))
+      }
+      <a href={`tel:${siteConfig.phone.e164}`} class="py-4 font-display text-xl font-bold text-cta-600">
+        Call {siteConfig.phone.display}
+      </a>
+    </nav>
+  </div>
+</header>

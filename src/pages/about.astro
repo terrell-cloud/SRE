@@ -1,0 +1,66 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import TeamGrid from '@components/TeamGrid.astro';
+import CtaSection from '@components/CtaSection.astro';
+import ProjectGallery from '@components/ProjectGallery.astro';
+import TrustBadges from '@components/TrustBadges.astro';
+import { businessSchema, breadcrumbSchema } from '@lib/schema';
+import { cities } from '@data/cities';
+
+const seo = {
+  title: 'Meet the Team | Southern Roofing & Exteriors — Dalton, GA',
+  description:
+    'The local, family-owned crew behind Southern Roofing & Exteriors. Meet the people who answer your call, inspect your roof, and shake your hand at the final walkthrough.',
+  path: '/about/',
+};
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Our Team', path: '/about/' },
+];
+const schemas = [businessSchema(cities.map((c) => `${c.name}, ${c.state}`)), breadcrumbSchema(crumbs)];
+---
+
+<BaseLayout seo={seo} schemas={schemas}>
+  <Breadcrumbs crumbs={crumbs} />
+  <section class="container-site section-pad !pt-8">
+    <p class="eyebrow">Our team</p>
+    <h1 class="mt-1 font-display text-4xl font-bold text-brand-900 md:text-5xl">
+      The People on Your Roof
+    </h1>
+    <div class="mt-5 max-w-3xl space-y-4 text-lg leading-relaxed text-brand-800">
+      <p>
+        We believe you should know exactly who you're doing business with — by face and by name,
+        before anyone sets a ladder against your house. Southern Roofing &amp; Exteriors is locally
+        owned and operated out of Dalton, and the people on this page are the ones you'll actually
+        see: on the phone, at your kitchen table, and on your roof.
+      </p>
+      <p>
+        We work where we live — Whitfield County and the communities around it, from Calhoun up
+        through Chattanooga. That means the person who inspects your roof will drive past it again.
+        We like it that way. It keeps the work honest.
+      </p>
+      <p>
+        And because this community is home, a percentage of the proceeds from every single job goes
+        to a charity our customer picks. Your new roof gives something back to the place you both
+        call home.
+      </p>
+    </div>
+    <div class="mt-8"><TrustBadges /></div>
+  </section>
+
+  <section class="bg-brand-50">
+    <div class="container-site section-pad">
+      <h2 class="font-display text-3xl font-bold text-brand-900 md:text-4xl">Meet the Crew</h2>
+      <div class="mt-10"><TeamGrid /></div>
+    </div>
+  </section>
+
+  <ProjectGallery heading="Straight From Our Job Sites" />
+
+  <CtaSection
+    heading="Put a Face With the Name"
+    body="Book a free inspection and meet us in person — no pressure, just photos and honest answers."
+  />
+</BaseLayout>

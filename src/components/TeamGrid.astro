@@ -1,0 +1,34 @@
+---
+import { Image } from 'astro:assets';
+import { team } from '@data/team';
+import { imageOr } from '@lib/images';
+---
+
+<div class="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
+  {
+    team.map((member) => (
+      <div class="flex flex-col">
+        <div class="relative overflow-hidden rounded-lg bg-brand-100">
+          <Image
+            src={imageOr(member.photo, 'team')}
+            alt={member.isPlaceholder ? 'Team photo coming soon' : `${member.name}, ${member.role} at Southern Roofing and Exteriors`}
+            class="aspect-square w-full object-cover"
+            widths={[400, 800]}
+            sizes="(min-width: 1024px) 350px, (min-width: 640px) 45vw, 90vw"
+          />
+          {member.isPlaceholder && (
+            <span class="absolute bottom-2 right-2 rounded bg-brand-900/80 px-2 py-1 text-xs font-semibold text-white">
+              Photo coming soon
+            </span>
+          )}
+        </div>
+        <h3 class="mt-4 font-display text-2xl font-bold text-brand-900">{member.name}</h3>
+        <p class="font-semibold text-cta-600">{member.role}</p>
+        <p class="mt-2 leading-relaxed text-brand-800/90">{member.bio}</p>
+        {member.certifications.length > 0 && (
+          <p class="mt-2 text-sm text-brand-700/80">{member.certifications.join(' · ')}</p>
+        )}
+      </div>
+    ))
+  }
+</div>

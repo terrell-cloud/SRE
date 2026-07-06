@@ -1,0 +1,71 @@
+{
+  "_comment": "PLACEHOLDER REVIEWS — every entry has isPlaceholder:true and MUST be replaced with real exported Google/Facebook reviews before launch. Shape mirrors ReviewSchema in types.ts. aggregate rating on the site is computed from these entries.",
+  "reviews": [
+    {
+      "id": "ph-1",
+      "author": "R. M., Dalton",
+      "rating": 5,
+      "text": "[Placeholder — paste a real Google review here.] Crew showed up when they said they would, walked me through the hail damage on the inspection photos, and handled the whole insurance conversation. New roof on in a day and the yard was spotless.",
+      "source": "Google",
+      "date": "2026-03",
+      "citySlug": "dalton-ga",
+      "serviceSlug": "residential-roofing",
+      "isPlaceholder": true
+    },
+    {
+      "id": "ph-2",
+      "author": "K. T., Ringgold",
+      "rating": 5,
+      "text": "[Placeholder — paste a real Google review here.] Called about a leak over the garage after a storm. They found it, showed me pictures, fixed it the same week, and didn't try to sell me a whole roof I didn't need.",
+      "source": "Google",
+      "date": "2026-02",
+      "citySlug": "ringgold-ga",
+      "serviceSlug": "roof-repair",
+      "isPlaceholder": true
+    },
+    {
+      "id": "ph-3",
+      "author": "J. W., Chattanooga",
+      "rating": 5,
+      "text": "[Placeholder — paste a real Google review here.] They replaced the gutters and a section of siding on our rental property. Straight answers, fair price, and the same project manager from the first call to the final walkthrough.",
+      "source": "Google",
+      "date": "2026-01",
+      "citySlug": "chattanooga-tn",
+      "serviceSlug": "gutters",
+      "isPlaceholder": true
+    },
+    {
+      "id": "ph-4",
+      "author": "S. B., Calhoun",
+      "rating": 5,
+      "text": "[Placeholder — paste a real Google review here.] Free inspection was exactly that — no pressure, just photos and honest options. When we were ready, scheduling was one text and the crew was out that week.",
+      "source": "Google",
+      "date": "2025-12",
+      "citySlug": "calhoun-ga",
+      "serviceSlug": "residential-roofing",
+      "isPlaceholder": true
+    },
+    {
+      "id": "ph-5",
+      "author": "D. H., Cleveland",
+      "rating": 5,
+      "text": "[Placeholder — paste a real Google review here.] Commercial building, low-slope roof, zero disruption to our tenants. They coordinated everything around business hours and finished ahead of schedule.",
+      "source": "Google",
+      "date": "2025-11",
+      "citySlug": "cleveland-tn",
+      "serviceSlug": "commercial-roofing",
+      "isPlaceholder": true
+    },
+    {
+      "id": "ph-6",
+      "author": "A. P., Chatsworth",
+      "rating": 5,
+      "text": "[Placeholder — paste a real Google review here.] Loved that part of the job went to a charity we picked. Great people, great work, and the new windows made a real difference on the power bill.",
+      "source": "Google",
+      "date": "2025-10",
+      "citySlug": "chatsworth-ga",
+      "serviceSlug": "windows",
+      "isPlaceholder": true
+    }
+  ]
+}

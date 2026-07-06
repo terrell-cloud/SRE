@@ -1,0 +1,64 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import CtaSection from '@components/CtaSection.astro';
+import { siteConfig } from '@data/siteConfig';
+import { cities } from '@data/cities';
+import { businessSchema, breadcrumbSchema } from '@lib/schema';
+
+const seo = {
+  title: 'Contact Us | Southern Roofing & Exteriors — Dalton, GA',
+  description:
+    'Call, text, or book online. Southern Roofing & Exteriors, 1225 Coronet Dr Unit 2, Dalton, GA — serving Northwest Georgia and the Chattanooga area Mon–Sat 9 AM–9 PM.',
+  path: '/contact/',
+};
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Contact', path: '/contact/' },
+];
+const schemas = [businessSchema(cities.map((c) => `${c.name}, ${c.state}`)), breadcrumbSchema(crumbs)];
+---
+
+<BaseLayout seo={seo} schemas={schemas}>
+  <Breadcrumbs crumbs={crumbs} />
+  <section class="container-site section-pad !pt-8">
+    <h1 class="font-display text-4xl font-bold text-brand-900 md:text-5xl">Talk to Us</h1>
+    <p class="mt-4 max-w-2xl text-lg leading-relaxed text-brand-800">
+      The fastest path to answers is the free inspection — but if you just have a question,
+      call, text, or email. A real person from our Dalton shop responds.
+    </p>
+
+    <div class="mt-10 grid gap-8 md:grid-cols-3">
+      <div class="rounded-lg border border-stone-warm-200 bg-white p-6">
+        <h2 class="font-display text-xl font-bold text-brand-900">Phone</h2>
+        <a href={`tel:${siteConfig.phone.e164}`} class="mt-2 block font-display text-2xl font-bold text-cta-600 hover:underline">
+          {siteConfig.phone.display}
+        </a>
+        <p class="mt-2 text-sm text-brand-700/90">
+          {siteConfig.hours[0].days}: {siteConfig.hours[0].display}<br />
+          {siteConfig.hours[1].days}: {siteConfig.hours[1].display}
+        </p>
+      </div>
+      <div class="rounded-lg border border-stone-warm-200 bg-white p-6">
+        <h2 class="font-display text-xl font-bold text-brand-900">Email</h2>
+        <a href={`mailto:${siteConfig.email}`} class="mt-2 block text-lg font-semibold text-cta-600 hover:underline">
+          {siteConfig.email}
+        </a>
+        <p class="mt-2 text-sm text-brand-700/90">Photos of your roof or damage welcome.</p>
+      </div>
+      <div class="rounded-lg border border-stone-warm-200 bg-white p-6">
+        <h2 class="font-display text-xl font-bold text-brand-900">Shop</h2>
+        <address class="mt-2 not-italic leading-relaxed text-brand-800">
+          {siteConfig.legalName}<br />
+          {siteConfig.address.street}<br />
+          {siteConfig.address.city}, {siteConfig.address.state} {siteConfig.address.zip}
+        </address>
+      </div>
+    </div>
+  </section>
+  <CtaSection
+    heading="Skip the Phone Tag"
+    body="Book your free inspection online — pick the exact time that works and we'll confirm it."
+  />
+</BaseLayout>

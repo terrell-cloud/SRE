@@ -1,0 +1,18 @@
+---
+interface Props {
+  rating: number;
+  class?: string;
+}
+const { rating, class: className } = Astro.props;
+const stars = [1, 2, 3, 4, 5];
+---
+
+<span class:list={['inline-flex items-center gap-0.5', className]} role="img" aria-label={`${rating} out of 5 stars`}>
+  {
+    stars.map((n) => (
+      <svg class:list={['h-4.5 w-4.5', n <= Math.round(rating) ? 'text-star' : 'text-stone-warm-200']} viewBox="0 0 20 20" fill="currentColor" aria-hidden="true">
+        <path d="M10 1.5l2.6 5.3 5.9.9-4.2 4.1 1 5.8L10 14.9l-5.3 2.7 1-5.8L1.5 7.7l5.9-.9L10 1.5z" />
+      </svg>
+    ))
+  }
+</span>

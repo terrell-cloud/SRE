@@ -1,0 +1,48 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { siteConfig } from '@data/siteConfig';
+
+const seo = {
+  title: 'Privacy Policy | Southern Roofing & Exteriors',
+  description:
+    'How Southern Roofing & Exteriors collects, uses, and protects your information when you visit our site, book an inspection, or contact our team.',
+  path: '/privacy-policy/',
+};
+---
+
+<BaseLayout seo={seo}>
+  <section class="container-site section-pad">
+    <div class="mx-auto max-w-3xl space-y-6 leading-relaxed text-brand-800">
+      <h1 class="font-display text-4xl font-bold text-brand-900">Privacy Policy</h1>
+      <p class="text-sm text-brand-700/70">
+        <!-- TODO(launch): have the current WordPress privacy policy text migrated here, or reviewed by counsel. -->
+        Placeholder policy — replace with the reviewed policy text from the current site before launch.
+      </p>
+      <p>
+        {siteConfig.legalName} ("we," "us") respects your privacy. This policy describes the
+        information we collect through {siteConfig.domain} and how we use it.
+      </p>
+      <h2 class="font-display text-2xl font-bold text-brand-900">Information we collect</h2>
+      <p>
+        When you book an inspection, use our chat, or contact us, we collect the details you
+        provide — typically your name, phone number, email, and service address — so we can
+        schedule and perform the work you requested.
+      </p>
+      <h2 class="font-display text-2xl font-bold text-brand-900">How we use it</h2>
+      <p>
+        To schedule inspections, communicate about your project, and follow up on your requests.
+        We do not sell your personal information.
+      </p>
+      <h2 class="font-display text-2xl font-bold text-brand-900">Third-party services</h2>
+      <p>
+        Scheduling and chat are powered by our customer-management platform; information you enter
+        there is processed to book your appointment and respond to you.
+      </p>
+      <h2 class="font-display text-2xl font-bold text-brand-900">Contact</h2>
+      <p>
+        Questions? Reach us at <a href={`mailto:${siteConfig.email}`} class="font-semibold text-cta-600 underline">{siteConfig.email}</a>
+        or {siteConfig.phone.display}.
+      </p>
+    </div>
+  </section>
+</BaseLayout>

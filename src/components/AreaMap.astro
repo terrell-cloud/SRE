@@ -1,0 +1,67 @@
+---
+import { cities } from '@data/cities';
+import { siteConfig } from '@data/siteConfig';
+
+/**
+ * Lightweight service-area map: cities plotted by real lat/lng on a plain
+ * canvas (no Google Maps JS — zero performance cost). Pins link to city pages.
+ */
+const pad = 0.12;
+const lats = cities.map((c) => c.geo.lat);
+const lngs = cities.map((c) => c.geo.lng);
+const minLat = Math.min(...lats) - pad;
+const maxLat = Math.max(...lats) + pad;
+const minLng = Math.min(...lngs) - pad;
+const maxLng = Math.max(...lngs) + pad;
+
+const W = 860;
+const H = 640;
+const x = (lng: number) => ((lng - minLng) / (maxLng - minLng)) * (W - 120) + 60;
+const y = (lat: number) => H - (((lat - minLat) / (maxLat - minLat)) * (H - 120) + 60);
+
+const home = siteConfig.address.geo;
+---
+
+<div class="overflow-x-auto rounded-lg border border-stone-warm-200 bg-brand-50">
+  <svg viewBox={`0 0 ${W} ${H}`} class="min-w-[560px]" role="img" aria-label="Map of cities served by Southern Roofing and Exteriors">
+    <!-- state line hint: GA/TN border ≈ 35.0°N -->
+    <line x1="0" y1={y(35.0)} x2={W} y2={y(35.0)} stroke="#b9c9dd" stroke-width="2" stroke-dasharray="8 6" />
+    <text x={W - 16} y={y(35.0) - 8} text-anchor="end" class="fill-brand-500" font-size="14" font-weight="600">TENNESSEE</text>
+    <text x={W - 16} y={y(35.0) + 20} text-anchor="end" class="fill-brand-500" font-size="14" font-weight="600">GEORGIA</text>
+
+    <!-- I-75 corridor hint through Dalton→Chattanooga & Dalton→Cartersville -->
+    <path
+      d={`M ${x(-84.8)} ${y(34.15)} Q ${x(-84.95)} ${y(34.75)} ${x(-85.0)} ${y(34.95)} T ${x(-85.2)} ${y(35.05)}`}
+      fill="none"
+      stroke="#b9c9dd"
+      stroke-width="5"
+      stroke-linecap="round"
+      opacity="0.7"
+    />
+
+    {
+      cities.map((city) => (
+        <a href={`/service-areas/${city.slug}/`}>
+          <circle cx={x(city.geo.lng)} cy={y(city.geo.lat)} r="9" class="fill-cta-600" />
+          <circle cx={x(city.geo.lng)} cy={y(city.geo.lat)} r="14" class="fill-cta-600/25" />
+          <text
+            x={x(city.geo.lng)}
+            y={y(city.geo.lat) - 20}
+            text-anchor="middle"
+            class="fill-brand-900"
+            font-size="16"
+            font-weight="700"
+          >
+            {city.name}
+          </text>
+        </a>
+      ))
+    }
+
+    <!-- home base star -->
+    <g transform={`translate(${x(home.lng)}, ${y(home.lat)})`}>
+      <path d="M0 -22 L5 -8 L20 -8 L8 1 L12 16 L0 7 L-12 16 L-8 1 L-20 -8 L-5 -8 Z" class="fill-star stroke-brand-900" stroke-width="1.5" transform="scale(0.8)" />
+    </g>
+  </svg>
+</div>
+<p class="mt-2 text-sm text-brand-700/70">★ Our shop in Dalton · red pins are cities we serve — tap one for local details.</p>

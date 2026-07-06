@@ -1,0 +1,27 @@
+---
+import { siteConfig } from '@data/siteConfig';
+
+interface Props {
+  heading?: string;
+  body?: string;
+}
+const {
+  heading = 'Get Your Free Inspection',
+  body = 'No cost, no pressure, no obligation. You get a full photo report of your roof and honest options — even if the answer is "you’re fine for now."',
+} = Astro.props;
+---
+
+<section class="bg-brand-800">
+  <div class="container-site section-pad flex flex-col items-center gap-6 text-center lg:flex-row lg:justify-between lg:text-left">
+    <div class="max-w-2xl">
+      <h2 class="font-display text-3xl font-bold text-white md:text-4xl">{heading}</h2>
+      <p class="mt-3 text-lg text-brand-100/90">{body}</p>
+    </div>
+    <div class="flex shrink-0 flex-col items-center gap-3 sm:flex-row">
+      <button type="button" class="btn-cta" data-open-inspection>Schedule Free Inspection</button>
+      <a href={`tel:${siteConfig.phone.e164}`} class="btn-ghost-light">
+        Or call {siteConfig.phone.display}
+      </a>
+    </div>
+  </div>
+</section>

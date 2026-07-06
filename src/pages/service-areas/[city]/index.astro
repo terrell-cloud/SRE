@@ -1,0 +1,131 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import Hero from '@components/Hero.astro';
+import CtaSection from '@components/CtaSection.astro';
+import ReviewCarousel from '@components/ReviewCarousel.astro';
+import Faq from '@components/Faq.astro';
+import ServiceCard from '@components/ServiceCard.astro';
+import { cities } from '@data/cities';
+import { services } from '@data/services';
+import { getCityServices } from '@data/cityServices';
+import { reviewsFor } from '@data/reviews';
+import { globalFaqs } from '@data/faqs';
+import { breadcrumbSchema, businessSchema } from '@lib/schema';
+import { imageOr } from '@lib/images';
+
+export function getStaticPaths() {
+  return cities.map((city) => ({ params: { city: city.slug }, props: { city } }));
+}
+
+const { city } = Astro.props;
+const path = `/service-areas/${city.slug}/`;
+
+const seo = {
+  title: `Roofing Contractor in ${city.name}, ${city.state} | Southern Roofing & Exteriors`,
+  description: city.metaDescription,
+  path,
+};
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Service Areas', path: '/service-areas/' },
+  { name: `${city.name}, ${city.state}`, path },
+];
+const schemas = [businessSchema([`${city.name}, ${city.state}`]), breadcrumbSchema(crumbs)];
+
+const combos = getCityServices(city.slug);
+const comboServices = combos
+  .map((combo) => ({ combo, service: services.find((s) => s.slug === combo.serviceSlug) }))
+  .filter((entry) => entry.service !== undefined);
+
+const cityFaqs = globalFaqs.slice(0, 4);
+const driveTime = city.distanceMiles === 0 ? 'right here in town' : `about ${Math.max(10, Math.round(city.distanceMiles * 1.4))} minutes from our Dalton shop`;
+
+const nearby = [...cities]
+  .filter((c) => c.slug !== city.slug)
+  .sort((a, b) => Math.abs(a.distanceMiles - city.distanceMiles) - Math.abs(b.distanceMiles - city.distanceMiles))
+  .slice(0, 4);
+---
+
+<BaseLayout seo={seo} schemas={schemas}>
+  <Hero
+    title={`Roofing & Exteriors in ${city.name}, ${city.state}`}
+    subtitle={`Local crews ${driveTime} — roof repair, replacement, siding, windows, and gutters, starting with a free inspection.`}
+    eyebrow={`${city.county} County`}
+    image={imageOr(`cities/${city.slug}`, 'hero')}
+    imageAlt={`Southern Roofing and Exteriors serving ${city.name}, ${city.state}`}
+  />
+  <Breadcrumbs crumbs={crumbs} />
+
+  <section class="container-site section-pad !pt-8">
+    <div class="max-w-3xl space-y-5">
+      {city.intro.map((p) => <p class="text-lg leading-relaxed text-brand-800">{p}</p>)}
+    </div>
+  </section>
+
+  <section class="bg-stone-warm-50">
+    <div class="container-site section-pad">
+      <h2 class="font-display text-3xl font-bold text-brand-900 md:text-4xl">
+        What {city.name} Roofs Are Up Against
+      </h2>
+      <div class="mt-8 grid gap-6 md:grid-cols-2">
+        <div class="rounded-lg border border-stone-warm-200 bg-white p-6">
+          <h3 class="font-display text-xl font-bold text-brand-900">Local weather, local wear</h3>
+          <ul class="mt-3 space-y-2 text-brand-800/90">
+            {city.localFacts.weatherRisks.map((risk) => (
+              <li class="flex gap-2">
+                <span class="mt-1 h-2 w-2 shrink-0 rounded-full bg-cta-600" aria-hidden="true"></span>
+                {risk}
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="rounded-lg border border-stone-warm-200 bg-white p-6">
+          <h3 class="font-display text-xl font-bold text-brand-900">The homes we work on here</h3>
+          <p class="mt-3 leading-relaxed text-brand-800/90">{city.localFacts.housingStock}</p>
+          <p class="mt-3 text-sm text-brand-700/80">
+            Around {city.localFacts.landmarks.join(' · ')}
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  {
+    comboServices.length > 0 && (
+      <section class="container-site section-pad">
+        <h2 class="font-display text-3xl font-bold text-brand-900 md:text-4xl">
+          Our Services in {city.name}
+        </h2>
+        <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+          {comboServices.map(({ service }) => (
+            <ServiceCard service={service!} href={`/service-areas/${city.slug}/${service!.slug}/`} />
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <CtaSection heading={`Get a Free Inspection in ${city.name}`} />
+
+  <ReviewCarousel reviews={reviewsFor({ citySlug: city.slug, limit: 3 })} heading={`Neighbors Near ${city.name}`} />
+
+  <Faq faqs={cityFaqs} />
+
+  <section class="container-site section-pad !pt-0">
+    <h2 class="font-display text-2xl font-bold text-brand-900">Nearby Areas We Serve</h2>
+    <div class="mt-4 flex flex-wrap gap-x-6 gap-y-2">
+      {nearby.map((c) => (
+        <a href={`/service-areas/${c.slug}/`} class="font-semibold text-cta-600 hover:underline">
+          {c.name}, {c.state}
+        </a>
+      ))}
+    </div>
+  </section>
+
+  <CtaSection
+    heading="Thirty Minutes, Zero Pressure"
+    body={`Book online and we'll meet you at your ${city.name} home or building with a ladder and a camera.`}
+  />
+</BaseLayout>

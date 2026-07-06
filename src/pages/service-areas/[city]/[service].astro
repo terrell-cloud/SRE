@@ -1,0 +1,116 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import Hero from '@components/Hero.astro';
+import CtaSection from '@components/CtaSection.astro';
+import ReviewCarousel from '@components/ReviewCarousel.astro';
+import Faq from '@components/Faq.astro';
+import { cities } from '@data/cities';
+import { services } from '@data/services';
+import { cityServices } from '@data/cityServices';
+import { reviewsFor } from '@data/reviews';
+import { breadcrumbSchema, faqSchema, serviceSchema } from '@lib/schema';
+import { imageOr } from '@lib/images';
+
+export function getStaticPaths() {
+  // Only curated combos build — thin pages simply don't exist.
+  return cityServices.map((combo) => {
+    const city = cities.find((c) => c.slug === combo.citySlug);
+    const service = services.find((s) => s.slug === combo.serviceSlug);
+    if (!city || !service) {
+      throw new Error(`cityServices refers to unknown city/service: ${combo.citySlug}/${combo.serviceSlug}`);
+    }
+    return { params: { city: city.slug, service: service.slug }, props: { combo, city, service } };
+  });
+}
+
+const { combo, city, service } = Astro.props;
+const path = `/service-areas/${city.slug}/${service.slug}/`;
+
+const seo = {
+  title: `${service.shortName} in ${city.name}, ${city.state} | Southern Roofing & Exteriors`,
+  description: combo.metaDescription,
+  path,
+};
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Service Areas', path: '/service-areas/' },
+  { name: `${city.name}, ${city.state}`, path: `/service-areas/${city.slug}/` },
+  { name: service.shortName, path },
+];
+const schemas = [serviceSchema(service, { city }), faqSchema(service.faqs.slice(0, 4)), breadcrumbSchema(crumbs)];
+---
+
+<BaseLayout seo={seo} schemas={schemas}>
+  <Hero
+    title={`${service.shortName} in ${city.name}, ${city.state}`}
+    subtitle={service.summary}
+    eyebrow={`${city.county} County · Free inspections`}
+    image={imageOr(service.heroImage, 'hero')}
+    imageAlt={`${service.name} in ${city.name}, ${city.state} by Southern Roofing and Exteriors`}
+  />
+  <Breadcrumbs crumbs={crumbs} />
+
+  <section class="container-site section-pad !pt-8">
+    <div class="max-w-3xl space-y-5">
+      {combo.intro.map((p) => <p class="text-lg leading-relaxed text-brand-800">{p}</p>)}
+    </div>
+  </section>
+
+  <section class="bg-stone-warm-50">
+    <div class="container-site section-pad">
+      <div class="grid gap-6 md:grid-cols-2">
+        <div class="rounded-lg border border-stone-warm-200 bg-white p-6">
+          <h2 class="font-display text-xl font-bold text-brand-900">
+            Why {city.name} calls us for {service.shortName.toLowerCase()}
+          </h2>
+          <ul class="mt-3 space-y-2 text-brand-800/90">
+            {service.features.slice(0, 3).map((f) => (
+              <li class="flex gap-2">
+                <span class="mt-1 h-2 w-2 shrink-0 rounded-full bg-cta-600" aria-hidden="true"></span>
+                <span><strong class="text-brand-900">{f.title}.</strong> {f.body}</span>
+              </li>
+            ))}
+          </ul>
+        </div>
+        <div class="rounded-lg border border-stone-warm-200 bg-white p-6">
+          <h2 class="font-display text-xl font-bold text-brand-900">Weather worth planning for</h2>
+          <ul class="mt-3 space-y-2 text-brand-800/90">
+            {city.localFacts.weatherRisks.map((risk) => (
+              <li class="flex gap-2">
+                <span class="mt-1 h-2 w-2 shrink-0 rounded-full bg-cta-600" aria-hidden="true"></span>
+                {risk}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <CtaSection heading={`Free ${service.shortName} Inspection in ${city.name}`} />
+
+  <ReviewCarousel
+    reviews={reviewsFor({ citySlug: city.slug, serviceSlug: service.slug, limit: 3 })}
+    heading="From Folks Nearby"
+  />
+
+  <Faq faqs={service.faqs.slice(0, 4)} heading={`${service.shortName} Questions`} />
+
+  <section class="container-site section-pad !pt-0">
+    <div class="flex flex-wrap gap-x-6 gap-y-2 text-sm">
+      <a href={`/service-areas/${city.slug}/`} class="font-semibold text-cta-600 hover:underline">
+        ← All services in {city.name}
+      </a>
+      <a href={`/services/${service.slug}/`} class="font-semibold text-cta-600 hover:underline">
+        About our {service.shortName.toLowerCase()} work →
+      </a>
+    </div>
+  </section>
+
+  <CtaSection
+    heading="Book It From Your Phone"
+    body="Under a minute to schedule. A real crew from Dalton shows up — not a call center."
+  />
+</BaseLayout>

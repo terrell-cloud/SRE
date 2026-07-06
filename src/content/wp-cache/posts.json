@@ -1,0 +1,57 @@
+{
+  "fetchedAt": "2026-07-04T00:00:00.000Z",
+  "source": "fixture",
+  "_comment": "Committed fixture so offline builds work. Overwritten by scripts/fetch-wp-posts.mjs at deploy time with the real Openclaw-published posts from WordPress.",
+  "posts": [
+    {
+      "slug": "signs-your-roof-has-hail-damage",
+      "title": "6 Signs Your Roof Has Hail Damage (and What to Do Next)",
+      "excerpt": "Hail damage is easy to miss from the ground. Here are the six signs we check first on Northwest Georgia roofs — and how the insurance process actually works.",
+      "contentHtml": "<p><em>[Fixture post — replaced automatically by the live WordPress feed at deploy time.]</em></p><p>Spring storms roll up the I-75 corridor every year, and most hail damage never shows up as a leak right away. Here is what our inspectors look for.</p><h2>1. Bruised or dented shingles</h2><p>Hail impact crushes the granule layer and leaves a soft spot underneath. From the ground it looks like nothing; on the roof it reads like a fingerprint.</p><h2>2. Granules in your gutters</h2><p>A sudden pile of granules in the downspout splash blocks after a storm usually means the protective layer of your shingles took a beating.</p><h2>3. Dented vents, flashing, and gutters</h2><p>Metal tells the truth. If the soft metals on your roof are dinged, the shingles took the same hits.</p><p>If any of this sounds like your roof, a free inspection takes about 30 minutes and you'll see photos of everything we find.</p>",
+      "date": "2026-06-24T09:00:00",
+      "modified": "2026-06-24T09:00:00",
+      "featuredImage": null,
+      "categories": ["Roof Repair", "Storm Damage"]
+    },
+    {
+      "slug": "metal-vs-shingle-roof-georgia",
+      "title": "Metal vs. Shingle Roofs in Georgia: An Honest Comparison",
+      "excerpt": "Metal roofs and architectural shingles both make sense in North Georgia — for different houses and budgets. Here's how we help homeowners choose.",
+      "contentHtml": "<p><em>[Fixture post — replaced automatically by the live WordPress feed at deploy time.]</em></p><p>We install both, so we don't have a horse in this race. The right answer depends on your roofline, your timeline in the home, and your budget.</p><h2>Where shingles win</h2><p>Upfront cost, easy repairs, and huge color selection. Modern architectural shingles handle our humidity well and look right on most subdivisions from Dalton to Cartersville.</p><h2>Where metal wins</h2><p>Lifespan and weather shrug-off. On cabins around Ellijay and farmhouses out in the county, standing seam sheds limbs, ice, and heavy rain for decades.</p>",
+      "date": "2026-06-17T09:00:00",
+      "modified": "2026-06-17T09:00:00",
+      "featuredImage": null,
+      "categories": ["Roofing 101"]
+    },
+    {
+      "slug": "how-a-free-roof-inspection-works",
+      "title": "What Actually Happens During a Free Roof Inspection",
+      "excerpt": "No pressure, no mystery: here's the exact 30-minute process our team follows on every free inspection, from the driveway handshake to the photo report.",
+      "contentHtml": "<p><em>[Fixture post — replaced automatically by the live WordPress feed at deploy time.]</em></p><p>People put off roof inspections because they expect a sales ambush. Ours works differently, and this post walks through it step by step: we look, we photograph, we explain, and you decide.</p><h2>Step 1: The walkaround</h2><p>We start on the ground — gutters, siding, flashing lines, attic ventilation intake.</p><h2>Step 2: On the roof</h2><p>Every slope, every penetration, photographed close-up.</p><h2>Step 3: The photo report</h2><p>You see exactly what we saw, with honest options — including \"your roof is fine.\"</p>",
+      "date": "2026-06-10T09:00:00",
+      "modified": "2026-06-10T09:00:00",
+      "featuredImage": null,
+      "categories": ["Inspections"]
+    },
+    {
+      "slug": "gutter-guards-worth-it-north-georgia",
+      "title": "Are Gutter Guards Worth It in North Georgia?",
+      "excerpt": "Between pine needles, oak tassels, and fall leaves, Northwest Georgia gutters earn their keep. Here's when guards make sense and when they don't.",
+      "contentHtml": "<p><em>[Fixture post — replaced automatically by the live WordPress feed at deploy time.]</em></p><p>If your lot backs up to trees, you already know the ladder routine. Gutter guards can end it — but the cheap ones create their own problems. We break down mesh, reverse-curve, and foam systems and where each fails.</p>",
+      "date": "2026-06-03T09:00:00",
+      "modified": "2026-06-03T09:00:00",
+      "featuredImage": null,
+      "categories": ["Gutters"]
+    },
+    {
+      "slug": "roof-insurance-claim-guide-tennessee-georgia",
+      "title": "Filing a Roof Insurance Claim in Georgia or Tennessee: A Homeowner's Guide",
+      "excerpt": "Storm damage claims aren't complicated once you know the order of operations. Here's the process we walk homeowners through every week.",
+      "contentHtml": "<p><em>[Fixture post — replaced automatically by the live WordPress feed at deploy time.]</em></p><p>The single biggest mistake homeowners make is calling the insurance company before they have documentation. Get the inspection and photo report first — then you're filing a claim with evidence instead of a guess.</p><h2>The order of operations</h2><ol><li>Free inspection and photo documentation</li><li>Review the findings together</li><li>File with your carrier</li><li>Adjuster meeting — we're on the roof with them</li><li>Scope agreement and scheduling</li></ol>",
+      "date": "2026-05-27T09:00:00",
+      "modified": "2026-05-27T09:00:00",
+      "featuredImage": null,
+      "categories": ["Insurance", "Storm Damage"]
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+old_path,new_path
+# 301 redirects from the old WordPress URLs to the new site structure.
+# TODO(launch): pull the full URL list from the live WP sitemap
+# (southernroofingandexteriors.com/sitemap.xml) and complete this file —
+# the entries below cover the pages confirmed to exist today.
+/about-us,/about/
+/about-us/,/about/
+/contact-us,/contact/
+/contact-us/,/contact/
+/services/roof-replacement,/services/residential-roofing/
+/services/roof-replacement/,/services/residential-roofing/
+/service-areas/fort-oglethorpe-ga,/service-areas/fort-oglethorpe-ga/
+/service-areas/dalton-ga,/service-areas/dalton-ga/

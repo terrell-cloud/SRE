@@ -1,0 +1,39 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import ServiceCard from '@components/ServiceCard.astro';
+import CtaSection from '@components/CtaSection.astro';
+import { services } from '@data/services';
+import { breadcrumbSchema } from '@lib/schema';
+
+const seo = {
+  title: 'Roofing & Exterior Services in Northwest Georgia | Southern Roofing & Exteriors',
+  description:
+    'Roof replacement, roof repair, commercial roofing, siding, windows, and gutters — residential and commercial, across Northwest Georgia and the Chattanooga area.',
+  path: '/services/',
+};
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Services', path: '/services/' },
+];
+---
+
+<BaseLayout seo={seo} schemas={[breadcrumbSchema(crumbs)]}>
+  <Breadcrumbs crumbs={crumbs} />
+  <section class="container-site section-pad !pt-8">
+    <p class="eyebrow">Services</p>
+    <h1 class="mt-1 font-display text-4xl font-bold text-brand-900 md:text-5xl">
+      Everything Above the Foundation
+    </h1>
+    <p class="mt-4 max-w-3xl text-lg leading-relaxed text-brand-800">
+      Roofs are our backbone, but the same local crew handles siding, windows, and gutters — for
+      homes and commercial buildings alike. Every project starts the same way: a free inspection
+      and a photo report you can actually understand.
+    </p>
+    <div class="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {services.map((service) => <ServiceCard service={service} />)}
+    </div>
+  </section>
+  <CtaSection />
+</BaseLayout>

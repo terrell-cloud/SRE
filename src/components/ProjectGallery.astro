@@ -1,0 +1,41 @@
+---
+import { Image } from 'astro:assets';
+import { imagesUnder } from '@lib/images';
+
+interface Props {
+  heading?: string;
+  /** Registry prefix, e.g. "projects" — renders every ingested photo under it */
+  prefix?: string;
+  limit?: number;
+}
+const { heading = 'Recent Work From Our Job Sites', prefix = 'projects', limit } = Astro.props;
+
+const photos = imagesUnder(prefix).slice(0, limit);
+
+/** "roof-replacement-dalton-ga-01" → "Roof replacement in Dalton GA" */
+function altFromKey(key: string): string {
+  const base = key.split('/').pop() ?? key;
+  return `Southern Roofing and Exteriors job site: ${base.replace(/-\d+$/, '').replaceAll('-', ' ')}`;
+}
+---
+
+{
+  photos.length > 0 && (
+    <section class="container-site section-pad">
+      <p class="eyebrow">Our work</p>
+      <h2 class="mt-1 font-display text-3xl font-bold text-brand-900 md:text-4xl">{heading}</h2>
+      <div class="mt-8 grid grid-cols-2 gap-4 md:grid-cols-3">
+        {photos.map(({ key, image }) => (
+          <Image
+            src={image}
+            alt={altFromKey(key)}
+            class="aspect-[4/3] w-full rounded-lg object-cover"
+            widths={[400, 800]}
+            sizes="(min-width: 768px) 33vw, 50vw"
+            loading="lazy"
+          />
+        ))}
+      </div>
+    </section>
+  )
+}

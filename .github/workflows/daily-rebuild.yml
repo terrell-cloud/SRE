@@ -1,0 +1,24 @@
+# Rebuilds the site every morning so blog posts Openclaw published to
+# WordPress overnight appear on /blog/ without anyone touching anything.
+# Setup (one time): create a Deploy Hook in Vercel (Project → Settings →
+# Git → Deploy Hooks) and save its URL as the DEPLOY_HOOK_URL repo secret.
+name: Daily rebuild for new blog posts
+
+on:
+  schedule:
+    - cron: '0 11 * * *' # ~6:00 AM Eastern
+  workflow_dispatch: {}
+
+jobs:
+  trigger-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Ping deploy hook
+        env:
+          DEPLOY_HOOK_URL: ${{ secrets.DEPLOY_HOOK_URL }}
+        run: |
+          if [ -z "$DEPLOY_HOOK_URL" ]; then
+            echo "DEPLOY_HOOK_URL secret not set — skipping (see workflow comments)."
+            exit 0
+          fi
+          curl -fsS -X POST "$DEPLOY_HOOK_URL"

@@ -1,0 +1,30 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import { siteConfig } from '@data/siteConfig';
+
+const seo = {
+  title: 'Page Not Found | Southern Roofing & Exteriors',
+  description: 'That page has moved or never existed. Head back home or book a free inspection.',
+  path: '/404/',
+  noindex: true,
+};
+---
+
+<BaseLayout seo={seo}>
+  <section class="container-site section-pad text-center">
+    <p class="eyebrow">404</p>
+    <h1 class="mt-2 font-display text-4xl font-bold text-brand-900 md:text-5xl">
+      Well, That Shingle's Missing
+    </h1>
+    <p class="mx-auto mt-4 max-w-xl text-lg text-brand-800">
+      The page you're after has moved or never existed. The rest of the house is solid, promise.
+    </p>
+    <div class="mt-8 flex flex-col items-center justify-center gap-3 sm:flex-row">
+      <a href="/" class="btn-secondary">Back to Home</a>
+      <button type="button" class="btn-cta" data-open-inspection>Schedule Free Inspection</button>
+    </div>
+    <p class="mt-6 text-brand-700/80">
+      Or call us: <a href={`tel:${siteConfig.phone.e164}`} class="font-semibold text-cta-600 hover:underline">{siteConfig.phone.display}</a>
+    </p>
+  </section>
+</BaseLayout>

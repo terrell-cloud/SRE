@@ -1,0 +1,52 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import CtaSection from '@components/CtaSection.astro';
+import { posts, formatPostDate } from '@lib/wp';
+import { blogPostSchema, breadcrumbSchema } from '@lib/schema';
+
+export function getStaticPaths() {
+  return posts.map((post) => ({ params: { slug: post.slug }, props: { post } }));
+}
+
+const { post } = Astro.props;
+const path = `/blog/${post.slug}/`;
+
+const seo = {
+  title: post.title,
+  description: post.excerpt.slice(0, 160),
+  path,
+  ogType: 'article' as const,
+};
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Blog', path: '/blog/' },
+  { name: post.title, path },
+];
+const schemas = [blogPostSchema(post, path), breadcrumbSchema(crumbs)];
+---
+
+<BaseLayout seo={seo} schemas={schemas}>
+  <Breadcrumbs crumbs={crumbs} />
+  <article class="container-site section-pad !pt-8">
+    <div class="mx-auto max-w-3xl">
+      {post.categories.length > 0 && <p class="eyebrow">{post.categories.join(' · ')}</p>}
+      <h1 class="mt-2 font-display text-4xl font-bold leading-tight text-brand-900 md:text-5xl">
+        {post.title}
+      </h1>
+      <p class="mt-3 text-sm text-brand-700/70">
+        {formatPostDate(post.date)} · Southern Roofing &amp; Exteriors
+      </p>
+
+      <div
+        class="prose-sre mt-8 space-y-5 text-lg leading-relaxed text-brand-800 [&_a]:font-semibold [&_a]:text-cta-600 [&_a]:underline [&_h2]:mt-8 [&_h2]:font-display [&_h2]:text-3xl [&_h2]:font-bold [&_h2]:text-brand-900 [&_h3]:mt-6 [&_h3]:font-display [&_h3]:text-2xl [&_h3]:font-bold [&_h3]:text-brand-900 [&_img]:rounded-lg [&_li]:ml-5 [&_ol]:list-decimal [&_ul]:list-disc"
+        set:html={post.contentHtml}
+      />
+    </div>
+  </article>
+  <CtaSection
+    heading="Have a Roof Question of Your Own?"
+    body="A free inspection gets you real answers about your specific roof — photos included."
+  />
+</BaseLayout>

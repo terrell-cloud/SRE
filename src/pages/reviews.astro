@@ -1,0 +1,68 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Breadcrumbs from '@components/Breadcrumbs.astro';
+import ReviewCard from '@components/ReviewCard.astro';
+import StarRating from '@components/StarRating.astro';
+import CtaSection from '@components/CtaSection.astro';
+import { reviews, aggregateRating } from '@data/reviews';
+import { siteConfig } from '@data/siteConfig';
+import { breadcrumbSchema, reviewsSchema } from '@lib/schema';
+
+const seo = {
+  title: 'Reviews | Southern Roofing & Exteriors — Dalton, GA',
+  description:
+    'What homeowners and businesses across Northwest Georgia and Chattanooga say about working with Southern Roofing & Exteriors. Real reviews from real neighbors.',
+  path: '/reviews/',
+};
+
+const crumbs = [
+  { name: 'Home', path: '/' },
+  { name: 'Reviews', path: '/reviews/' },
+];
+const schemas = [reviewsSchema(), breadcrumbSchema(crumbs)];
+const ghlReviewsSrc = siteConfig.ghl.reviewsSrc;
+---
+
+<BaseLayout seo={seo} schemas={schemas}>
+  <Breadcrumbs crumbs={crumbs} />
+  <section class="container-site section-pad !pt-8">
+    <p class="eyebrow">Trust, earned job by job</p>
+    <h1 class="mt-1 font-display text-4xl font-bold text-brand-900 md:text-5xl">
+      Reviews From Your Neighbors
+    </h1>
+    <div class="mt-4 flex items-center gap-3">
+      <StarRating rating={aggregateRating.ratingValue} />
+      <p class="text-lg font-semibold text-brand-900">
+        {aggregateRating.ratingValue} out of 5 · {aggregateRating.reviewCount} reviews
+      </p>
+    </div>
+    <p class="mt-4 max-w-2xl text-lg leading-relaxed text-brand-800">
+      Every review here is from a real customer in the communities we serve. The best measure of
+      our work isn't what we say about ourselves — it's what the folks down the road say after the
+      crew has packed up.
+    </p>
+
+    <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-3">
+      {reviews.map((review) => <ReviewCard review={review} />)}
+    </div>
+  </section>
+
+  {
+    ghlReviewsSrc && (
+      <section class="container-site section-pad !pt-0">
+        <h2 class="font-display text-2xl font-bold text-brand-900">Latest Reviews, Live</h2>
+        <iframe
+          src={ghlReviewsSrc}
+          title="Live customer reviews"
+          loading="lazy"
+          class="mt-4 h-[40rem] w-full rounded-lg border border-stone-warm-200 bg-white"
+        />
+      </section>
+    )
+  }
+
+  <CtaSection
+    heading="Experience It Yourself"
+    body="The first step is the same one every reviewer took: a free, no-pressure inspection."
+  />
+</BaseLayout>

@@ -1,0 +1,132 @@
+---
+import BaseLayout from '@layouts/BaseLayout.astro';
+import Hero from '@components/Hero.astro';
+import ServiceCard from '@components/ServiceCard.astro';
+import ReviewCarousel from '@components/ReviewCarousel.astro';
+import ProjectGallery from '@components/ProjectGallery.astro';
+import CtaSection from '@components/CtaSection.astro';
+import Faq from '@components/Faq.astro';
+import TeamGrid from '@components/TeamGrid.astro';
+import { services } from '@data/services';
+import { cities } from '@data/cities';
+import { globalFaqs } from '@data/faqs';
+import { reviewsFor } from '@data/reviews';
+import { siteConfig } from '@data/siteConfig';
+import { businessSchema, faqSchema } from '@lib/schema';
+import { imageOr } from '@lib/images';
+
+const seo = {
+  title: 'Roofing Contractor in Dalton, GA | Southern Roofing & Exteriors',
+  description:
+    'Locally owned roofing, siding, window, and gutter contractor serving Dalton, Northwest Georgia, and the Chattanooga area. Schedule your free roof inspection online in under a minute.',
+  path: '/',
+};
+
+const homeFaqs = globalFaqs.slice(0, 5);
+const schemas = [businessSchema(cities.map((c) => `${c.name}, ${c.state}`)), faqSchema(homeFaqs)];
+
+const steps = [
+  {
+    title: 'Book your free inspection',
+    body: 'Pick a time online in under a minute, or call us. We show up when we say we will — evenings and Saturdays included.',
+  },
+  {
+    title: 'Get the full picture',
+    body: 'We photograph everything we find and walk you through it in plain English. If your roof is fine, we tell you that too.',
+  },
+  {
+    title: 'We handle the rest',
+    body: 'From insurance paperwork to final cleanup, the same local team stays with you from the first handshake to the last shingle.',
+  },
+];
+---
+
+<BaseLayout seo={seo} schemas={schemas}>
+  <Hero
+    variant="full"
+    title="Your Neighbors in Roofing & Exteriors"
+    subtitle={`Roof replacement, repairs, siding, windows, and gutters across ${siteConfig.serviceRegion} — done by a local crew you'll actually meet, starting with a free inspection.`}
+    image={imageOr('hero/home', 'hero')}
+    imageAlt="Southern Roofing and Exteriors crew working on a residential roof in Northwest Georgia"
+  />
+
+  <section class="container-site section-pad">
+    <p class="eyebrow">What we do</p>
+    <h2 class="mt-1 font-display text-3xl font-bold text-brand-900 md:text-4xl">
+      Residential &amp; Commercial Exterior Services
+    </h2>
+    <div class="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      {services.map((service) => <ServiceCard service={service} />)}
+    </div>
+  </section>
+
+  <section class="bg-brand-50">
+    <div class="container-site section-pad">
+      <div class="max-w-3xl">
+        <p class="eyebrow">People first</p>
+        <h2 class="mt-1 font-display text-3xl font-bold text-brand-900 md:text-4xl">
+          Do Business With People You Can See
+        </h2>
+        <p class="mt-4 text-lg leading-relaxed text-brand-800">
+          We're not a lead broker or a storm-chasing outfit with out-of-state plates. We're a
+          locally owned company based in Dalton, and the folks below are the ones who answer the
+          phone, climb the ladder, and shake your hand at the final walkthrough. A percentage of
+          every job goes to a charity our customer chooses.
+        </p>
+      </div>
+      <div class="mt-10">
+        <TeamGrid />
+      </div>
+      <a href="/about/" class="btn-secondary mt-8">Meet the whole team</a>
+    </div>
+  </section>
+
+  <section class="container-site section-pad">
+    <p class="eyebrow">How it works</p>
+    <h2 class="mt-1 font-display text-3xl font-bold text-brand-900 md:text-4xl">
+      From First Look to Finished Job
+    </h2>
+    <div class="mt-8 grid gap-8 md:grid-cols-3">
+      {
+        steps.map((step, i) => (
+          <div class="relative rounded-lg border border-stone-warm-200 bg-white p-6 pt-8">
+            <span class="absolute -top-5 left-6 flex h-10 w-10 items-center justify-center rounded-full bg-cta-600 font-display text-xl font-bold text-white">
+              {i + 1}
+            </span>
+            <h3 class="font-display text-2xl font-bold text-brand-900">{step.title}</h3>
+            <p class="mt-2 leading-relaxed text-brand-800/90">{step.body}</p>
+          </div>
+        ))
+      }
+    </div>
+  </section>
+
+  <CtaSection />
+
+  <ReviewCarousel reviews={reviewsFor({ limit: 3 })} />
+
+  <ProjectGallery limit={6} />
+
+  <section class="bg-brand-900">
+    <div class="container-site section-pad">
+      <h2 class="font-display text-3xl font-bold text-white md:text-4xl">Proudly Serving Northwest Georgia &amp; the Chattanooga Area</h2>
+      <div class="mt-6 flex flex-wrap gap-x-6 gap-y-3">
+        {
+          cities.map((city) => (
+            <a href={`/service-areas/${city.slug}/`} class="font-semibold text-brand-100 hover:text-white hover:underline">
+              {city.name}, {city.state}
+            </a>
+          ))
+        }
+      </div>
+      <a href="/service-areas/" class="btn-ghost-light mt-8">See all service areas</a>
+    </div>
+  </section>
+
+  <Faq faqs={homeFaqs} />
+
+  <CtaSection
+    heading="Ready When You Are"
+    body="Book online in under a minute — evenings and Saturdays available. Free means free: no cost, no obligation, no pressure."
+  />
+</BaseLayout>

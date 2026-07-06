@@ -1,0 +1,42 @@
+---
+import { aggregateRating } from '@data/reviews';
+import StarRating from '@components/StarRating.astro';
+
+interface Props {
+  light?: boolean;
+}
+const { light = false } = Astro.props;
+
+const badges = [
+  { label: 'Licensed & Insured', icon: 'shield' },
+  { label: 'Locally Owned in Dalton, GA', icon: 'pin' },
+  { label: 'Free, No-Obligation Inspections', icon: 'check' },
+  { label: 'Every Job Gives Back to Charity', icon: 'heart' },
+] as const;
+
+const paths: Record<(typeof badges)[number]['icon'], string> = {
+  shield: 'M12 2l8 3v6c0 5-3.4 9.4-8 11-4.6-1.6-8-6-8-11V5l8-3z',
+  pin: 'M12 2a7 7 0 00-7 7c0 5 7 13 7 13s7-8 7-13a7 7 0 00-7-7zm0 9.5A2.5 2.5 0 1112 6.5a2.5 2.5 0 010 5z',
+  check: 'M12 2a10 10 0 100 20 10 10 0 000-20zm-1.2 14.5L6.5 12.2l1.6-1.6 2.7 2.7 5.6-5.6 1.6 1.6-7.2 7.2z',
+  heart: 'M12 21s-7.5-4.9-10-9.3C.5 8 2.5 4.5 6 4.5c2 0 3.4 1.1 4.2 2.3h1.6c.8-1.2 2.2-2.3 4.2-2.3 3.5 0 5.5 3.5 4 7.2C19.5 16.1 12 21 12 21z',
+};
+---
+
+<div class="flex flex-wrap items-center gap-x-7 gap-y-3">
+  <div class="flex items-center gap-2">
+    <StarRating rating={aggregateRating.ratingValue} />
+    <span class:list={['text-sm font-semibold', light ? 'text-white' : 'text-brand-900']}>
+      {aggregateRating.ratingValue}/5 from local homeowners
+    </span>
+  </div>
+  {
+    badges.map((b) => (
+      <div class="flex items-center gap-2">
+        <svg class:list={['h-5 w-5 shrink-0', light ? 'text-cta-500' : 'text-cta-600']} viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+          <path d={paths[b.icon]} />
+        </svg>
+        <span class:list={['text-sm font-semibold', light ? 'text-brand-100' : 'text-brand-800']}>{b.label}</span>
+      </div>
+    ))
+  }
+</div>
