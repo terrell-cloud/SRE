@@ -1,11 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="800" viewBox="0 0 1200 800">
-  <rect width="1200" height="800" fill="#f3f1ec"/>
-  <rect width="1200" height="800" fill="#dce6f2" opacity="0.5"/>
-  <g fill="#2c4f7c" opacity="0.85">
+  <rect width="1200" height="800" fill="#eeeff0"/>
+  <rect width="1200" height="800" fill="#dfe2f9" opacity="0.5"/>
+  <g fill="#1b28ad" opacity="0.85">
     <path d="M280 470 L600 280 L920 470 Z"/>
     <rect x="360" y="470" width="480" height="180"/>
   </g>
-  <rect x="545" y="540" width="110" height="110" fill="#f3f1ec"/>
-  <path d="M240 470 L600 255 L960 470" stroke="#16293f" stroke-width="26" fill="none" stroke-linecap="round"/>
-  <text x="600" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#16293f" opacity="0.55">Project photo coming from our job files</text>
+  <rect x="545" y="540" width="110" height="110" fill="#eeeff0"/>
+  <path d="M240 470 L600 255 L960 470" stroke="#171d5e" stroke-width="26" fill="none" stroke-linecap="round"/>
+  <text x="600" y="740" text-anchor="middle" font-family="Arial, sans-serif" font-size="30" fill="#171d5e" opacity="0.55">Project photo coming from our job files</text>
 </svg>

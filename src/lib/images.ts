@@ -22,11 +22,14 @@ export function findImage(key: string | null | undefined): ImageMetadata | undef
   return key ? registry.get(key) : undefined;
 }
 
-/** Exact match, else a branded placeholder ("placeholders/hero" | "placeholders/project" | "placeholders/team"). */
+/** Exact match, else a branded placeholder ("placeholders/hero" | "placeholders/project" | "placeholders/team").
+ *  For heroes, a real job-site photo at placeholders/hero-city wins over the illustration. */
 export function imageOr(key: string | null | undefined, placeholder: 'hero' | 'project' | 'team'): ImageMetadata {
   const found = findImage(key);
   if (found) return found;
-  const fallback = registry.get(`placeholders/${placeholder}`);
+  const fallback =
+    (placeholder === 'hero' && registry.get('placeholders/hero-city')) ||
+    registry.get(`placeholders/${placeholder}`);
   if (!fallback) throw new Error(`Missing placeholder image: placeholders/${placeholder}`);
   return fallback;
 }

@@ -1,30 +1,29 @@
 @import "tailwindcss";
 
 /*
- * Brand tokens — PROVISIONAL palette pending the official logo from the
- * Google Drive "pictures and video" folder. Swap the three brand-* hues
- * below once the logo colors are sampled; everything else derives.
+ * Brand tokens sampled from the official SRE logo (Drive: Logos/Designs):
+ * royal blue #0613b7 + cool gray #58595b.
  */
 @theme {
-  /* Deep southern navy — headers, footer, primary text on light */
-  --color-brand-900: #0f1f33;
-  --color-brand-800: #16293f;
-  --color-brand-700: #1e3a5f;
-  --color-brand-600: #2c4f7c;
-  --color-brand-500: #3d6398;
-  --color-brand-100: #dce6f2;
-  --color-brand-50: #f0f5fa;
+  /* Deep navy derived from the logo blue — headers, footer, primary text on light */
+  --color-brand-900: #10143f;
+  --color-brand-800: #171d5e;
+  --color-brand-700: #1f2782;
+  --color-brand-600: #1b28ad;
+  --color-brand-500: #3141d1;
+  --color-brand-100: #dfe2f9;
+  --color-brand-50: #f1f2fc;
 
-  /* Conversion red — CTA buttons only, never decorative */
-  --color-cta-700: #a31621;
-  --color-cta-600: #c0202e;
-  --color-cta-500: #d92637;
-  --color-cta-50: #fdeef0;
+  /* Conversion blue — the logo's royal blue, reserved for CTAs */
+  --color-cta-700: #040e86;
+  --color-cta-600: #0613b7;
+  --color-cta-500: #1f2ed3;
+  --color-cta-50: #eef0fd;
 
-  /* Warm working neutrals */
-  --color-stone-warm-50: #faf9f7;
-  --color-stone-warm-100: #f3f1ec;
-  --color-stone-warm-200: #e5e1d8;
+  /* Cool working neutrals echoing the logo gray #58595b */
+  --color-stone-warm-50: #f7f7f8;
+  --color-stone-warm-100: #eeeff0;
+  --color-stone-warm-200: #dcdde0;
 
   /* Star / trust gold */
   --color-star: #f5a623;

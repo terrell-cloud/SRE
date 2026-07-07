@@ -1,18 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900">
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0" stop-color="#16293f"/>
-      <stop offset="1" stop-color="#0f1f33"/>
+      <stop offset="0" stop-color="#171d5e"/>
+      <stop offset="1" stop-color="#10143f"/>
     </linearGradient>
     <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#2c4f7c" stop-opacity="0.55"/>
-      <stop offset="1" stop-color="#2c4f7c" stop-opacity="0"/>
+      <stop offset="0" stop-color="#3141d1" stop-opacity="0.55"/>
+      <stop offset="1" stop-color="#3141d1" stop-opacity="0"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#sky)"/>
   <circle cx="1250" cy="180" r="420" fill="url(#glow)"/>
   <!-- distant rooflines -->
-  <g fill="#1e3a5f">
+  <g fill="#1f2782">
     <path d="M0 640 L190 520 L380 640 Z"/>
     <path d="M300 660 L520 500 L740 660 Z"/>
     <path d="M640 650 L870 505 L1100 650 Z"/>
@@ -20,14 +20,14 @@
     <path d="M1360 650 L1520 540 L1600 595 L1600 650 Z"/>
   </g>
   <!-- foreground roofline -->
-  <g fill="#2c4f7c">
+  <g fill="#1b28ad">
     <path d="M-40 760 L360 540 L760 760 Z"/>
     <path d="M700 770 L1080 555 L1460 770 Z"/>
     <path d="M1330 765 L1600 610 L1600 765 Z"/>
   </g>
-  <rect y="740" width="1600" height="160" fill="#0f1f33"/>
+  <rect y="740" width="1600" height="160" fill="#10143f"/>
   <!-- shingle strokes on foreground roof -->
-  <g stroke="#1e3a5f" stroke-width="6" opacity="0.7">
+  <g stroke="#1f2782" stroke-width="6" opacity="0.7">
     <path d="M240 610 L480 610" transform="rotate(-29 360 610)"/>
     <path d="M960 630 L1200 630" transform="rotate(-29 1080 630)"/>
   </g>

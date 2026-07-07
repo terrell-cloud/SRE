@@ -9,13 +9,14 @@ import { TeamMemberSchema, type TeamMember } from './types';
  */
 const raw: TeamMember[] = [
   {
+    // TODO(Terrell): confirm display name/last name and personalize the bio.
     slug: 'owner',
-    name: 'Your Name Here',
+    name: 'Terrell',
     role: 'Owner',
-    bio: 'Placeholder — swap in the owner’s real bio: how the company started, ties to Dalton and Northwest Georgia, and what they still do on jobs today.',
+    bio: 'Terrell leads Southern Roofing & Exteriors from our Dalton shop and stays personally involved in projects across Northwest Georgia and the Chattanooga area — from the first inspection to the final walkthrough.',
     certifications: [],
-    photo: null,
-    isPlaceholder: true,
+    photo: 'team/owner',
+    isPlaceholder: false,
   },
   {
     slug: 'project-manager',
