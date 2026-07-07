@@ -36,7 +36,7 @@ function extractMainJpeg(buf) {
 }
 
 for (const f of await readdir(RESULTS)) {
-  if (!f.startsWith('mcp-Google_Drive-download_file_content')) continue;
+  if (!(f.startsWith('mcp-') && f.includes('download_file_content'))) continue;
   const p = path.join(RESULTS, f);
   try {
     const { title, content } = JSON.parse(await readFile(p, 'utf8'));

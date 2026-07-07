@@ -82,3 +82,12 @@ Create a **Deploy Hook** and save it as the `DEPLOY_HOOK_URL` GitHub secret — 
 `.github/workflows/daily-rebuild.yml` cron pings it every morning (~6 AM ET) so new
 Openclaw posts appear on `/blog/` automatically. Netlify works too: use a Build Hook and
 convert the redirects to `public/_redirects` (see `scripts/generate-redirects.mjs`).
+
+## Photo pipeline note (Drive connector)
+
+The Drive MCP connector reliably transfers files **under ~6 MB** only; larger
+files drop the session. Several premium shots (Davis siding, Southeastern
+Ortho TPO, Henderson closeups, Calhoun First Baptist) exceed that — re-export
+them under 6 MB into the shared drive and re-run the ingest to add them.
+Some 2024-era DJI files also carry truncated main streams (unrecoverable);
+the ingest script skips them automatically.
