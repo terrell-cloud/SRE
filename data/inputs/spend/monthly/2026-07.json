@@ -1,0 +1,14 @@
+{
+  "accounts": {
+    "Google": 815.0,
+    "Google LSA": 770.69
+  },
+  "fetched_at": "2026-07-07T10:00:00-04:00",
+  "month": "2026-07",
+  "pnl": {
+    "cogs": 76263.69,
+    "gross_profit": -56018.28,
+    "revenue": 20245.41
+  },
+  "source": "quickbooks_mcp"
+}

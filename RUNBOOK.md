@@ -42,13 +42,20 @@ straddles a month boundary — the collect output header shows the week dates):
   "source": "quickbooks_mcp",
   "fetched_at": "<now, ISO-8601>",
   "accounts": {
-    "Advertising:Google": 4200.00,
-    "Advertising:Facebook": 2850.00,
-    "Advertising": 610.00
+    "Google": 2548.68,
+    "Google LSA": 1942.70,
+    "Facebook": 5424.36,
+    "Ads Management": 3640.00,
+    "Advertising & Marketing": 97.00
   },
-  "pnl": {"revenue": 512000.00, "cogs": 348000.00, "gross_profit": 164000.00}
+  "pnl": {"revenue": 237113.49, "cogs": 155589.54, "gross_profit": 81523.95}
 }
 ```
+
+The account keys are the sub-accounts of the "Advertising & Marketing"
+expense group, exactly as named in QuickBooks (they map through
+`config/channels.yaml`). "Advertising & Marketing" itself is the parent
+remainder — spend posted to the group but no sub-account.
 
 - `accounts` keys must be the QuickBooks account names exactly as they map in
   `config/channels.yaml` (`qb_account:`). Include the parent "Advertising"

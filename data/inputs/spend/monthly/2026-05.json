@@ -1,0 +1,17 @@
+{
+  "accounts": {
+    "Ads Management": 3820.0,
+    "Advertising & Marketing": 211.13,
+    "Facebook": 4973.15,
+    "Google": 2905.84,
+    "Google LSA": 940.44
+  },
+  "fetched_at": "2026-07-07T10:00:00-04:00",
+  "month": "2026-05",
+  "pnl": {
+    "cogs": 198514.95,
+    "gross_profit": 5962.33,
+    "revenue": 204477.28
+  },
+  "source": "quickbooks_mcp"
+}

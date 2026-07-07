@@ -1,23 +1,32 @@
 # Marketing channel spine: maps messy GHL source strings -> canonical channel
 # -> QuickBooks sub-account (must match the QB account name exactly).
 #
-# qb_account: null means an unpaid channel — cost/lead and CAC render as "—".
-# Any source string not listed lands in `default_channel` and raises a warning.
+# qb_account names verified against the live QuickBooks P&L (Jul 2026):
+# expense group "Advertising & Marketing" with sub-accounts Facebook, Google,
+# Google LSA, Ads Management. The parent-account remainder and any unmapped
+# account flow to `default_channel` automatically.
 #
-# FILL FROM DISCOVERY: replace ghl_sources lists with the real source values
-# from `python -m kpi discover --source ghl`, and qb_account names with the
-# real QuickBooks sub-account names once created.
+# "Ads Management" (agency fee) is mapped to `other` — it is real marketing
+# spend but not attributable to a single lead source, so it shows in total
+# spend without distorting per-channel cost/lead and CAC.
+#
+# ghl_sources lists are still placeholders — FILL FROM DISCOVERY once the
+# GHL token is available (`python -m kpi discover --source ghl`).
 match: case_insensitive_trim
 default_channel: other
 
 channels:
   - key: google
     label: "Google Ads"
-    qb_account: "Advertising:Google"
-    ghl_sources: ["Google", "Google Ads", "google ads", "GMB", "Google Organic", "LSA"]
+    qb_account: "Google"
+    ghl_sources: ["Google", "Google Ads", "google ads", "GMB", "Google Organic"]
+  - key: google_lsa
+    label: "Google LSA"
+    qb_account: "Google LSA"
+    ghl_sources: ["LSA", "Google LSA", "Local Services"]
   - key: facebook
     label: "Facebook / Instagram"
-    qb_account: "Advertising:Facebook"
+    qb_account: "Facebook"
     ghl_sources: ["Facebook", "fb", "FB Lead Ad", "Instagram", "Meta"]
   - key: door_knocking
     label: "Door Knocking"
@@ -29,5 +38,5 @@ channels:
     ghl_sources: ["Referral", "Customer Referral", "Word of Mouth"]
   - key: other
     label: "Other"
-    qb_account: null
+    qb_account: "Ads Management"
     ghl_sources: []

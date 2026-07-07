@@ -1,0 +1,13 @@
+{
+  "accounts": {
+    "Advertising & Marketing": 5337.72
+  },
+  "fetched_at": "2026-07-07T10:00:00-04:00",
+  "month": "2025-11",
+  "pnl": {
+    "cogs": 163491.26,
+    "gross_profit": 62170.31,
+    "revenue": 225661.57
+  },
+  "source": "quickbooks_mcp"
+}

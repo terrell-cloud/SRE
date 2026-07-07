@@ -1,0 +1,15 @@
+{
+  "accounts": {
+    "Ads Management": 1820.0,
+    "Google": 2426.76,
+    "Google LSA": 796.9
+  },
+  "fetched_at": "2026-07-07T10:00:00-04:00",
+  "month": "2026-02",
+  "pnl": {
+    "cogs": 206633.38,
+    "gross_profit": 33254.02,
+    "revenue": 239887.4
+  },
+  "source": "quickbooks_mcp"
+}
