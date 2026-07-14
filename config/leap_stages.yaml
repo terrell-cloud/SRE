@@ -1,55 +1,82 @@
-# Leap CRM workflow-stage classification. Stages are TENANT-CUSTOMIZED —
-# these names must exactly match this company's Leap workflow.
+# Leap CRM stage classification, filled from live discovery (Jul 2026):
+# stage names as they appear on jobs' current_stage.name (matching is
+# case-insensitive and whitespace-trimmed, so trailing spaces in Leap don't matter).
 #
-# FILL FROM DISCOVERY: run `python -m kpi discover --source leap` and replace
-# stage names, division_field, and source_field with what the dump shows.
+# The Leap API exposes no stage-transition history, so the collector
+# synthesizes decision events from the job's explicit date fields:
+#   contract_signed_date -> pseudo-stage "(contract signed)"  = the SOLD decision
+#   completion_date      -> pseudo-stage "(completed)"        = production completed
+# Real stages carry class/production roles for lost decisions, backlog, and
+# point-in-time production status. Appointment set/run counts come from the
+# /appointments endpoint, not stages.
 #
-# class: open | sold | lost
-#   Closing % = sold / (sold + lost) among jobs whose stage decision happened
-#   in the reporting week. Backlog = sold jobs not yet completed at week end.
-# pipeline: appointment_set | appointment_run | estimate_given | contract_signed
-#   Marks the stage that increments a pipeline counter when a job enters it.
-# production: started | in_production | completed
-#   Marks production-status stages.
+# class: open | sold | lost — closing % = sold / (sold + lost) among jobs
+# reaching a decision in the week; backlog = sold-not-completed at fetch time.
 
-# Which job field distinguishes retail vs insurance.
-# Either a top-level job field name (e.g. job_type) or "custom_field:<id>".
-division_field: job_type
+# Retail vs insurance comes from the job's boolean `insurance` flag; the
+# collector normalizes it to these values.
+division_field: insurance
 division_values:
-  retail: ["Retail", "Cash", "Retail Sale"]
-  insurance: ["Insurance", "Insurance Restoration", "Claim"]
+  retail: ["Retail"]
+  insurance: ["Insurance"]
 
-# Which job field holds the lead source (for CAC attribution when
-# settings.cac_attribution == leap). Values map through channels.yaml.
-source_field: referred_by
+# Lead source lives on the CUSTOMER record (referred_by_type).
+source_field: referred_by_type
 
 stages:
-  - name: "New Lead"
-    class: open
-  - name: "Appointment Set"
-    class: open
-    pipeline: appointment_set
-  - name: "Appointment Run"
-    class: open
-    pipeline: appointment_run
-  - name: "Estimate Sent"
-    class: open
-    pipeline: estimate_given
-  - name: "Contract Signed"
+  # --- pseudo-stages emitted by the collector from job date fields ---
+  - name: "(contract signed)"
     class: sold
     pipeline: contract_signed
-  - name: "Job Started"
-    class: sold
-    production: started
-  - name: "In Production"
-    class: sold
-    production: in_production
-  - name: "Completed"
+  - name: "(completed)"
     class: sold
     production: completed
-  - name: "Invoiced"
+
+  # --- real workflow stages (from live jobs sample) ---
+  - name: "Lead"
+    class: open
+  - name: "Scheduled"
+    class: open
+  - name: "Follow Up"
+    class: open
+  - name: "Long Term Follow Up"
+    class: open
+  - name: "Estimating"
+    class: open
+  - name: "Estimate Complete"
+    class: open
+  - name: "Estimate Presented / Out"
+    class: open
+    pipeline: estimate_given
+  - name: "Had Damage"
+    class: open
+  - name: "No Damage"
+    class: lost     # terminal: inspected, nothing to sell — confirm with owner
+  - name: "EP Sent / Claim Filed"
+    class: open
+  - name: "Claim Filed"
+    class: open
+  - name: "In Appraisal"
+    class: open
+  - name: "Insurance Denied"
+    class: lost
+  - name: "Claim Approved - Full"
     class: sold
-  - name: "Lost"
-    class: lost
-  - name: "Dead"
-    class: lost
+  - name: "Pre-Prod"
+    class: sold
+    production: started
+  - name: "Quality Control"
+    class: sold
+    production: in_production
+  - name: "Job Complete"
+    class: sold
+    production: completed
+  - name: "Invoicing"
+    class: sold
+    production: completed
+  - name: "PIF - Happy"
+    class: sold
+    production: completed
+  - name: "PIF - NH"
+    class: sold
+    production: completed

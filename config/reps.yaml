@@ -1,22 +1,72 @@
-# Canonical sales-rep identity map. The `key` is the canonical ID used in
-# snapshots and dashboards; each system's user ID maps back to it.
-#
-# FILL FROM DISCOVERY: replace the placeholder reps and IDs with real ones
-# from `python -m kpi discover --source leap|companycam|ghl`.
-#
+# Canonical sales-rep identity map, filled from live discovery (Jul 2026):
+# Leap /company/users, CompanyCam /users (active), GHL /users/ — matched by email.
 # Keep departed reps with active: false so history keeps rendering.
-unmapped_policy: warn   # warn | error — what compute does with unknown user IDs
+unmapped_policy: warn
 
 reps:
-  - key: rep_a
-    name: "Rep A (placeholder)"
+  - key: terrell
+    name: "Terrell Dyer"
     active: true
-    leap_user_id: "FILL_FROM_DISCOVERY"
-    companycam_user_id: "FILL_FROM_DISCOVERY"
-    ghl_user_id: "FILL_FROM_DISCOVERY"
-  - key: rep_b
-    name: "Rep B (placeholder)"
+    leap_user_id: "33349"
+    companycam_user_id: "2931198"
+    ghl_user_id: "c5mtY94nDsl72pszdLUS"
+  - key: chris_dyer
+    name: "Chris Dyer"
     active: true
-    leap_user_id: "FILL_FROM_DISCOVERY_2"
-    companycam_user_id: "FILL_FROM_DISCOVERY_2"
-    ghl_user_id: "FILL_FROM_DISCOVERY_2"
+    leap_user_id: "33895"
+    companycam_user_id: "2931199"
+    ghl_user_id: "Mnfia0eqKLWihs1tlOJ7"
+  - key: christian
+    name: "Christian Dyer"
+    active: true
+    leap_user_id: "34940"
+    companycam_user_id: "3660822"
+    ghl_user_id: "cgQxZGl5BFMni7BjzOAb"
+  - key: justin
+    name: "Justin Carnes"
+    active: true
+    leap_user_id: "58260"
+    companycam_user_id: "3030147"
+    ghl_user_id: "yOTvVxL6vbI2hWHbtr3I"
+  - key: mason
+    name: "Mason Broughman"
+    active: true
+    leap_user_id: "68652"
+    companycam_user_id: "3170181"
+    ghl_user_id: "jb2v1ctTSpRmlmQPGBto"
+  - key: wilson
+    name: "Wilson Mangaporo"
+    active: true
+    leap_user_id: "84209"
+    companycam_user_id: "3760826"
+    ghl_user_id: "mtLReXXNTJs6t50mJiS4"
+  - key: chris_johnson
+    name: "Chris Johnson"
+    active: true
+    leap_user_id: "98856"
+    companycam_user_id: "3760773"
+    ghl_user_id: "htrHGVsYCwZSO0jewHMB"
+  - key: scott
+    name: "Scott Gray"
+    active: true
+    leap_user_id: "98857"
+    companycam_user_id: "3810579"
+    ghl_user_id: "PEPwnJJ63oZcl025tEty"
+  - key: wyatt
+    name: "Wyatt Dyer"
+    active: true
+    leap_user_id: "104253"
+    companycam_user_id: "3659140"
+    ghl_user_id: "y2FtWGB7jzCZcWHrYEeE"
+  - key: adrien
+    name: "Adrien Dyer"
+    active: true
+    leap_user_id: "98475"
+    companycam_user_id: ""
+    ghl_user_id: "9VEH4WZW8un896aCe9OG"
+  - key: deedee
+    name: "DeeDee Dyer"
+    active: false   # office/admin, not a sales rep — mapped so uploads don't warn
+    leap_user_id: "48238"
+    companycam_user_id: ""
+    ghl_user_id: "d4k8eFHxN42oz2XuIwOW"

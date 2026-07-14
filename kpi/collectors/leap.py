@@ -1,17 +1,21 @@
-"""Leap CRM (formerly JobProgress) collector: jobs -> sales/production records.
+"""Leap CRM (formerly JobProgress) collector — verified against the live API.
 
-API: https://api.jobprogress.com/api/v3/ with a long-lived self-generated
-token. UNVERIFIED SPECIFICS (Leap's docs block automated readers — confirm in
-Phase B via `python -m kpi discover --source leap` and adjust here + config):
-  - auth header: `Authorization: Bearer <token>` (settings leap.auth_scheme:
-    bearer) vs raw token header (auth_scheme: token-header)
-  - jobs list date-filter params: assumed `updated_from` / `updated_to`
-  - field names on the job object: the normalizer below reads each logical
-    field from a list of candidate keys so most discovery findings are a
-    one-line change.
-
-The normalizer emits one record per job carrying the stage history (if the API
-exposes it) so compute can count decisions/pipeline/production events by week.
+Live-API facts this collector is built on (discovered Jul 2026):
+  - Base https://api.jobprogress.com/api/v3/, `Authorization: Bearer <token>`.
+  - Working endpoints: /jobs, /customers, /appointments, /company/users.
+    Pagination: ?page=N&limit=50 with meta.pagination; default order is
+    most-recently-updated first. NO server-side date filters exist.
+  - The company is small (~1.4k jobs, ~550 appointments), so we fetch
+    everything each run and filter locally. This also makes the backlog
+    snapshot accurate (computed over ALL open jobs at fetch time).
+  - Jobs expose: current_stage {code,color,name}, stage_last_modified,
+    insurance ("0"/"1" -> retail/insurance), contract_signed_date,
+    completion_date, plus includes: estimators (the rep), customer
+    (referred_by_type = lead source), financial_details (total_job_price,
+    total_payment_received, final_job_total).
+  - No stage-transition history is exposed, so decision events are
+    synthesized from date fields as pseudo-stages "(contract signed)" and
+    "(completed)" — classified in config/leap_stages.yaml.
 """
 from __future__ import annotations
 
@@ -23,34 +27,7 @@ from ..util.env import require_env
 from ..util.http import ApiSession
 
 PER_PAGE = 50
-MAX_PAGES = 5000
-
-# Candidate raw-field names per logical field, first match wins.
-FIELD_CANDIDATES = {
-    "rep_id": ["rep_id", "sales_rep_id", "estimator_id", "user_id"],
-    "stage": ["current_stage", "stage", "workflow_stage", "stage_name"],
-    "stage_entered_at": ["stage_changed_date", "stage_last_modified", "moved_to_stage_at"],
-    "contract_amount": ["amount", "total_amount", "contract_amount", "job_amount", "total_job_amount"],
-    "invoiced_amount": ["invoiced_amount", "total_invoiced", "invoice_amount"],
-    "collected_amount": ["payment_received", "total_received_payment", "amount_received"],
-    "cost_amount": ["total_cost", "job_cost", "actual_cost"],
-    "created_at": ["created_at", "created_date"],
-    "modified_at": ["updated_at", "modified_at", "last_modified"],
-}
-
-
-def _pick(raw: dict, logical: str):
-    for key in FIELD_CANDIDATES[logical]:
-        if raw.get(key) not in (None, ""):
-            return raw[key]
-    return None
-
-
-def _stage_name(value) -> str | None:
-    """Stages may arrive as a string or an object with a name/code."""
-    if isinstance(value, dict):
-        return value.get("name") or value.get("code")
-    return value
+MAX_PAGES = 400  # hard stop ≈ 20k records; company has ~1.4k jobs today
 
 
 def make_session(config: Config, transport=None) -> ApiSession:
@@ -67,69 +44,110 @@ def make_session(config: Config, transport=None) -> ApiSession:
 
 
 def _get_pages(session: ApiSession, path: str, params: dict) -> list[dict]:
-    """Laravel-style page/per_page pagination: loop until a short page."""
     items: list[dict] = []
     page = 1
     while page <= MAX_PAGES:
-        resp = session.get(path, params={**params, "page": page, "per_page": PER_PAGE})
+        resp = session.get(path, params={**params, "page": page, "limit": PER_PAGE})
         batch = resp.get("data") if isinstance(resp, dict) else resp
         if not batch:
             break
         items.extend(batch)
-        if len(batch) < PER_PAGE:
+        total_pages = ((resp.get("meta") or {}).get("pagination") or {}).get("total_pages")
+        if (total_pages and page >= total_pages) or len(batch) < PER_PAGE:
             break
         page += 1
     return items
 
 
+def _unwrap(value):
+    """Includes arrive either bare or wrapped as {"data": ...}."""
+    if isinstance(value, dict) and set(value.keys()) <= {"data"}:
+        return value["data"]
+    return value
+
+
+def _week_or_none(ts) -> str | None:
+    if not ts or str(ts).startswith("None"):
+        return None
+    try:
+        return weeks.week_of_timestamp(str(ts))
+    except (ValueError, TypeError):
+        return None
+
+
 def _normalize_job(raw: dict, config: Config) -> dict:
-    division_field = config.division_field
-    if division_field.startswith("custom_field:"):
-        wanted = division_field.split(":", 1)[1]
-        division_raw = next(
-            (
-                cf.get("value")
-                for cf in raw.get("custom_fields") or []
-                if str(cf.get("id")) == wanted or cf.get("name") == wanted
-            ),
-            None,
-        )
-    else:
-        division_raw = _stage_name(raw.get(division_field))
+    stage = raw.get("current_stage") or {}
+    stage_name = stage.get("name") if isinstance(stage, dict) else str(stage or "")
+    stage_entered_at = raw.get("stage_last_modified") or raw.get("updated_at")
 
-    history_raw = raw.get("stage_history") or raw.get("job_workflow_history") or []
-    stage_history = [
-        {
-            "stage": _stage_name(h.get("stage") or h.get("stage_name")),
-            "entered_at": h.get("created_at") or h.get("entered_at") or h.get("start_date"),
-        }
-        for h in history_raw
-        if h
-    ]
-    stage_raw = _stage_name(_pick(raw, "stage"))
-    stage_entered_at = _pick(raw, "stage_entered_at") or _pick(raw, "modified_at")
-    if not stage_history and stage_raw:
-        stage_history = [{"stage": stage_raw, "entered_at": stage_entered_at}]
+    history = []
+    if stage_name and stage_entered_at:
+        history.append({"stage": stage_name, "entered_at": stage_entered_at})
 
-    rep = raw.get("rep") or raw.get("sales_rep") or {}
-    rep_id = rep.get("id") if isinstance(rep, dict) else None
+    signed = raw.get("contract_signed_date")
+    if signed and not str(signed).startswith("None"):
+        history.append({"stage": "(contract signed)", "entered_at": signed})
+
+    completed = raw.get("completion_date")
+    if completed and not str(completed).startswith("None"):
+        # Skip the pseudo-event when the current stage already records the
+        # completion in the same week (avoids double-counting "completed").
+        cs = config.stage(stage_name)
+        same_week = _week_or_none(completed) == _week_or_none(stage_entered_at)
+        if not (cs and cs.production == "completed" and same_week):
+            history.append({"stage": "(completed)", "entered_at": completed})
+
+    estimators = _unwrap(raw.get("estimators")) or []
+    rep_id = str(estimators[0].get("id")) if estimators else ""
+
+    customer = _unwrap(raw.get("customer")) or {}
+    source_raw = (customer.get("referred_by_type") or "").strip()
+
+    fin = _unwrap(raw.get("financial_details")) or {}
+
+    def money(*keys):
+        for k in keys:
+            v = fin.get(k)
+            if v not in (None, "", "0", 0):
+                try:
+                    return float(v)
+                except (TypeError, ValueError):
+                    continue
+        return 0.0
 
     return {
         "type": "job",
         "id": str(raw.get("id")),
-        "customer_id": str(raw.get("customer_id") or (raw.get("customer") or {}).get("id") or ""),
-        "rep_leap_id": str(rep_id or _pick(raw, "rep_id") or ""),
-        "division_raw": division_raw,
-        "stage_raw": stage_raw,
+        "customer_id": str(raw.get("customer_id") or customer.get("id") or ""),
+        "rep_leap_id": rep_id,
+        "division_raw": "Insurance" if str(raw.get("insurance")) in ("1", "True", "true") else "Retail",
+        "stage_raw": stage_name,
         "stage_entered_at": stage_entered_at,
-        "stage_history": stage_history,
-        "source_raw": _stage_name(raw.get(config.source_field)) or "",
-        "contract_amount": float(_pick(raw, "contract_amount") or 0),
-        "invoiced_amount": float(_pick(raw, "invoiced_amount") or 0),
-        "collected_amount": float(_pick(raw, "collected_amount") or 0),
-        "cost_amount": float(_pick(raw, "cost_amount") or 0),
-        "created_at": _pick(raw, "created_at"),
-        "modified_at": _pick(raw, "modified_at"),
+        "stage_history": history,
+        "source_raw": source_raw,
+        "contract_amount": money("total_job_price", "final_job_total", "total_job_revenue"),
+        "invoiced_amount": money("final_job_total"),
+        "collected_amount": money("total_payment_received"),
+        "cost_amount": 0.0,  # job costs not exposed by the API; margin falls back to QB P&L
+        "created_at": raw.get("created_date") or raw.get("created_at"),
+        "modified_at": raw.get("updated_at"),
+    }
+
+
+def _normalize_appointment(raw: dict) -> dict:
+    result_field = raw.get("result")
+    if isinstance(result_field, (list, dict)):
+        result = "yes" if result_field else ""
+    else:
+        result = (result_field or "").strip()
+    return {
+        "type": "appointment",
+        "id": str(raw.get("id")),
+        "rep_leap_id": str(raw.get("user_id") or ""),
+        "customer_id": str(raw.get("customer_id") or ""),
+        "scheduled_for": raw.get("start_date_time"),
+        "completed": bool(raw.get("is_completed")) or bool(result),
+        "created_at": raw.get("created_at"),
     }
 
 
@@ -138,66 +156,73 @@ def fetch_range(config: Config, start_date: date, end_date: date, transport=None
     raw_jobs = _get_pages(
         session,
         "/jobs",
-        {
-            # UNVERIFIED param names — confirm via discovery in Phase B.
-            "updated_from": start_date.isoformat(),
-            "updated_to": end_date.isoformat(),
-        },
+        {"includes[]": ["estimators", "customer", "financial_details"]},
     )
-    records = [_normalize_job(j, config) for j in raw_jobs]
-    snapshot = _backlog_snapshot(records, config, end_date)
+    all_jobs = [_normalize_job(j, config) for j in raw_jobs]
+    raw_appts = _get_pages(session, "/appointments", {})
+    all_appts = [_normalize_appointment(a) for a in raw_appts]
+
+    # Keep only records with an event inside the requested range; the
+    # backlog snapshot is computed over ALL jobs (point-in-time truth).
+    lo, hi = start_date.isoformat(), end_date.isoformat()
+
+    def _in_range(wid_source) -> bool:
+        wid = _week_or_none(wid_source)
+        if wid is None:
+            return False
+        ws, we = weeks.week_bounds(wid)
+        return ws.isoformat() <= hi and we.isoformat() >= lo
+
+    records: list[dict] = []
+    for job in all_jobs:
+        if any(_in_range(h["entered_at"]) for h in job["stage_history"]):
+            records.append(job)
+    for appt in all_appts:
+        if _in_range(appt.get("scheduled_for")):
+            records.append(appt)
+
+    snapshot = _backlog_snapshot(all_jobs, config, end_date)
     if snapshot:
         records.append(snapshot)
     return records
 
 
-def _backlog_snapshot(records: list[dict], config: Config, as_of: date) -> dict | None:
-    """Point-in-time backlog from the fetched jobs' CURRENT stages.
-
-    Best-effort: only jobs modified in the fetch window are visible, so this
-    undercounts long-idle backlog. Phase B should replace it with a dedicated
-    open-jobs query once discovery confirms a stage filter param.
-    """
+def _backlog_snapshot(all_jobs: list[dict], config: Config, as_of: date) -> dict | None:
     backlog_jobs = 0
     backlog_value = 0.0
     in_production = 0
-    for r in records:
-        if r.get("type") != "job":
-            continue
+    for r in all_jobs:
         stage = config.stage(r.get("stage_raw"))
         if stage is None or stage.cls != "sold" or stage.production == "completed":
             continue
         backlog_jobs += 1
         backlog_value += r.get("contract_amount") or 0
-        if stage.production == "in_production":
+        if stage.production in ("in_production", "started"):
             in_production += 1
-    if backlog_jobs == 0:
-        return None
     return {
         "type": "backlog_snapshot",
         "as_of": as_of.isoformat(),
         "backlog_jobs": backlog_jobs,
         "backlog_value": round(backlog_value, 2),
         "in_production_jobs": in_production,
-        "basis": "jobs_modified_in_window",
+        "basis": "all_open_jobs_at_fetch_time",
     }
 
 
 def bucket_week(record: dict) -> list[str]:
-    """A job belongs to every week its stage history has an event in."""
+    if record.get("type") == "appointment":
+        wid = _week_or_none(record.get("scheduled_for"))
+        return [wid] if wid else []
     if record.get("type") != "job":
-        ts = record.get("as_of")
-        return [weeks.week_of_timestamp(ts)] if ts else []
+        wid = _week_or_none(record.get("as_of"))
+        return [wid] if wid else []
     wids = {
-        weeks.week_of_timestamp(h["entered_at"])
-        for h in record.get("stage_history") or []
-        if h.get("entered_at")
+        w for h in record.get("stage_history") or []
+        if (w := _week_or_none(h.get("entered_at")))
     }
-    if not wids and record.get("modified_at"):
-        wids = {weeks.week_of_timestamp(record["modified_at"])}
     return sorted(wids)
 
 
 def fetch_users(config: Config, transport=None) -> list[dict]:
     session = make_session(config, transport)
-    return _get_pages(session, "/users", {})
+    return _get_pages(session, "/company/users", {})

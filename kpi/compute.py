@@ -182,6 +182,16 @@ def compute_week(
             if r.get("type") == "backlog_snapshot":
                 backlog = r
                 continue
+            if r.get("type") == "appointment":
+                # Appointments come from Leap's /appointments endpoint:
+                # "set" = scheduled in the week, "run" = marked completed/resulted.
+                if r.get("scheduled_for"):
+                    day = weeks.to_business(r["scheduled_for"]).date()
+                    if week_start <= day <= week_end:
+                        pipeline["appointments_set"] += 1
+                        if r.get("completed"):
+                            pipeline["appointments_run"] += 1
+                continue
             if r.get("type") != "job":
                 continue
 

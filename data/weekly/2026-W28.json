@@ -1,0 +1,146 @@
+{
+  "generated_at": "2026-07-13T20:35:36.889376-04:00",
+  "kpis": {
+    "avg_job_size": 10571.46,
+    "cac_by_source": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": null,
+      "referral": null,
+      "website": null
+    },
+    "closing_pct_insurance": {
+      "by_rep": {
+        "unmapped": {
+          "lost": 2,
+          "pct": 0.0,
+          "sold": 0
+        }
+      },
+      "overall": {
+        "lost": 2,
+        "pct": 0.0,
+        "sold": 0
+      }
+    },
+    "closing_pct_retail": {
+      "by_rep": {
+        "unmapped": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 5
+        }
+      },
+      "overall": {
+        "lost": 0,
+        "pct": 100.0,
+        "sold": 5
+      }
+    },
+    "cost_per_lead": {
+      "door_knocking": null,
+      "facebook": 0.0,
+      "google": null,
+      "google_lsa": null,
+      "other": 0.0,
+      "referral": null,
+      "website": null
+    },
+    "customers_by_source": {
+      "door_knocking": 0,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 0,
+      "referral": 5,
+      "website": 0
+    },
+    "gross_margin": {
+      "basis": "quickbooks_pnl_prorata",
+      "jobs_counted": 0,
+      "pct": -276.7
+    },
+    "inspections_by_rep": {
+      "adrien": 0,
+      "chris_dyer": 0,
+      "chris_johnson": 7,
+      "christian": 0,
+      "justin": 4,
+      "mason": 8,
+      "scott": 12,
+      "terrell": 7,
+      "wilson": 0,
+      "wyatt": 0
+    },
+    "leads_by_source": {
+      "door_knocking": 0,
+      "facebook": 3,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 28,
+      "referral": 0,
+      "website": 1
+    },
+    "pipeline": {
+      "appointments_run": 0,
+      "appointments_set": 2,
+      "contracts_signed": 5,
+      "estimates_given": 12
+    },
+    "production": {
+      "backlog_jobs": 10,
+      "backlog_value": 173469.38,
+      "completed": 20,
+      "in_production": 9,
+      "started": 4
+    },
+    "revenue_collected": {
+      "invoiced": 376266.44,
+      "leap": 212236.49,
+      "note": "quickbooks = monthly P&L revenue pro-rated to the week (different accounting basis)",
+      "quickbooks": 4571.54
+    },
+    "revenue_sold": {
+      "contracts": 5,
+      "total": 52857.31
+    },
+    "spend_by_channel": {
+      "door_knocking": 0.0,
+      "facebook": 0.0,
+      "google": 184.03,
+      "google_lsa": 174.03,
+      "other": 0.0,
+      "referral": 0.0,
+      "website": 0.0
+    }
+  },
+  "schema_version": 1,
+  "sections": {
+    "inspections": {
+      "as_of_week": "2026-W28",
+      "status": "ok"
+    },
+    "marketing": {
+      "as_of_week": "2026-W28",
+      "status": "ok"
+    },
+    "revenue_production": {
+      "as_of_week": "2026-W28",
+      "status": "ok"
+    },
+    "sales": {
+      "as_of_week": "2026-W28",
+      "status": "ok"
+    },
+    "spend": {
+      "as_of_week": "2026-W28",
+      "status": "ok"
+    }
+  },
+  "warnings": [],
+  "week": "2026-W28",
+  "week_end": "2026-07-12",
+  "week_start": "2026-07-06"
+}

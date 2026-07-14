@@ -169,54 +169,98 @@ def test_ghl_version_header_present(config):
 
 # ---------------- leap ----------------
 
+# Real Leap API v3 job shape (verified against the live API, Jul 2026).
+# NOTE: the test config classifies "Contract Signed"-era stages differently
+# than production config; these fixtures use stages from tests/fixtures/config.
 LEAP_RAW_JOB = {
     "id": 88101,
-    "customer": {"id": 5501},
-    "rep": {"id": 12345, "first_name": "John"},
-    "current_stage": {"name": "Contract Signed", "code": "cs"},
-    "stage_changed_date": "2026-06-30 14:00:00",
-    "job_type": "Insurance Restoration",
-    "referred_by": "Facebook",
-    "amount": "18500.00",
-    "total_cost": None,
+    "customer_id": "5501",
+    "customer": {
+        "data": {"id": 5501, "referred_by_type": "referral", "referred_by_note": ""}
+    },
+    "estimators": {"data": [{"id": 12345, "first_name": "John", "last_name": "Smith"}]},
+    "current_stage": {"name": "In Production", "code": "123", "color": "blue"},
+    "stage_last_modified": "2026-07-01 09:00:00",
+    "insurance": "1",
+    "contract_signed_date": "2026-06-30 14:00:00",
+    "completion_date": "None",
+    "awarded_date": "None",
+    "financial_details": {
+        "total_job_price": "18500.00",
+        "final_job_total": "18500.00",
+        "total_payment_received": "9250.00",
+    },
+    "created_date": "2026-06-12 09:00:00",
     "created_at": "2026-06-12 09:00:00",
-    "updated_at": "2026-06-30 14:00:00",
-    "job_workflow_history": [
-        {"stage": {"name": "Estimate Sent"}, "created_at": "2026-06-24 10:00:00"},
-        {"stage": {"name": "Contract Signed"}, "created_at": "2026-06-30 14:00:00"},
-    ],
+    "updated_at": "2026-07-01 09:00:00",
+}
+
+LEAP_RAW_APPT = {
+    "id": 771,
+    "user_id": 12345,
+    "customer_id": 5501,
+    "start_date_time": "2026-07-01 10:00:00",
+    "is_completed": 1,
+    "result": "Inspected roof",
+    "created_at": "2026-06-28 08:00:00",
 }
 
 
-def test_leap_normalizer_maps_fields(monkeypatch, config):
-    transport = FakeTransport([FakeResponse({"data": [LEAP_RAW_JOB]})])
+def _leap_transport():
+    def handler(method, url, kwargs):
+        if "/jobs" in url:
+            if kwargs["params"].get("page") == 1:
+                return FakeResponse({"data": [LEAP_RAW_JOB],
+                                     "meta": {"pagination": {"total_pages": 1}}})
+            return FakeResponse({"data": []})
+        if "/appointments" in url:
+            if kwargs["params"].get("page") == 1:
+                return FakeResponse({"data": [LEAP_RAW_APPT],
+                                     "meta": {"pagination": {"total_pages": 1}}})
+            return FakeResponse({"data": []})
+        raise AssertionError(f"unexpected url {url}")
+
+    return FakeTransport(handler=handler)
+
+
+def test_leap_normalizer_maps_real_fields(monkeypatch, config):
+    transport = _leap_transport()
     monkeypatch.setattr(
         leap, "make_session",
         lambda cfg, tr=None: _no_sleep_session("https://api.jobprogress.com/api/v3", transport),
     )
     records = leap.fetch_range(config, date(2026, 6, 29), date(2026, 7, 5))
-    job = records[0]
-    assert job["type"] == "job"
+    job = next(r for r in records if r["type"] == "job")
     assert job["rep_leap_id"] == "12345"
-    assert job["division_raw"] == "Insurance Restoration"
-    assert job["stage_raw"] == "Contract Signed"
-    assert job["source_raw"] == "Facebook"
+    assert job["division_raw"] == "Insurance"        # insurance flag "1"
+    assert job["stage_raw"] == "In Production"
+    assert job["source_raw"] == "referral"           # customer.referred_by_type
     assert job["contract_amount"] == 18500.0
-    assert [h["stage"] for h in job["stage_history"]] == ["Estimate Sent", "Contract Signed"]
-    # Sold-not-completed job -> backlog snapshot record present.
-    assert records[-1]["type"] == "backlog_snapshot"
-    assert records[-1]["backlog_jobs"] == 1
+    assert job["collected_amount"] == 9250.0
+    # Synthesized history: current stage + "(contract signed)" pseudo-event.
+    assert {h["stage"] for h in job["stage_history"]} == {"In Production", "(contract signed)"}
+
+    appt = next(r for r in records if r["type"] == "appointment")
+    assert appt["rep_leap_id"] == "12345"
+    assert appt["completed"] is True
+
+    snapshot = next(r for r in records if r["type"] == "backlog_snapshot")
+    # "In Production" is sold-not-completed in the fixture config -> in backlog.
+    assert snapshot["backlog_jobs"] == 1
+    assert snapshot["backlog_value"] == 18500.0
 
 
-def test_leap_bucket_week_spans_history():
+def test_leap_bucket_week_spans_history_and_appts():
     record = {
         "type": "job",
         "stage_history": [
-            {"stage": "Estimate Sent", "entered_at": "2026-06-24 10:00:00"},
-            {"stage": "Contract Signed", "entered_at": "2026-06-30 14:00:00"},
+            {"stage": "(contract signed)", "entered_at": "2026-06-24 10:00:00"},
+            {"stage": "In Production", "entered_at": "2026-06-30 14:00:00"},
         ],
     }
     assert leap.bucket_week(record) == ["2026-W26", "2026-W27"]
+    appt = {"type": "appointment", "scheduled_for": "2026-07-01 10:00:00"}
+    assert leap.bucket_week(appt) == ["2026-W27"]
 
 
 # ---------------- envelope / registry ----------------

@@ -10,8 +10,12 @@
 # spend but not attributable to a single lead source, so it shows in total
 # spend without distorting per-channel cost/lead and CAC.
 #
-# ghl_sources lists are still placeholders — FILL FROM DISCOVERY once the
-# GHL token is available (`python -m kpi discover --source ghl`).
+# ghl_sources updated from live discovery (Jul 2026). Observed 30-day source
+# values: other(99), facebook(73), conversation(25), empty(12), quickbooks(8),
+# Website Form(6), Website Short Form(2) + one-off form names.
+# NOTE for owner: most GHL leads carry source "other" — until sources are set
+# properly in GHL, leads-by-source will be dominated by the Other bucket.
+# Leap-side attribution (customer referred_by_type) drives CAC instead.
 match: case_insensitive_trim
 default_channel: other
 
@@ -19,7 +23,7 @@ channels:
   - key: google
     label: "Google Ads"
     qb_account: "Google"
-    ghl_sources: ["Google", "Google Ads", "google ads", "GMB", "Google Organic"]
+    ghl_sources: ["Google", "Google Ads", "google ads", "GMB", "Google Organic", "adwords"]
   - key: google_lsa
     label: "Google LSA"
     qb_account: "Google LSA"
@@ -28,15 +32,20 @@ channels:
     label: "Facebook / Instagram"
     qb_account: "Facebook"
     ghl_sources: ["Facebook", "fb", "FB Lead Ad", "Instagram", "Meta"]
+  - key: website
+    label: "Website"
+    qb_account: null
+    ghl_sources: ["Website Form", "Website Short Form", "Customer Input Form"]
   - key: door_knocking
     label: "Door Knocking"
     qb_account: null
-    ghl_sources: ["Door Knock", "Door Knocking", "canvassing", "Canvass"]
+    ghl_sources: ["Door Knock", "Door Knocking", "canvassing", "Canvass",
+                  "Southern Roofing & Exterior Inspection", "Post Inspection"]
   - key: referral
     label: "Referral"
     qb_account: null
-    ghl_sources: ["Referral", "Customer Referral", "Word of Mouth"]
+    ghl_sources: ["Referral", "Customer Referral", "Word of Mouth", "referral", "customer"]
   - key: other
     label: "Other"
     qb_account: "Ads Management"
-    ghl_sources: []
+    ghl_sources: ["other", "conversation", "quickbooks", "Frontline Sales"]
