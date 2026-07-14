@@ -1,6 +1,6 @@
 {
   "error": null,
-  "fetched_at": "2026-07-13T20:35:11.692347-04:00",
+  "fetched_at": "2026-07-13T20:52:19.760708-04:00",
   "records": [
     {
       "collected_amount": 0.0,
@@ -144,7 +144,7 @@
       "id": "7992810",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 00:02:09",
-      "rep_leap_id": "",
+      "rep_leap_id": "58260",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 00:01:57",
       "stage_history": [
@@ -166,7 +166,7 @@
       "id": "7992805",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 23:58:53",
-      "rep_leap_id": "",
+      "rep_leap_id": "58260",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 23:58:39",
       "stage_history": [
@@ -210,7 +210,7 @@
       "id": "7992485",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 13:37:47",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 13:37:47",
       "stage_history": [
@@ -232,7 +232,7 @@
       "id": "7989526",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-10 15:11:29",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 20:56:21",
       "stage_history": [
@@ -254,7 +254,7 @@
       "id": "7987303",
       "invoiced_amount": 950.0,
       "modified_at": "2026-07-08 19:51:39",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 19:51:38",
       "stage_history": [
@@ -280,7 +280,7 @@
       "id": "7987126",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-06 23:47:52",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 20:39:22",
       "stage_history": [
@@ -302,7 +302,7 @@
       "id": "7986665",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 14:42:50",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 13:04:42",
       "stage_history": [
@@ -328,7 +328,7 @@
       "id": "7986363",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-06 19:01:23",
-      "rep_leap_id": "",
+      "rep_leap_id": "58260",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 19:00:50",
       "stage_history": [
@@ -350,7 +350,7 @@
       "id": "7985652",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-06 17:50:50",
-      "rep_leap_id": "",
+      "rep_leap_id": "58260",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 17:50:34",
       "stage_history": [
@@ -372,7 +372,7 @@
       "id": "7985226",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-10 15:42:16",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-10 15:42:16",
       "stage_history": [
@@ -394,7 +394,7 @@
       "id": "7982173",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-06 09:58:27",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 09:58:27",
       "stage_history": [
@@ -416,7 +416,7 @@
       "id": "7980458",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-10 01:33:04",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "customer",
       "stage_entered_at": "2026-07-10 01:26:07",
       "stage_history": [
@@ -438,7 +438,7 @@
       "id": "7980406",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-10 17:37:27",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 12:57:28",
       "stage_history": [
@@ -460,7 +460,7 @@
       "id": "7979972",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-14 00:24:06",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-10 01:25:36",
       "stage_history": [
@@ -482,7 +482,7 @@
       "id": "7979905",
       "invoiced_amount": 1400.0,
       "modified_at": "2026-07-08 21:16:14",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 15:45:23",
       "stage_history": [
@@ -508,7 +508,7 @@
       "id": "7978777",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-10 17:34:40",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-10 15:43:51",
       "stage_history": [
@@ -530,7 +530,7 @@
       "id": "7962051",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-06 16:38:10",
-      "rep_leap_id": "",
+      "rep_leap_id": "34940",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 16:38:09",
       "stage_history": [
@@ -552,7 +552,7 @@
       "id": "7962028",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-09 18:29:01",
-      "rep_leap_id": "",
+      "rep_leap_id": "34940",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-09 18:29:01",
       "stage_history": [
@@ -574,7 +574,7 @@
       "id": "7954031",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-10 15:42:39",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-10 15:42:39",
       "stage_history": [
@@ -596,7 +596,7 @@
       "id": "7947060",
       "invoiced_amount": 4415.92,
       "modified_at": "2026-07-13 20:53:48",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "customer",
       "stage_entered_at": "2026-07-13 20:53:47",
       "stage_history": [
@@ -622,7 +622,7 @@
       "id": "7941158",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-09 17:55:13",
-      "rep_leap_id": "",
+      "rep_leap_id": "34940",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-09 17:55:13",
       "stage_history": [
@@ -648,7 +648,7 @@
       "id": "7941103",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 13:14:04",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 13:14:04",
       "stage_history": [
@@ -670,7 +670,7 @@
       "id": "7930276",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-06 16:19:10",
-      "rep_leap_id": "",
+      "rep_leap_id": "34940",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 16:19:10",
       "stage_history": [
@@ -696,7 +696,7 @@
       "id": "7930068",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 13:38:21",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 13:38:21",
       "stage_history": [
@@ -770,7 +770,7 @@
       "id": "7894096",
       "invoiced_amount": 975.56,
       "modified_at": "2026-07-06 23:12:28",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 23:11:41",
       "stage_history": [
@@ -796,7 +796,7 @@
       "id": "7889337",
       "invoiced_amount": 2694.29,
       "modified_at": "2026-07-07 15:37:41",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 15:37:41",
       "stage_history": [
@@ -826,7 +826,7 @@
       "id": "7886539",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-10 17:36:15",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-10 15:43:04",
       "stage_history": [
@@ -848,7 +848,7 @@
       "id": "7876179",
       "invoiced_amount": 34851.24,
       "modified_at": "2026-07-09 12:45:54",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "",
       "stage_entered_at": "2026-07-07 16:51:10",
       "stage_history": [
@@ -874,7 +874,7 @@
       "id": "7867288",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 20:59:05",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 20:59:05",
       "stage_history": [
@@ -896,7 +896,7 @@
       "id": "7858355",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-10 17:34:03",
-      "rep_leap_id": "",
+      "rep_leap_id": "33895",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-10 15:44:20",
       "stage_history": [
@@ -918,7 +918,7 @@
       "id": "7834705",
       "invoiced_amount": 887.58,
       "modified_at": "2026-07-06 16:33:28",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "",
       "stage_entered_at": "2026-07-06 16:33:28",
       "stage_history": [
@@ -944,7 +944,7 @@
       "id": "7828200",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:27:45",
-      "rep_leap_id": "",
+      "rep_leap_id": "33895",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:27:45",
       "stage_history": [
@@ -966,7 +966,7 @@
       "id": "7826865",
       "invoiced_amount": 7693.82,
       "modified_at": "2026-07-08 21:11:35",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "",
       "stage_entered_at": "2026-07-08 21:11:35",
       "stage_history": [
@@ -992,7 +992,7 @@
       "id": "7806746",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:16:08",
-      "rep_leap_id": "",
+      "rep_leap_id": "33895",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:16:08",
       "stage_history": [
@@ -1014,7 +1014,7 @@
       "id": "7785107",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:44:52",
-      "rep_leap_id": "",
+      "rep_leap_id": "98857",
       "source_raw": "",
       "stage_entered_at": "2026-07-07 21:44:52",
       "stage_history": [
@@ -1036,7 +1036,7 @@
       "id": "7784297",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:44:53",
-      "rep_leap_id": "",
+      "rep_leap_id": "101550",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:44:53",
       "stage_history": [
@@ -1058,7 +1058,7 @@
       "id": "7775819",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:44:54",
-      "rep_leap_id": "",
+      "rep_leap_id": "101550",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:44:54",
       "stage_history": [
@@ -1080,7 +1080,7 @@
       "id": "7768635",
       "invoiced_amount": 11905.93,
       "modified_at": "2026-07-09 18:51:54",
-      "rep_leap_id": "",
+      "rep_leap_id": "33895",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-09 18:51:54",
       "stage_history": [
@@ -1128,7 +1128,7 @@
       "id": "7726127",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:17:27",
-      "rep_leap_id": "",
+      "rep_leap_id": "98857",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:17:27",
       "stage_history": [
@@ -1150,7 +1150,7 @@
       "id": "7704887",
       "invoiced_amount": 9338.2,
       "modified_at": "2026-07-09 15:20:31",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-09 15:12:57",
       "stage_history": [
@@ -1180,7 +1180,7 @@
       "id": "7639715",
       "invoiced_amount": 14425.0,
       "modified_at": "2026-07-09 21:25:27",
-      "rep_leap_id": "",
+      "rep_leap_id": "33895",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 12:52:12",
       "stage_history": [
@@ -1206,7 +1206,7 @@
       "id": "7629775",
       "invoiced_amount": 9300.0,
       "modified_at": "2026-07-07 15:47:51",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "customer",
       "stage_entered_at": "2026-07-07 15:47:39",
       "stage_history": [
@@ -1236,7 +1236,7 @@
       "id": "7620825",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:16:42",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:16:42",
       "stage_history": [
@@ -1258,7 +1258,7 @@
       "id": "7606646",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:16:41",
-      "rep_leap_id": "",
+      "rep_leap_id": "101550",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:16:41",
       "stage_history": [
@@ -1280,7 +1280,7 @@
       "id": "7587936",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:19:42",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:19:41",
       "stage_history": [
@@ -1302,7 +1302,7 @@
       "id": "7585626",
       "invoiced_amount": 16083.3,
       "modified_at": "2026-07-10 17:50:47",
-      "rep_leap_id": "",
+      "rep_leap_id": "101550",
       "source_raw": "customer",
       "stage_entered_at": "2026-07-10 17:50:47",
       "stage_history": [
@@ -1324,7 +1324,7 @@
       "id": "7581687",
       "invoiced_amount": 650.0,
       "modified_at": "2026-07-06 16:34:49",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 16:34:49",
       "stage_history": [
@@ -1335,10 +1335,6 @@
         {
           "entered_at": "2026-04-01",
           "stage": "(contract signed)"
-        },
-        {
-          "entered_at": "2026-07-06",
-          "stage": "(completed)"
         }
       ],
       "stage_raw": "PIF - NH",
@@ -1354,7 +1350,7 @@
       "id": "7577586",
       "invoiced_amount": 46091.39,
       "modified_at": "2026-07-07 01:30:51",
-      "rep_leap_id": "",
+      "rep_leap_id": "33895",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 22:58:01",
       "stage_history": [
@@ -1380,7 +1376,7 @@
       "id": "7531508",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:19:46",
-      "rep_leap_id": "",
+      "rep_leap_id": "33895",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:19:46",
       "stage_history": [
@@ -1402,7 +1398,7 @@
       "id": "7522508",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:16:44",
-      "rep_leap_id": "",
+      "rep_leap_id": "78880",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:16:44",
       "stage_history": [
@@ -1424,7 +1420,7 @@
       "id": "7510762",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:29:12",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:29:12",
       "stage_history": [
@@ -1472,7 +1468,7 @@
       "id": "7481472",
       "invoiced_amount": 20096.39,
       "modified_at": "2026-07-08 14:43:36",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 14:43:35",
       "stage_history": [
@@ -1498,7 +1494,7 @@
       "id": "7477101",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:16:43",
-      "rep_leap_id": "",
+      "rep_leap_id": "58260",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:16:43",
       "stage_history": [
@@ -1520,7 +1516,7 @@
       "id": "7460980",
       "invoiced_amount": 20393.9,
       "modified_at": "2026-07-06 16:25:56",
-      "rep_leap_id": "",
+      "rep_leap_id": "101550",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 16:25:56",
       "stage_history": [
@@ -1550,7 +1546,7 @@
       "id": "7460196",
       "invoiced_amount": 16565.91,
       "modified_at": "2026-07-06 16:36:45",
-      "rep_leap_id": "",
+      "rep_leap_id": "58260",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 16:36:45",
       "stage_history": [
@@ -1580,7 +1576,7 @@
       "id": "7438136",
       "invoiced_amount": 20213.6,
       "modified_at": "2026-07-07 21:48:36",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:36",
       "stage_history": [
@@ -1602,7 +1598,7 @@
       "id": "7435126",
       "invoiced_amount": 2065.16,
       "modified_at": "2026-07-06 16:32:37",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-06 16:32:36",
       "stage_history": [
@@ -1632,7 +1628,7 @@
       "id": "7425943",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:37",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:37",
       "stage_history": [
@@ -1654,7 +1650,7 @@
       "id": "7411744",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:38",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:38",
       "stage_history": [
@@ -1676,7 +1672,7 @@
       "id": "7404522",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:19:43",
-      "rep_leap_id": "",
+      "rep_leap_id": "98857",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:19:43",
       "stage_history": [
@@ -1698,7 +1694,7 @@
       "id": "7368126",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:40",
-      "rep_leap_id": "",
+      "rep_leap_id": "98859",
       "source_raw": "other",
       "stage_entered_at": "2026-07-07 21:48:40",
       "stage_history": [
@@ -1720,7 +1716,7 @@
       "id": "7367340",
       "invoiced_amount": 30136.34,
       "modified_at": "2026-07-07 17:03:37",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 17:03:37",
       "stage_history": [
@@ -1750,7 +1746,7 @@
       "id": "7364426",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:19:39",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:19:39",
       "stage_history": [
@@ -1772,7 +1768,7 @@
       "id": "7359777",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:44:56",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:44:56",
       "stage_history": [
@@ -1794,7 +1790,7 @@
       "id": "7324840",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:29:11",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:29:11",
       "stage_history": [
@@ -1816,7 +1812,7 @@
       "id": "7287688",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:41",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:41",
       "stage_history": [
@@ -1838,7 +1834,7 @@
       "id": "7272103",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 13:00:33",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 13:00:33",
       "stage_history": [
@@ -1860,7 +1856,7 @@
       "id": "7202451",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:42",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:42",
       "stage_history": [
@@ -1882,7 +1878,7 @@
       "id": "7171305",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 15:29:19",
-      "rep_leap_id": "",
+      "rep_leap_id": "98859",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 15:29:19",
       "stage_history": [
@@ -1904,7 +1900,7 @@
       "id": "7152701",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:19:38",
-      "rep_leap_id": "",
+      "rep_leap_id": "98857",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:19:38",
       "stage_history": [
@@ -1930,7 +1926,7 @@
       "id": "7152487",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:43",
-      "rep_leap_id": "",
+      "rep_leap_id": "98858",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:43",
       "stage_history": [
@@ -1952,7 +1948,7 @@
       "id": "7152465",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:44",
-      "rep_leap_id": "",
+      "rep_leap_id": "98858",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:44",
       "stage_history": [
@@ -1974,7 +1970,7 @@
       "id": "7141389",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:29:16",
-      "rep_leap_id": "",
+      "rep_leap_id": "98858",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:29:16",
       "stage_history": [
@@ -2000,7 +1996,7 @@
       "id": "7105807",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:29:15",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:29:15",
       "stage_history": [
@@ -2022,7 +2018,7 @@
       "id": "7096863",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:29:17",
-      "rep_leap_id": "",
+      "rep_leap_id": "98859",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:29:17",
       "stage_history": [
@@ -2048,7 +2044,7 @@
       "id": "7074495",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:29:19",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "",
       "stage_entered_at": "2026-07-07 21:29:19",
       "stage_history": [
@@ -2070,7 +2066,7 @@
       "id": "7064514",
       "invoiced_amount": 15000.0,
       "modified_at": "2026-07-07 21:19:40",
-      "rep_leap_id": "",
+      "rep_leap_id": "58260",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:19:40",
       "stage_history": [
@@ -2092,7 +2088,7 @@
       "id": "7061493",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 15:21:23",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 15:21:22",
       "stage_history": [
@@ -2114,7 +2110,7 @@
       "id": "7048315",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 15:21:24",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "",
       "stage_entered_at": "2026-07-08 15:21:24",
       "stage_history": [
@@ -2136,7 +2132,7 @@
       "id": "7048267",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 15:21:25",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "",
       "stage_entered_at": "2026-07-08 15:21:25",
       "stage_history": [
@@ -2158,7 +2154,7 @@
       "id": "7048259",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:41:01",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:41:01",
       "stage_history": [
@@ -2180,7 +2176,7 @@
       "id": "7048243",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 15:29:04",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 15:29:04",
       "stage_history": [
@@ -2202,7 +2198,7 @@
       "id": "7048217",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:51",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:51",
       "stage_history": [
@@ -2224,7 +2220,7 @@
       "id": "7036025",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-10 17:35:40",
-      "rep_leap_id": "",
+      "rep_leap_id": "98856",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-10 15:43:27",
       "stage_history": [
@@ -2246,7 +2242,7 @@
       "id": "7031987",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:29:14",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:29:14",
       "stage_history": [
@@ -2268,7 +2264,7 @@
       "id": "7028459",
       "invoiced_amount": 28234.56,
       "modified_at": "2026-07-08 19:03:42",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 19:03:42",
       "stage_history": [
@@ -2320,7 +2316,7 @@
       "id": "7003571",
       "invoiced_amount": 15036.69,
       "modified_at": "2026-07-09 13:58:28",
-      "rep_leap_id": "",
+      "rep_leap_id": "84209",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-09 13:58:28",
       "stage_history": [
@@ -2350,7 +2346,7 @@
       "id": "7003506",
       "invoiced_amount": 46261.66,
       "modified_at": "2026-07-09 15:47:10",
-      "rep_leap_id": "",
+      "rep_leap_id": "33349",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-09 15:46:49",
       "stage_history": [
@@ -2380,7 +2376,7 @@
       "id": "6986810",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:29:20",
-      "rep_leap_id": "",
+      "rep_leap_id": "98475",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:29:20",
       "stage_history": [
@@ -2406,7 +2402,7 @@
       "id": "6000303",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 15:21:21",
-      "rep_leap_id": "",
+      "rep_leap_id": "87097",
       "source_raw": "",
       "stage_entered_at": "2026-07-08 15:21:21",
       "stage_history": [
@@ -2450,7 +2446,7 @@
       "id": "5914643",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 15:21:19",
-      "rep_leap_id": "",
+      "rep_leap_id": "33895",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 15:21:19",
       "stage_history": [
@@ -2476,7 +2472,7 @@
       "id": "5879581",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:56",
-      "rep_leap_id": "",
+      "rep_leap_id": "78880",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:56",
       "stage_history": [
@@ -2498,7 +2494,7 @@
       "id": "5867004",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:54",
-      "rep_leap_id": "",
+      "rep_leap_id": "78880",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:54",
       "stage_history": [
@@ -2542,7 +2538,7 @@
       "id": "5808358",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:53",
-      "rep_leap_id": "",
+      "rep_leap_id": "78880",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:52",
       "stage_history": [
@@ -2564,7 +2560,7 @@
       "id": "5781624",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 15:21:17",
-      "rep_leap_id": "",
+      "rep_leap_id": "83975",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 15:21:16",
       "stage_history": [
@@ -2586,7 +2582,7 @@
       "id": "5749058",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 15:21:15",
-      "rep_leap_id": "",
+      "rep_leap_id": "83975",
       "source_raw": "",
       "stage_entered_at": "2026-07-08 15:21:15",
       "stage_history": [
@@ -2608,7 +2604,7 @@
       "id": "5719793",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:58",
-      "rep_leap_id": "",
+      "rep_leap_id": "83975",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:57",
       "stage_history": [
@@ -2630,7 +2626,7 @@
       "id": "5699117",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:48:46",
-      "rep_leap_id": "",
+      "rep_leap_id": "78880",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:48:46",
       "stage_history": [
@@ -2652,7 +2648,7 @@
       "id": "5599846",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:49:00",
-      "rep_leap_id": "",
+      "rep_leap_id": "78880",
       "source_raw": "",
       "stage_entered_at": "2026-07-07 21:48:59",
       "stage_history": [
@@ -2674,7 +2670,7 @@
       "id": "5495202",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:49:01",
-      "rep_leap_id": "",
+      "rep_leap_id": "48238",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:49:01",
       "stage_history": [
@@ -2696,7 +2692,7 @@
       "id": "4799240",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-07 21:49:05",
-      "rep_leap_id": "",
+      "rep_leap_id": "73425",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-07 21:49:05",
       "stage_history": [
@@ -2718,7 +2714,7 @@
       "id": "4612248",
       "invoiced_amount": 0.0,
       "modified_at": "2026-07-08 15:28:45",
-      "rep_leap_id": "",
+      "rep_leap_id": "54940",
       "source_raw": "referral",
       "stage_entered_at": "2026-07-08 15:28:45",
       "stage_history": [

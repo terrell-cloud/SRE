@@ -1,0 +1,137 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:47:02.973525-04:00",
+  "records": [
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2025-12-22T08:23:46-05:00",
+      "last_capture": "2025-12-24T14:56:09-05:00",
+      "photo_count": 40,
+      "project_id": "91938082",
+      "project_name": null
+    },
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2025-12-22T10:20:08-05:00",
+      "last_capture": "2025-12-22T10:20:46-05:00",
+      "photo_count": 4,
+      "project_id": "93742215",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931199",
+      "creator_name": "Chris Dyer",
+      "first_capture": "2025-12-22T11:20:55-05:00",
+      "last_capture": "2025-12-22T11:37:35-05:00",
+      "photo_count": 17,
+      "project_id": "96136919",
+      "project_name": null
+    },
+    {
+      "creator_id": "3891333",
+      "creator_name": "Jesus Pedraza",
+      "first_capture": "2025-12-22T12:46:58-05:00",
+      "last_capture": "2025-12-22T13:17:06-05:00",
+      "photo_count": 14,
+      "project_id": "96219167",
+      "project_name": null
+    },
+    {
+      "creator_id": "3971432",
+      "creator_name": "Matthew Brewer",
+      "first_capture": "2025-12-22T12:55:26-05:00",
+      "last_capture": "2025-12-22T13:08:17-05:00",
+      "photo_count": 25,
+      "project_id": "96219167",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931199",
+      "creator_name": "Chris Dyer",
+      "first_capture": "2025-12-22T14:09:07-05:00",
+      "last_capture": "2025-12-22T14:47:56-05:00",
+      "photo_count": 27,
+      "project_id": "96228514",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931198",
+      "creator_name": "Terrell Dyer",
+      "first_capture": "2025-12-22T14:18:37-05:00",
+      "last_capture": "2025-12-22T14:22:19-05:00",
+      "photo_count": 2,
+      "project_id": "96144874",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2025-12-22T14:24:58-05:00",
+      "last_capture": "2025-12-22T14:26:22-05:00",
+      "photo_count": 18,
+      "project_id": "96215891",
+      "project_name": null
+    },
+    {
+      "creator_id": "3971432",
+      "creator_name": "Matthew Brewer",
+      "first_capture": "2025-12-22T16:05:17-05:00",
+      "last_capture": "2025-12-22T16:52:33-05:00",
+      "photo_count": 80,
+      "project_id": "96237298",
+      "project_name": null
+    },
+    {
+      "creator_id": "3891333",
+      "creator_name": "Jesus Pedraza",
+      "first_capture": "2025-12-22T16:42:46-05:00",
+      "last_capture": "2025-12-22T16:43:26-05:00",
+      "photo_count": 5,
+      "project_id": "96237298",
+      "project_name": null
+    },
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2025-12-23T07:34:00-05:00",
+      "last_capture": "2025-12-23T14:04:20-05:00",
+      "photo_count": 56,
+      "project_id": "92801296",
+      "project_name": null
+    },
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2025-12-23T08:32:38-05:00",
+      "last_capture": "2025-12-23T08:52:08-05:00",
+      "photo_count": 6,
+      "project_id": "91399823",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931198",
+      "creator_name": "Terrell Dyer",
+      "first_capture": "2025-12-23T10:46:20-05:00",
+      "last_capture": "2025-12-23T11:20:06-05:00",
+      "photo_count": 10,
+      "project_id": "88665850",
+      "project_name": null
+    },
+    {
+      "creator_id": "4024843",
+      "creator_name": "Kaylib Jones",
+      "first_capture": "2025-12-23T12:54:13-05:00",
+      "last_capture": "2025-12-23T12:54:13-05:00",
+      "photo_count": 1,
+      "project_id": "96274102",
+      "project_name": null
+    }
+  ],
+  "source": "companycam",
+  "status": "ok",
+  "week": "2025-W52",
+  "week_end": "2025-12-28",
+  "week_start": "2025-12-22"
+}

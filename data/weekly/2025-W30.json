@@ -1,0 +1,152 @@
+{
+  "generated_at": "2026-07-13T20:52:19.945060-04:00",
+  "kpis": {
+    "avg_job_size": 11341.06,
+    "cac_by_source": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": 1702.19,
+      "referral": null,
+      "website": null
+    },
+    "closing_pct_insurance": {
+      "by_rep": {
+        "wilson": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 3
+        }
+      },
+      "overall": {
+        "lost": 0,
+        "pct": 100.0,
+        "sold": 3
+      }
+    },
+    "closing_pct_retail": {
+      "by_rep": {
+        "wilson": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 2
+        }
+      },
+      "overall": {
+        "lost": 0,
+        "pct": 100.0,
+        "sold": 2
+      }
+    },
+    "cost_per_lead": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": 29.35,
+      "referral": null,
+      "website": null
+    },
+    "customers_by_source": {
+      "door_knocking": 0,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 1,
+      "referral": 4,
+      "website": 0
+    },
+    "gross_margin": {
+      "basis": "quickbooks_pnl_prorata",
+      "jobs_counted": 0,
+      "pct": 1.9
+    },
+    "inspections_by_rep": {
+      "adrien": 0,
+      "chris_dyer": 7,
+      "chris_johnson": 9,
+      "christian": 0,
+      "justin": 0,
+      "mason": 3,
+      "scott": 8,
+      "terrell": 3,
+      "unmapped": 8,
+      "wilson": 0,
+      "wyatt": 0
+    },
+    "leads_by_source": {
+      "door_knocking": 1,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 58,
+      "referral": 0,
+      "website": 5
+    },
+    "pipeline": {
+      "appointments_run": 0,
+      "appointments_set": 0,
+      "contracts_signed": 5,
+      "estimates_given": 0
+    },
+    "production": {
+      "backlog_jobs": null,
+      "backlog_value": null,
+      "completed": 5,
+      "in_production": null,
+      "started": 0
+    },
+    "revenue_collected": {
+      "invoiced": 147670.91,
+      "leap": 90578.76,
+      "note": "quickbooks = monthly P&L revenue pro-rated to the week (different accounting basis)",
+      "quickbooks": 49218.86
+    },
+    "revenue_sold": {
+      "contracts": 5,
+      "total": 56705.29
+    },
+    "spend_by_channel": {
+      "door_knocking": 0.0,
+      "facebook": 0.0,
+      "google": 0.0,
+      "google_lsa": 0.0,
+      "other": 1702.19,
+      "referral": 0.0,
+      "website": 0.0
+    }
+  },
+  "schema_version": 1,
+  "sections": {
+    "inspections": {
+      "as_of_week": "2025-W30",
+      "status": "ok"
+    },
+    "marketing": {
+      "as_of_week": "2025-W30",
+      "status": "ok"
+    },
+    "revenue_production": {
+      "as_of_week": "2025-W30",
+      "status": "ok"
+    },
+    "sales": {
+      "as_of_week": "2025-W30",
+      "status": "ok"
+    },
+    "spend": {
+      "as_of_week": "2025-W30",
+      "status": "ok"
+    }
+  },
+  "warnings": [
+    "2 GHL contact(s) had unmapped source 'zapier' -> bucketed to 'other' (add to channels.yaml)",
+    "4 CompanyCam photo-activity row(s) from unmapped user 'Darrel Cannon' (add to reps.yaml or ignore if not a sales rep)",
+    "3 CompanyCam photo-activity row(s) from unmapped user 'Josh McUmber' (add to reps.yaml or ignore if not a sales rep)",
+    "1 CompanyCam photo-activity row(s) from unmapped user 'Riley Moorehead' (add to reps.yaml or ignore if not a sales rep)"
+  ],
+  "week": "2025-W30",
+  "week_end": "2025-07-27",
+  "week_start": "2025-07-21"
+}

@@ -1,0 +1,188 @@
+{
+  "generated_at": "2026-07-13T20:52:20.016171-04:00",
+  "kpis": {
+    "avg_job_size": 18384.78,
+    "cac_by_source": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": 1827.08,
+      "referral": null,
+      "website": null
+    },
+    "closing_pct_insurance": {
+      "by_rep": {
+        "adrien": {
+          "lost": 1,
+          "pct": 0.0,
+          "sold": 0
+        },
+        "chris_dyer": {
+          "lost": 2,
+          "pct": 0.0,
+          "sold": 0
+        },
+        "chris_johnson": {
+          "lost": 1,
+          "pct": 66.7,
+          "sold": 2
+        },
+        "deedee": {
+          "lost": 1,
+          "pct": 0.0,
+          "sold": 0
+        },
+        "justin": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        },
+        "terrell": {
+          "lost": 1,
+          "pct": 0.0,
+          "sold": 0
+        },
+        "unmapped": {
+          "lost": 1,
+          "pct": 0.0,
+          "sold": 0
+        }
+      },
+      "overall": {
+        "lost": 7,
+        "pct": 30.0,
+        "sold": 3
+      }
+    },
+    "closing_pct_retail": {
+      "by_rep": {
+        "chris_dyer": {
+          "lost": 1,
+          "pct": 0.0,
+          "sold": 0
+        },
+        "unmapped": {
+          "lost": 3,
+          "pct": 25.0,
+          "sold": 1
+        }
+      },
+      "overall": {
+        "lost": 4,
+        "pct": 20.0,
+        "sold": 1
+      }
+    },
+    "cost_per_lead": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": 35.83,
+      "referral": null,
+      "website": null
+    },
+    "customers_by_source": {
+      "door_knocking": 0,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 1,
+      "referral": 3,
+      "website": 0
+    },
+    "gross_margin": {
+      "basis": "quickbooks_pnl_prorata",
+      "jobs_counted": 0,
+      "pct": 57.3
+    },
+    "inspections_by_rep": {
+      "adrien": 0,
+      "chris_dyer": 1,
+      "chris_johnson": 6,
+      "christian": 0,
+      "justin": 2,
+      "mason": 4,
+      "scott": 4,
+      "terrell": 5,
+      "unmapped": 9,
+      "wilson": 0,
+      "wyatt": 0
+    },
+    "leads_by_source": {
+      "door_knocking": 1,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 51,
+      "referral": 0,
+      "website": 1
+    },
+    "pipeline": {
+      "appointments_run": 0,
+      "appointments_set": 1,
+      "contracts_signed": 4,
+      "estimates_given": 3
+    },
+    "production": {
+      "backlog_jobs": null,
+      "backlog_value": null,
+      "completed": 9,
+      "in_production": null,
+      "started": 0
+    },
+    "revenue_collected": {
+      "invoiced": 178747.99,
+      "leap": 145253.23,
+      "note": "quickbooks = monthly P&L revenue pro-rated to the week (different accounting basis)",
+      "quickbooks": 84526.51
+    },
+    "revenue_sold": {
+      "contracts": 4,
+      "total": 73539.11
+    },
+    "spend_by_channel": {
+      "door_knocking": 0.0,
+      "facebook": 0.0,
+      "google": 0.0,
+      "google_lsa": 0.0,
+      "other": 1827.08,
+      "referral": 0.0,
+      "website": 0.0
+    }
+  },
+  "schema_version": 1,
+  "sections": {
+    "inspections": {
+      "as_of_week": "2025-W50",
+      "status": "ok"
+    },
+    "marketing": {
+      "as_of_week": "2025-W50",
+      "status": "ok"
+    },
+    "revenue_production": {
+      "as_of_week": "2025-W50",
+      "status": "ok"
+    },
+    "sales": {
+      "as_of_week": "2025-W50",
+      "status": "ok"
+    },
+    "spend": {
+      "as_of_week": "2025-W50",
+      "status": "ok"
+    }
+  },
+  "warnings": [
+    "2 Leap job(s) assigned to unmapped user id '70932' (add to reps.yaml)",
+    "1 Leap job(s) assigned to unmapped user id '73425' (add to reps.yaml)",
+    "1 Leap job(s) assigned to unmapped user id '83975' (add to reps.yaml)",
+    "1 Leap job(s) assigned to unmapped user id '98474' (add to reps.yaml)",
+    "9 CompanyCam photo-activity row(s) from unmapped user 'Jesus Pedraza' (add to reps.yaml or ignore if not a sales rep)"
+  ],
+  "week": "2025-W50",
+  "week_end": "2025-12-14",
+  "week_start": "2025-12-08"
+}

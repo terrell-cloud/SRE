@@ -1,0 +1,171 @@
+{
+  "generated_at": "2026-07-13T20:52:20.049803-04:00",
+  "kpis": {
+    "avg_job_size": 16882.26,
+    "cac_by_source": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": null,
+      "referral": null,
+      "website": null
+    },
+    "closing_pct_insurance": {
+      "by_rep": {
+        "chris_johnson": {
+          "lost": 1,
+          "pct": 0.0,
+          "sold": 0
+        },
+        "terrell": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        }
+      },
+      "overall": {
+        "lost": 1,
+        "pct": 50.0,
+        "sold": 1
+      }
+    },
+    "closing_pct_retail": {
+      "by_rep": {
+        "adrien": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        },
+        "chris_johnson": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 2
+        },
+        "unmapped": {
+          "lost": 1,
+          "pct": 50.0,
+          "sold": 1
+        }
+      },
+      "overall": {
+        "lost": 1,
+        "pct": 80.0,
+        "sold": 4
+      }
+    },
+    "cost_per_lead": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": 6.89,
+      "referral": null,
+      "website": null
+    },
+    "customers_by_source": {
+      "door_knocking": 0,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 0,
+      "referral": 5,
+      "website": 0
+    },
+    "gross_margin": {
+      "basis": "quickbooks_pnl_prorata",
+      "jobs_counted": 0,
+      "pct": 13.9
+    },
+    "inspections_by_rep": {
+      "adrien": 0,
+      "chris_dyer": 10,
+      "chris_johnson": 7,
+      "christian": 0,
+      "justin": 0,
+      "mason": 5,
+      "scott": 5,
+      "terrell": 3,
+      "unmapped": 18,
+      "wilson": 0,
+      "wyatt": 0
+    },
+    "leads_by_source": {
+      "door_knocking": 0,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 66,
+      "referral": 0,
+      "website": 1
+    },
+    "pipeline": {
+      "appointments_run": 0,
+      "appointments_set": 2,
+      "contracts_signed": 5,
+      "estimates_given": 1
+    },
+    "production": {
+      "backlog_jobs": null,
+      "backlog_value": null,
+      "completed": 12,
+      "in_production": null,
+      "started": 0
+    },
+    "revenue_collected": {
+      "invoiced": 263417.15,
+      "leap": 208358.86,
+      "note": "quickbooks = monthly P&L revenue pro-rated to the week (different accounting basis)",
+      "quickbooks": 59971.85
+    },
+    "revenue_sold": {
+      "contracts": 5,
+      "total": 84411.32
+    },
+    "spend_by_channel": {
+      "door_knocking": 0.0,
+      "facebook": 0.0,
+      "google": 606.69,
+      "google_lsa": 199.23,
+      "other": 455.0,
+      "referral": 0.0,
+      "website": 0.0
+    }
+  },
+  "schema_version": 1,
+  "sections": {
+    "inspections": {
+      "as_of_week": "2026-W08",
+      "status": "ok"
+    },
+    "marketing": {
+      "as_of_week": "2026-W08",
+      "status": "ok"
+    },
+    "revenue_production": {
+      "as_of_week": "2026-W08",
+      "status": "ok"
+    },
+    "sales": {
+      "as_of_week": "2026-W08",
+      "status": "ok"
+    },
+    "spend": {
+      "as_of_week": "2026-W08",
+      "status": "ok"
+    }
+  },
+  "warnings": [
+    "1 Leap job(s) assigned to unmapped user id '101550' (add to reps.yaml)",
+    "2 Leap job(s) assigned to unmapped user id '78880' (add to reps.yaml)",
+    "1 Leap job(s) assigned to unmapped user id '83975' (add to reps.yaml)",
+    "2 Leap job(s) assigned to unmapped user id '98859' (add to reps.yaml)",
+    "4 CompanyCam photo-activity row(s) from unmapped user 'Ben Stewart' (add to reps.yaml or ignore if not a sales rep)",
+    "10 CompanyCam photo-activity row(s) from unmapped user 'Eric Lofty' (add to reps.yaml or ignore if not a sales rep)",
+    "2 CompanyCam photo-activity row(s) from unmapped user 'Matthew Brewer' (add to reps.yaml or ignore if not a sales rep)",
+    "2 CompanyCam photo-activity row(s) from unmapped user 'Veronica Alfaro' (add to reps.yaml or ignore if not a sales rep)"
+  ],
+  "week": "2026-W08",
+  "week_end": "2026-02-22",
+  "week_start": "2026-02-16"
+}

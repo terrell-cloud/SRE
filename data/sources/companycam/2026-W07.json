@@ -1,0 +1,407 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:47:02.977751-04:00",
+  "records": [
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2026-02-09T10:52:09-05:00",
+      "last_capture": "2026-02-09T16:29:56-05:00",
+      "photo_count": 34,
+      "project_id": "93742215",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-09T11:44:27-05:00",
+      "last_capture": "2026-02-09T11:45:27-05:00",
+      "photo_count": 3,
+      "project_id": "100402038",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-09T12:25:23-05:00",
+      "last_capture": "2026-02-09T12:52:14-05:00",
+      "photo_count": 49,
+      "project_id": "98476872",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931198",
+      "creator_name": "Terrell Dyer",
+      "first_capture": "2026-02-09T12:55:14-05:00",
+      "last_capture": "2026-02-09T13:56:17-05:00",
+      "photo_count": 10,
+      "project_id": "95344709",
+      "project_name": null
+    },
+    {
+      "creator_id": "3971432",
+      "creator_name": "Matthew Brewer",
+      "first_capture": "2026-02-09T13:54:03-05:00",
+      "last_capture": "2026-02-09T14:33:31-05:00",
+      "photo_count": 34,
+      "project_id": "98638503",
+      "project_name": null
+    },
+    {
+      "creator_id": "3971432",
+      "creator_name": "Matthew Brewer",
+      "first_capture": "2026-02-09T14:57:40-05:00",
+      "last_capture": "2026-02-09T15:00:12-05:00",
+      "photo_count": 7,
+      "project_id": "98648499",
+      "project_name": null
+    },
+    {
+      "creator_id": "3971432",
+      "creator_name": "Matthew Brewer",
+      "first_capture": "2026-02-09T15:17:53-05:00",
+      "last_capture": "2026-02-09T16:44:50-05:00",
+      "photo_count": 52,
+      "project_id": "98651733",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-09T16:11:49-05:00",
+      "last_capture": "2026-02-09T16:19:50-05:00",
+      "photo_count": 25,
+      "project_id": "98658908",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-09T16:31:21-05:00",
+      "last_capture": "2026-02-09T16:38:21-05:00",
+      "photo_count": 21,
+      "project_id": "98661524",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931198",
+      "creator_name": "Terrell Dyer",
+      "first_capture": "2026-02-09T16:45:26-05:00",
+      "last_capture": "2026-02-09T17:30:32-05:00",
+      "photo_count": 52,
+      "project_id": "90690930",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931198",
+      "creator_name": "Terrell Dyer",
+      "first_capture": "2026-02-09T16:49:42-05:00",
+      "last_capture": "2026-02-09T17:28:30-05:00",
+      "photo_count": 15,
+      "project_id": "93815374",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-09T16:51:57-05:00",
+      "last_capture": "2026-02-09T17:04:41-05:00",
+      "photo_count": 39,
+      "project_id": "98664041",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931199",
+      "creator_name": "Chris Dyer",
+      "first_capture": "2026-02-09T17:00:56-05:00",
+      "last_capture": "2026-02-13T11:04:35-05:00",
+      "photo_count": 21,
+      "project_id": "98665013",
+      "project_name": null
+    },
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2026-02-10T07:47:33-05:00",
+      "last_capture": "2026-02-13T17:18:03-05:00",
+      "photo_count": 108,
+      "project_id": "96478505",
+      "project_name": null
+    },
+    {
+      "creator_id": "3710200",
+      "creator_name": "Luis Fraire",
+      "first_capture": "2026-02-10T09:55:41-05:00",
+      "last_capture": "2026-02-10T18:19:46-05:00",
+      "photo_count": 10,
+      "project_id": "96659065",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-10T10:54:07-05:00",
+      "last_capture": "2026-02-10T11:21:45-05:00",
+      "photo_count": 41,
+      "project_id": "98262670",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-10T12:14:55-05:00",
+      "last_capture": "2026-02-10T12:36:25-05:00",
+      "photo_count": 52,
+      "project_id": "98709022",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931198",
+      "creator_name": "Terrell Dyer",
+      "first_capture": "2026-02-10T14:11:50-05:00",
+      "last_capture": "2026-02-10T14:14:14-05:00",
+      "photo_count": 7,
+      "project_id": "89788272",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-10T15:14:21-05:00",
+      "last_capture": "2026-02-10T15:31:46-05:00",
+      "photo_count": 38,
+      "project_id": "98734394",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931198",
+      "creator_name": "Terrell Dyer",
+      "first_capture": "2026-02-10T15:33:44-05:00",
+      "last_capture": "2026-02-13T17:41:10-05:00",
+      "photo_count": 21,
+      "project_id": "93742215",
+      "project_name": null
+    },
+    {
+      "creator_id": "4051396",
+      "creator_name": "Ben Stewart",
+      "first_capture": "2026-02-10T15:57:28-05:00",
+      "last_capture": "2026-02-10T16:17:07-05:00",
+      "photo_count": 27,
+      "project_id": "98740044",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-10T16:01:46-05:00",
+      "last_capture": "2026-02-10T16:16:02-05:00",
+      "photo_count": 23,
+      "project_id": "98740806",
+      "project_name": null
+    },
+    {
+      "creator_id": "3971432",
+      "creator_name": "Matthew Brewer",
+      "first_capture": "2026-02-10T16:57:29-05:00",
+      "last_capture": "2026-02-10T17:26:26-05:00",
+      "photo_count": 30,
+      "project_id": "98747760",
+      "project_name": null
+    },
+    {
+      "creator_id": "4051396",
+      "creator_name": "Ben Stewart",
+      "first_capture": "2026-02-10T17:22:31-05:00",
+      "last_capture": "2026-02-10T17:42:31-05:00",
+      "photo_count": 34,
+      "project_id": "98749866",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931198",
+      "creator_name": "Terrell Dyer",
+      "first_capture": "2026-02-11T17:40:06-05:00",
+      "last_capture": "2026-02-11T17:44:37-05:00",
+      "photo_count": 9,
+      "project_id": "79826779",
+      "project_name": null
+    },
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2026-02-12T07:28:20-05:00",
+      "last_capture": "2026-02-12T14:51:37-05:00",
+      "photo_count": 95,
+      "project_id": "94926256",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931199",
+      "creator_name": "Chris Dyer",
+      "first_capture": "2026-02-12T11:37:16-05:00",
+      "last_capture": "2026-02-12T11:42:42-05:00",
+      "photo_count": 48,
+      "project_id": "98120525",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931199",
+      "creator_name": "Chris Dyer",
+      "first_capture": "2026-02-12T12:32:15-05:00",
+      "last_capture": "2026-02-12T12:50:20-05:00",
+      "photo_count": 19,
+      "project_id": "98868804",
+      "project_name": null
+    },
+    {
+      "creator_id": "4051396",
+      "creator_name": "Ben Stewart",
+      "first_capture": "2026-02-12T13:49:50-05:00",
+      "last_capture": "2026-02-12T14:24:31-05:00",
+      "photo_count": 26,
+      "project_id": "98880656",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931199",
+      "creator_name": "Chris Dyer",
+      "first_capture": "2026-02-12T13:50:01-05:00",
+      "last_capture": "2026-02-12T14:09:00-05:00",
+      "photo_count": 29,
+      "project_id": "98877072",
+      "project_name": null
+    },
+    {
+      "creator_id": "3810579",
+      "creator_name": "Scott Gray",
+      "first_capture": "2026-02-12T15:21:12-05:00",
+      "last_capture": "2026-02-12T15:53:21-05:00",
+      "photo_count": 22,
+      "project_id": "98893085",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931199",
+      "creator_name": "Chris Dyer",
+      "first_capture": "2026-02-12T17:38:25-05:00",
+      "last_capture": "2026-02-12T18:12:27-05:00",
+      "photo_count": 33,
+      "project_id": "98902116",
+      "project_name": null
+    },
+    {
+      "creator_id": "3558089",
+      "creator_name": "Veronica Alfaro",
+      "first_capture": "2026-02-13T07:17:56-05:00",
+      "last_capture": "2026-02-13T13:12:27-05:00",
+      "photo_count": 51,
+      "project_id": "95281499",
+      "project_name": null
+    },
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2026-02-13T09:16:57-05:00",
+      "last_capture": "2026-02-13T14:56:37-05:00",
+      "photo_count": 23,
+      "project_id": "95281499",
+      "project_name": null
+    },
+    {
+      "creator_id": "4051396",
+      "creator_name": "Ben Stewart",
+      "first_capture": "2026-02-13T10:17:12-05:00",
+      "last_capture": "2026-02-13T10:35:25-05:00",
+      "photo_count": 20,
+      "project_id": "98445076",
+      "project_name": null
+    },
+    {
+      "creator_id": "3971432",
+      "creator_name": "Matthew Brewer",
+      "first_capture": "2026-02-13T12:16:03-05:00",
+      "last_capture": "2026-02-13T12:43:26-05:00",
+      "photo_count": 53,
+      "project_id": "98943901",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-13T13:46:24-05:00",
+      "last_capture": "2026-02-13T13:51:56-05:00",
+      "photo_count": 12,
+      "project_id": "98954563",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931199",
+      "creator_name": "Chris Dyer",
+      "first_capture": "2026-02-13T14:16:39-05:00",
+      "last_capture": "2026-02-13T14:42:15-05:00",
+      "photo_count": 21,
+      "project_id": "98957657",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2026-02-13T14:44:28-05:00",
+      "last_capture": "2026-02-13T14:44:37-05:00",
+      "photo_count": 3,
+      "project_id": "91684974",
+      "project_name": null
+    },
+    {
+      "creator_id": "2931198",
+      "creator_name": "Terrell Dyer",
+      "first_capture": "2026-02-13T14:52:43-05:00",
+      "last_capture": "2026-02-13T16:17:06-05:00",
+      "photo_count": 88,
+      "project_id": "98880656",
+      "project_name": null
+    },
+    {
+      "creator_id": "3971432",
+      "creator_name": "Matthew Brewer",
+      "first_capture": "2026-02-13T15:01:15-05:00",
+      "last_capture": "2026-02-13T15:14:32-05:00",
+      "photo_count": 33,
+      "project_id": "98961277",
+      "project_name": null
+    },
+    {
+      "creator_id": "3971432",
+      "creator_name": "Matthew Brewer",
+      "first_capture": "2026-02-13T15:46:39-05:00",
+      "last_capture": "2026-02-13T16:19:15-05:00",
+      "photo_count": 75,
+      "project_id": "98966541",
+      "project_name": null
+    },
+    {
+      "creator_id": "3971432",
+      "creator_name": "Matthew Brewer",
+      "first_capture": "2026-02-13T16:54:35-05:00",
+      "last_capture": "2026-02-13T17:04:56-05:00",
+      "photo_count": 6,
+      "project_id": "98979032",
+      "project_name": null
+    },
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2026-02-14T12:25:00-05:00",
+      "last_capture": "2026-02-14T12:34:01-05:00",
+      "photo_count": 19,
+      "project_id": "61406793",
+      "project_name": null
+    }
+  ],
+  "source": "companycam",
+  "status": "ok",
+  "week": "2026-W07",
+  "week_end": "2026-02-15",
+  "week_start": "2026-02-09"
+}

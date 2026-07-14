@@ -1,0 +1,161 @@
+{
+  "generated_at": "2026-07-13T20:52:19.941616-04:00",
+  "kpis": {
+    "avg_job_size": 12941.39,
+    "cac_by_source": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": 1702.2,
+      "referral": null,
+      "website": null
+    },
+    "closing_pct_insurance": {
+      "by_rep": {
+        "terrell": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 2
+        },
+        "wilson": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 3
+        }
+      },
+      "overall": {
+        "lost": 0,
+        "pct": 100.0,
+        "sold": 5
+      }
+    },
+    "closing_pct_retail": {
+      "by_rep": {
+        "terrell": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        }
+      },
+      "overall": {
+        "lost": 0,
+        "pct": 100.0,
+        "sold": 1
+      }
+    },
+    "cost_per_lead": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": 28.85,
+      "referral": null,
+      "website": null
+    },
+    "customers_by_source": {
+      "door_knocking": 0,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 1,
+      "referral": 5,
+      "website": 0
+    },
+    "gross_margin": {
+      "basis": "quickbooks_pnl_prorata",
+      "jobs_counted": 0,
+      "pct": 1.9
+    },
+    "inspections_by_rep": {
+      "adrien": 0,
+      "chris_dyer": 4,
+      "chris_johnson": 10,
+      "christian": 0,
+      "justin": 2,
+      "mason": 3,
+      "scott": 12,
+      "terrell": 10,
+      "unmapped": 15,
+      "wilson": 0,
+      "wyatt": 1
+    },
+    "leads_by_source": {
+      "door_knocking": 1,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 59,
+      "referral": 0,
+      "website": 2
+    },
+    "pipeline": {
+      "appointments_run": 0,
+      "appointments_set": 0,
+      "contracts_signed": 6,
+      "estimates_given": 0
+    },
+    "production": {
+      "backlog_jobs": null,
+      "backlog_value": null,
+      "completed": 3,
+      "in_production": null,
+      "started": 0
+    },
+    "revenue_collected": {
+      "invoiced": 99006.33,
+      "leap": 69281.67,
+      "note": "quickbooks = monthly P&L revenue pro-rated to the week (different accounting basis)",
+      "quickbooks": 49218.86
+    },
+    "revenue_sold": {
+      "contracts": 6,
+      "total": 77648.36
+    },
+    "spend_by_channel": {
+      "door_knocking": 0.0,
+      "facebook": 0.0,
+      "google": 0.0,
+      "google_lsa": 0.0,
+      "other": 1702.2,
+      "referral": 0.0,
+      "website": 0.0
+    }
+  },
+  "schema_version": 1,
+  "sections": {
+    "inspections": {
+      "as_of_week": "2025-W29",
+      "status": "ok"
+    },
+    "marketing": {
+      "as_of_week": "2025-W29",
+      "status": "ok"
+    },
+    "revenue_production": {
+      "as_of_week": "2025-W29",
+      "status": "ok"
+    },
+    "sales": {
+      "as_of_week": "2025-W29",
+      "status": "ok"
+    },
+    "spend": {
+      "as_of_week": "2025-W29",
+      "status": "ok"
+    }
+  },
+  "warnings": [
+    "2 GHL contact(s) had unmapped source \"Josh McUmber's Calendar\" -> bucketed to 'other' (add to channels.yaml)",
+    "1 GHL contact(s) had unmapped source 'Justin Carnes Calendar' -> bucketed to 'other' (add to channels.yaml)",
+    "1 GHL contact(s) had unmapped source 'zapier' -> bucketed to 'other' (add to channels.yaml)",
+    "1 stage event(s) with unmapped Leap stage 'Lien Filed' (add to leap_stages.yaml)",
+    "2 CompanyCam photo-activity row(s) from unmapped user 'Darrel Cannon' (add to reps.yaml or ignore if not a sales rep)",
+    "7 CompanyCam photo-activity row(s) from unmapped user 'Josh McUmber' (add to reps.yaml or ignore if not a sales rep)",
+    "2 CompanyCam photo-activity row(s) from unmapped user 'Luis Fraire' (add to reps.yaml or ignore if not a sales rep)",
+    "4 CompanyCam photo-activity row(s) from unmapped user 'Riley Moorehead' (add to reps.yaml or ignore if not a sales rep)"
+  ],
+  "week": "2025-W29",
+  "week_end": "2025-07-20",
+  "week_start": "2025-07-14"
+}

@@ -16,7 +16,7 @@ from ..util.io import read_json
 from . import svg
 from .template import page
 
-CHANNEL_VARS = ["--c1", "--c2", "--c3", "--c4", "--c5"]
+CHANNEL_VARS = ["--c1", "--c2", "--c3", "--c4", "--c5", "--c6", "--c7", "--c8"]
 
 SECTION_LABELS = {
     "marketing": "GoHighLevel (leads)",

@@ -98,7 +98,9 @@ def _normalize_job(raw: dict, config: Config) -> dict:
             history.append({"stage": "(completed)", "entered_at": completed})
 
     estimators = _unwrap(raw.get("estimators")) or []
-    rep_id = str(estimators[0].get("id")) if estimators else ""
+    # Many jobs carry no estimator; fall back to the creating user so rep
+    # attribution stays usable (office-created jobs then attribute to office).
+    rep_id = str(estimators[0].get("id")) if estimators else str(raw.get("created_by") or "")
 
     customer = _unwrap(raw.get("customer")) or {}
     source_raw = (customer.get("referred_by_type") or "").strip()

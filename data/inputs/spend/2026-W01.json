@@ -1,0 +1,23 @@
+{
+  "allocation": "monthly_prorata",
+  "channels": {
+    "door_knocking": 0.0,
+    "facebook": 0.0,
+    "google": 284.39,
+    "google_lsa": 121.15,
+    "other": 1069.48,
+    "referral": 0.0,
+    "website": 0.0
+  },
+  "gross_margin_fallback": {
+    "cogs": 43825.96,
+    "gross_profit": 22936.67,
+    "revenue": 66762.65
+  },
+  "months_used": [
+    "2025-12",
+    "2026-01"
+  ],
+  "warnings": [],
+  "week": "2026-W01"
+}

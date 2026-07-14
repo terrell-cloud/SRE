@@ -1,0 +1,966 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:51:39.847503-04:00",
+  "records": [
+    {
+      "collected_amount": 0.0,
+      "contract_amount": 0.0,
+      "cost_amount": 0.0,
+      "created_at": "2026-03-18 19:36:26",
+      "customer_id": "8410721",
+      "division_raw": "Retail",
+      "id": "7536110",
+      "invoiced_amount": 0.0,
+      "modified_at": "2026-03-18 20:47:09",
+      "rep_leap_id": "33895",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-18 20:45:02",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-18 20:45:02",
+          "stage": "Had Damage "
+        }
+      ],
+      "stage_raw": "Had Damage ",
+      "type": "job"
+    },
+    {
+      "collected_amount": 9583.22,
+      "contract_amount": 9583.22,
+      "cost_amount": 0.0,
+      "created_at": "2026-03-16 13:52:14",
+      "customer_id": "8395409",
+      "division_raw": "Insurance",
+      "id": "7518495",
+      "invoiced_amount": 9583.22,
+      "modified_at": "2026-06-19 16:43:02",
+      "rep_leap_id": "33895",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-05-11 16:34:03",
+      "stage_history": [
+        {
+          "entered_at": "2026-05-11 16:34:03",
+          "stage": "Invoicing"
+        },
+        {
+          "entered_at": "2026-03-18",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-04-22",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Invoicing",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0.0,
+      "contract_amount": 28420.65,
+      "cost_amount": 0.0,
+      "created_at": "2026-03-12 14:04:10",
+      "customer_id": "8375169",
+      "division_raw": "Retail",
+      "id": "7494277",
+      "invoiced_amount": 28420.65,
+      "modified_at": "2026-05-13 14:53:00",
+      "rep_leap_id": "58260",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-17 14:37:04",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-17 14:37:04",
+          "stage": "Estimate Presented / Out"
+        }
+      ],
+      "stage_raw": "Estimate Presented / Out",
+      "type": "job"
+    },
+    {
+      "collected_amount": 3014.52,
+      "contract_amount": 3600.0,
+      "cost_amount": 0.0,
+      "created_at": "2026-03-05 15:33:26",
+      "customer_id": "8316094",
+      "division_raw": "Retail",
+      "id": "7468095",
+      "invoiced_amount": 3600.0,
+      "modified_at": "2026-06-02 01:24:54",
+      "rep_leap_id": "33349",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-31 19:08:57",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-31 19:08:57",
+          "stage": "Invoicing"
+        },
+        {
+          "entered_at": "2026-03-20",
+          "stage": "(contract signed)"
+        }
+      ],
+      "stage_raw": "Invoicing",
+      "type": "job"
+    },
+    {
+      "collected_amount": 9401.0,
+      "contract_amount": 9401.0,
+      "cost_amount": 0.0,
+      "created_at": "2026-02-25 17:05:40",
+      "customer_id": "8287267",
+      "division_raw": "Retail",
+      "id": "7442539",
+      "invoiced_amount": 9401.0,
+      "modified_at": "2026-04-03 16:08:55",
+      "rep_leap_id": "33895",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-04-02 20:24:13",
+      "stage_history": [
+        {
+          "entered_at": "2026-04-02 20:24:13",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2026-02-25",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-03-18",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 0.0,
+      "contract_amount": 17453.36,
+      "cost_amount": 0.0,
+      "created_at": "2026-02-21 19:29:15",
+      "customer_id": "8275313",
+      "division_raw": "Insurance",
+      "id": "7430287",
+      "invoiced_amount": 17453.36,
+      "modified_at": "2026-05-12 13:43:05",
+      "rep_leap_id": "33895",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-18 13:34:06",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-18 13:34:06",
+          "stage": "Estimate Presented / Out"
+        }
+      ],
+      "stage_raw": "Estimate Presented / Out",
+      "type": "job"
+    },
+    {
+      "collected_amount": 12879.62,
+      "contract_amount": 12879.62,
+      "cost_amount": 0.0,
+      "created_at": "2026-02-18 15:30:23",
+      "customer_id": "8265450",
+      "division_raw": "Retail",
+      "id": "7418051",
+      "invoiced_amount": 12879.62,
+      "modified_at": "2026-07-01 12:21:25",
+      "rep_leap_id": "98856",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-04-02 19:45:16",
+      "stage_history": [
+        {
+          "entered_at": "2026-04-02 19:45:16",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2026-02-18",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-03-19",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 35173.73,
+      "contract_amount": 35173.73,
+      "cost_amount": 0.0,
+      "created_at": "2026-02-17 17:19:11",
+      "customer_id": "8259024",
+      "division_raw": "Retail",
+      "id": "7414718",
+      "invoiced_amount": 35173.73,
+      "modified_at": "2026-05-06 17:56:30",
+      "rep_leap_id": "33895",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-05-04 13:09:00",
+      "stage_history": [
+        {
+          "entered_at": "2026-05-04 13:09:00",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2026-03-20",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-04-30",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 10859.0,
+      "contract_amount": 10439.0,
+      "cost_amount": 0.0,
+      "created_at": "2026-02-02 16:21:45",
+      "customer_id": "8208447",
+      "division_raw": "Retail",
+      "id": "7363721",
+      "invoiced_amount": 10859.0,
+      "modified_at": "2026-04-01 18:31:59",
+      "rep_leap_id": "101550",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-04-01 18:31:59",
+      "stage_history": [
+        {
+          "entered_at": "2026-04-01 18:31:59",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2026-02-19",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-03-21",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 8084.15,
+      "contract_amount": 8084.15,
+      "cost_amount": 0.0,
+      "created_at": "2026-01-30 20:11:17",
+      "customer_id": "8209401",
+      "division_raw": "Insurance",
+      "id": "7360504",
+      "invoiced_amount": 8084.15,
+      "modified_at": "2026-03-18 17:59:06",
+      "rep_leap_id": "98856",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-18 17:51:31",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-18 17:51:31",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2026-02-12",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-03-02",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 14905.44,
+      "contract_amount": 14905.44,
+      "cost_amount": 0.0,
+      "created_at": "2026-01-24 00:54:44",
+      "customer_id": "8187208",
+      "division_raw": "Insurance",
+      "id": "7335269",
+      "invoiced_amount": 14905.44,
+      "modified_at": "2026-07-02 18:44:05",
+      "rep_leap_id": "98857",
+      "source_raw": "",
+      "stage_entered_at": "2026-07-02 18:44:05",
+      "stage_history": [
+        {
+          "entered_at": "2026-07-02 18:44:05",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2026-03-17",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-04-16",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 5059.63,
+      "contract_amount": 5059.63,
+      "cost_amount": 0.0,
+      "created_at": "2026-01-14 15:17:31",
+      "customer_id": "8142453",
+      "division_raw": "Retail",
+      "id": "7287343",
+      "invoiced_amount": 5059.63,
+      "modified_at": "2026-03-16 15:04:19",
+      "rep_leap_id": "33349",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-16 15:04:18",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 15:04:18",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2026-01-16",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-03-01",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 4144.49,
+      "contract_amount": 4144.49,
+      "cost_amount": 0.0,
+      "created_at": "2025-12-04 20:04:03",
+      "customer_id": "7969898",
+      "division_raw": "Retail",
+      "id": "7104337",
+      "invoiced_amount": 4144.49,
+      "modified_at": "2026-03-17 18:31:58",
+      "rep_leap_id": "98856",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-17 18:31:58",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-17 18:31:58",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2025-12-18",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-03-09",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 44291.35,
+      "contract_amount": 44291.35,
+      "cost_amount": 0.0,
+      "created_at": "2025-11-25 01:09:26",
+      "customer_id": "7910299",
+      "division_raw": "Insurance",
+      "id": "7085411",
+      "invoiced_amount": 44291.35,
+      "modified_at": "2026-03-18 00:37:45",
+      "rep_leap_id": "98856",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-17 18:44:15",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-17 18:44:15",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2025-12-08",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-01-31",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 15129.58,
+      "contract_amount": 15129.58,
+      "cost_amount": 0.0,
+      "created_at": "2025-11-14 20:22:49",
+      "customer_id": "7875840",
+      "division_raw": "Insurance",
+      "id": "7054217",
+      "invoiced_amount": 15129.58,
+      "modified_at": "2026-03-21 21:46:51",
+      "rep_leap_id": "98856",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-21 21:46:51",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-21 21:46:51",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2025-11-20",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-12-22",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 8302.96,
+      "contract_amount": 8302.96,
+      "cost_amount": 0.0,
+      "created_at": "2025-11-13 18:21:58",
+      "customer_id": "7872842",
+      "division_raw": "Insurance",
+      "id": "7050537",
+      "invoiced_amount": 8302.96,
+      "modified_at": "2026-03-19 13:56:17",
+      "rep_leap_id": "58260",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-19 13:56:17",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-19 13:56:17",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2025-11-24",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-01-06",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 25478.29,
+      "contract_amount": 25478.29,
+      "cost_amount": 0.0,
+      "created_at": "2025-11-10 18:30:22",
+      "customer_id": "7863878",
+      "division_raw": "Insurance",
+      "id": "7039175",
+      "invoiced_amount": 25478.29,
+      "modified_at": "2026-03-23 13:17:48",
+      "rep_leap_id": "98475",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-21 22:35:39",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-21 22:35:39",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2025-11-19",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-01-05",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 10475.82,
+      "contract_amount": 10085.05,
+      "cost_amount": 0.0,
+      "created_at": "2025-11-06 20:36:26",
+      "customer_id": "7857591",
+      "division_raw": "Insurance",
+      "id": "7031539",
+      "invoiced_amount": 10475.82,
+      "modified_at": "2026-03-17 18:35:48",
+      "rep_leap_id": "98475",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-17 18:35:48",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-17 18:35:48",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2025-11-06",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-11-19",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 36524.22,
+      "contract_amount": 36524.22,
+      "cost_amount": 0.0,
+      "created_at": "2025-11-05 23:17:13",
+      "customer_id": "7854941",
+      "division_raw": "Insurance",
+      "id": "7028265",
+      "invoiced_amount": 36524.22,
+      "modified_at": "2026-03-20 18:16:56",
+      "rep_leap_id": "33349",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-20 17:47:38",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-20 17:47:38",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2026-01-03",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-02-23",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 7938.11,
+      "contract_amount": 16376.87,
+      "cost_amount": 0.0,
+      "created_at": "2025-10-31 15:31:15",
+      "customer_id": "7830499",
+      "division_raw": "Insurance",
+      "id": "7003825",
+      "invoiced_amount": 16376.87,
+      "modified_at": "2026-03-22 20:40:12",
+      "rep_leap_id": "84209",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-20 14:07:27",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-20 14:07:27",
+          "stage": "Invoicing"
+        },
+        {
+          "entered_at": "2025-10-17",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-12-08",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Invoicing",
+      "type": "job"
+    },
+    {
+      "collected_amount": 63953.26,
+      "contract_amount": 63953.26,
+      "cost_amount": 0.0,
+      "created_at": "2025-10-30 14:35:07",
+      "customer_id": "7827331",
+      "division_raw": "Retail",
+      "id": "6999638",
+      "invoiced_amount": 63953.26,
+      "modified_at": "2026-03-20 17:50:55",
+      "rep_leap_id": "84209",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-20 17:39:25",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-20 17:39:25",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2025-10-21",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2026-02-24",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 19803.97,
+      "contract_amount": 19803.97,
+      "cost_amount": 0.0,
+      "created_at": "2025-10-28 14:24:12",
+      "customer_id": "7820352",
+      "division_raw": "Insurance",
+      "id": "6990956",
+      "invoiced_amount": 19803.97,
+      "modified_at": "2026-03-16 14:22:52",
+      "rep_leap_id": "84209",
+      "source_raw": "",
+      "stage_entered_at": "2026-03-16 14:22:52",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 14:22:52",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2025-07-25",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-08-16",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 5483.13,
+      "contract_amount": 10313.06,
+      "cost_amount": 0.0,
+      "created_at": "2025-10-27 21:04:52",
+      "customer_id": "7819310",
+      "division_raw": "Insurance",
+      "id": "6989606",
+      "invoiced_amount": 11213.06,
+      "modified_at": "2026-03-16 16:20:46",
+      "rep_leap_id": "84209",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-16 16:20:28",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 16:20:28",
+          "stage": "Lien Filed"
+        },
+        {
+          "entered_at": "2025-07-18",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-08-23",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Lien Filed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 9980.97,
+      "contract_amount": 15337.85,
+      "cost_amount": 0.0,
+      "created_at": "2025-10-25 10:38:08",
+      "customer_id": "7814802",
+      "division_raw": "Insurance",
+      "id": "6984254",
+      "invoiced_amount": 15337.85,
+      "modified_at": "2026-03-16 16:27:18",
+      "rep_leap_id": "84209",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-16 16:27:18",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 16:27:18",
+          "stage": "Lien Filed"
+        },
+        {
+          "entered_at": "2025-06-11",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-07-10",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Lien Filed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 16192.99,
+      "contract_amount": 16192.99,
+      "cost_amount": 0.0,
+      "created_at": "2025-10-22 00:53:22",
+      "customer_id": "7805423",
+      "division_raw": "Insurance",
+      "id": "6972592",
+      "invoiced_amount": 16192.99,
+      "modified_at": "2026-03-18 00:37:06",
+      "rep_leap_id": "33349",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-17 19:02:02",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-17 19:02:02",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2025-05-22",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-10-21",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 4000.0,
+      "contract_amount": 13605.69,
+      "cost_amount": 0.0,
+      "created_at": "2025-10-21 19:30:40",
+      "customer_id": "7804566",
+      "division_raw": "Retail",
+      "id": "6971572",
+      "invoiced_amount": 13605.69,
+      "modified_at": "2026-07-02 11:19:49",
+      "rep_leap_id": "33349",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-16 16:25:56",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 16:25:56",
+          "stage": "Invoicing"
+        },
+        {
+          "entered_at": "2025-07-16",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-08-07",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Invoicing",
+      "type": "job"
+    },
+    {
+      "collected_amount": 6597.24,
+      "contract_amount": 7937.52,
+      "cost_amount": 0.0,
+      "created_at": "2025-04-17 15:19:52",
+      "customer_id": "6838168",
+      "division_raw": "Insurance",
+      "id": "6020614",
+      "invoiced_amount": 7937.52,
+      "modified_at": "2026-03-16 16:32:42",
+      "rep_leap_id": "48238",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-16 16:32:42",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 16:32:42",
+          "stage": "Lien Filed"
+        },
+        {
+          "entered_at": "2025-04-23",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-05-05",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Lien Filed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 5543.62,
+      "contract_amount": 6805.3,
+      "cost_amount": 0.0,
+      "created_at": "2025-04-08 15:54:28",
+      "customer_id": "6774037",
+      "division_raw": "Retail",
+      "id": "5985827",
+      "invoiced_amount": 6805.3,
+      "modified_at": "2026-03-17 19:21:58",
+      "rep_leap_id": "48238",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-16 16:18:17",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 16:18:17",
+          "stage": "Lien Filed"
+        },
+        {
+          "entered_at": "2025-05-07",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-04-22",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Lien Filed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 11914.47,
+      "contract_amount": 13852.03,
+      "cost_amount": 0.0,
+      "created_at": "2025-03-13 20:19:00",
+      "customer_id": "6685766",
+      "division_raw": "Insurance",
+      "id": "5888135",
+      "invoiced_amount": 13852.03,
+      "modified_at": "2026-03-16 16:19:28",
+      "rep_leap_id": "58260",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-16 16:19:28",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 16:19:28",
+          "stage": "Lien Filed"
+        },
+        {
+          "entered_at": "2025-05-12",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Lien Filed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 31649.76,
+      "contract_amount": 32964.76,
+      "cost_amount": 0.0,
+      "created_at": "2025-01-31 18:35:46",
+      "customer_id": "6537171",
+      "division_raw": "Retail",
+      "id": "5739454",
+      "invoiced_amount": 32441.14,
+      "modified_at": "2026-03-16 20:23:03",
+      "rep_leap_id": "78880",
+      "source_raw": "customer",
+      "stage_entered_at": "2026-03-16 20:23:03",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 20:23:03",
+          "stage": "PIF - Happy"
+        },
+        {
+          "entered_at": "2025-04-25",
+          "stage": "(contract signed)"
+        },
+        {
+          "entered_at": "2025-02-25",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "PIF - Happy",
+      "type": "job"
+    },
+    {
+      "collected_amount": 6000.0,
+      "contract_amount": 11447.81,
+      "cost_amount": 0.0,
+      "created_at": "2024-10-23 18:24:15",
+      "customer_id": "6284408",
+      "division_raw": "Insurance",
+      "id": "5495926",
+      "invoiced_amount": 11447.81,
+      "modified_at": "2026-04-18 20:00:44",
+      "rep_leap_id": "48238",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-16 16:34:50",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 16:34:50",
+          "stage": "Lien Filed"
+        },
+        {
+          "entered_at": "2025-02-04",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Lien Filed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 383.29,
+      "contract_amount": 11762.71,
+      "cost_amount": 0.0,
+      "created_at": "2024-09-04 18:05:52",
+      "customer_id": "6120075",
+      "division_raw": "Retail",
+      "id": "5321949",
+      "invoiced_amount": 11762.71,
+      "modified_at": "2026-06-24 14:06:00",
+      "rep_leap_id": "33349",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-16 16:11:49",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 16:11:49",
+          "stage": "Lien Filed"
+        },
+        {
+          "entered_at": "2025-03-05",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Lien Filed",
+      "type": "job"
+    },
+    {
+      "collected_amount": 5700.0,
+      "contract_amount": 14955.14,
+      "cost_amount": 0.0,
+      "created_at": "2023-07-26 19:46:09",
+      "customer_id": "4778493",
+      "division_raw": "Retail",
+      "id": "4006088",
+      "invoiced_amount": 14955.14,
+      "modified_at": "2026-03-16 16:33:29",
+      "rep_leap_id": "33895",
+      "source_raw": "referral",
+      "stage_entered_at": "2026-03-16 16:33:29",
+      "stage_history": [
+        {
+          "entered_at": "2026-03-16 16:33:29",
+          "stage": "Lien Filed"
+        },
+        {
+          "entered_at": "2023-10-24",
+          "stage": "(completed)"
+        }
+      ],
+      "stage_raw": "Lien Filed",
+      "type": "job"
+    },
+    {
+      "completed": false,
+      "created_at": "2026-03-13 19:17:54",
+      "customer_id": "8363006",
+      "id": "28233367",
+      "rep_leap_id": "33895",
+      "scheduled_for": "2026-03-16 21:30:00",
+      "type": "appointment"
+    }
+  ],
+  "source": "leap",
+  "status": "ok",
+  "week": "2026-W12",
+  "week_end": "2026-03-22",
+  "week_start": "2026-03-16"
+}

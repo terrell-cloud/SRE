@@ -48,4 +48,5 @@ channels:
   - key: other
     label: "Other"
     qb_account: "Ads Management"
-    ghl_sources: ["other", "conversation", "quickbooks", "Frontline Sales"]
+    ghl_sources: ["other", "conversation", "quickbooks", "Frontline Sales",
+                  "VA IN-BOUND LEAD FORM", "Chris Dyer's Calendar"]

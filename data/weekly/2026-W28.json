@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-07-13T20:35:36.889376-04:00",
+  "generated_at": "2026-07-13T20:52:20.117861-04:00",
   "kpis": {
     "avg_job_size": 10571.46,
     "cac_by_source": {
@@ -13,8 +13,13 @@
     },
     "closing_pct_insurance": {
       "by_rep": {
+        "terrell": {
+          "lost": 1,
+          "pct": 0.0,
+          "sold": 0
+        },
         "unmapped": {
-          "lost": 2,
+          "lost": 1,
           "pct": 0.0,
           "sold": 0
         }
@@ -27,10 +32,20 @@
     },
     "closing_pct_retail": {
       "by_rep": {
-        "unmapped": {
+        "chris_dyer": {
           "lost": 0,
           "pct": 100.0,
-          "sold": 5
+          "sold": 1
+        },
+        "chris_johnson": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        },
+        "terrell": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 3
         }
       },
       "overall": {
@@ -92,7 +107,7 @@
     "production": {
       "backlog_jobs": 10,
       "backlog_value": 173469.38,
-      "completed": 20,
+      "completed": 19,
       "in_production": 9,
       "started": 4
     },
@@ -139,7 +154,16 @@
       "status": "ok"
     }
   },
-  "warnings": [],
+  "warnings": [
+    "5 Leap job(s) assigned to unmapped user id '101550' (add to reps.yaml)",
+    "1 Leap job(s) assigned to unmapped user id '54940' (add to reps.yaml)",
+    "1 Leap job(s) assigned to unmapped user id '73425' (add to reps.yaml)",
+    "6 Leap job(s) assigned to unmapped user id '78880' (add to reps.yaml)",
+    "3 Leap job(s) assigned to unmapped user id '83975' (add to reps.yaml)",
+    "1 Leap job(s) assigned to unmapped user id '87097' (add to reps.yaml)",
+    "3 Leap job(s) assigned to unmapped user id '98858' (add to reps.yaml)",
+    "3 Leap job(s) assigned to unmapped user id '98859' (add to reps.yaml)"
+  ],
   "week": "2026-W28",
   "week_end": "2026-07-12",
   "week_start": "2026-07-06"

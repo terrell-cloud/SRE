@@ -1,0 +1,826 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:47:55.558509-04:00",
+  "records": [
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-17T13:22:25.571Z",
+      "id": "3gKJDS3vE7VGeRuaiCsA",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-17T15:33:07.810Z",
+      "id": "11cgoDC6cV0tp4hcRd9B",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-17T15:59:30.395Z",
+      "id": "FOHWRMWLXkeVJcQBRqLT",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-17T16:52:23.897Z",
+      "id": "1D1iLemuQngG4Nd7QU7d",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-17T16:58:52.179Z",
+      "id": "aKKK46QrLWztoJPA3pMy",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "jb2v1ctTSpRmlmQPGBto",
+      "date_added": "2025-11-17T17:01:13.131Z",
+      "id": "GUKtRRSM6jqEvgD5rBCI",
+      "source_raw": "quickbooks",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-17T17:11:30.914Z",
+      "id": "bM96dW1reUG11r45nQXS",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-17T18:50:08.563Z",
+      "id": "MZsQFjwVOOsZMQoucNFC",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-17T18:51:13.230Z",
+      "id": "Gefcj71OcZrdOJJnAtEm",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-17T18:55:57.887Z",
+      "id": "PRuW7TLcD9O6gUBVX8jq",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-17T19:11:57.783Z",
+      "id": "AUzSpUzGAyMKepLpNKqe",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-17T19:18:44.667Z",
+      "id": "hCTKy0mvmI9Jesh7fZ4z",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-17T19:31:39.809Z",
+      "id": "piVSFfDqxOHUbL1ZKuib",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "jb2v1ctTSpRmlmQPGBto",
+      "date_added": "2025-11-17T19:36:05.130Z",
+      "id": "RQPOsd4MTfIkxtqtzKo3",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2025-11-17T20:06:30.837Z",
+      "id": "OqfOVWzLXYRlq1Mcq6SO",
+      "source_raw": "Chris Dyer's Calendar",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-17T20:09:58.134Z",
+      "id": "MGwDVKaM1r1noEO4MqNC",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-17T20:44:56.020Z",
+      "id": "fHKQqpqCydQPO6ytBXIE",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-17T21:57:15.398Z",
+      "id": "XtnsWmdMtlxlqXLe2Ps4",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-17T22:39:42.448Z",
+      "id": "2PEnBcFQlUcvIAHq6WVN",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-18T16:26:32.113Z",
+      "id": "Zvfx9hDZjsRc0eRVhiSG",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-18T16:40:17.396Z",
+      "id": "ON1QTzL45oVDSoOIqxjX",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-18T18:05:22.198Z",
+      "id": "CpqxAuWIZFfZ5pylLWEG",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-18T19:01:19.654Z",
+      "id": "khIcmlBsACGgm5GwHHg2",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-18T19:36:56.336Z",
+      "id": "oJMHmXRmG8222jxA2ijV",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-18T20:45:02.622Z",
+      "id": "wXhwgDYUhPGJvxs1tgcH",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "jb2v1ctTSpRmlmQPGBto",
+      "date_added": "2025-11-18T20:58:13.425Z",
+      "id": "D9SexB4plFRzsdA6xtNQ",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-18T21:03:54.865Z",
+      "id": "W4ifFuteChwAflPki3pQ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-18T21:29:26.250Z",
+      "id": "ERMeY1FkBMbX5d9um27S",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-18T21:37:02.891Z",
+      "id": "8nirC57udG3QpgmrE0CQ",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-18T21:47:02.439Z",
+      "id": "UJhxHKkwtQSW6QbnZF2d",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-18T22:22:28.982Z",
+      "id": "OVTjQLooSHNsnsLUhofW",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T01:14:35.893Z",
+      "id": "cPR3RrCb6QBM6CoQRrzs",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T13:57:48.817Z",
+      "id": "3DdsYOapAVBpqfhFrVMo",
+      "source_raw": "Website Form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "6JbTqf2rt0nj3sID1ymy",
+      "date_added": "2025-11-19T14:23:32.223Z",
+      "id": "1IQMx34JL4abBLtOJU7X",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T14:23:36.552Z",
+      "id": "l7CtDpdOraP31fmE6XGx",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T14:57:59.073Z",
+      "id": "DNa3yoYAFhhcoKPfHuyS",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T15:44:24.461Z",
+      "id": "qAVvyF0kkYJEguXcW35Q",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-19T15:58:22.594Z",
+      "id": "i46pGnBxicFbeVSDpy6v",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-19T16:52:36.861Z",
+      "id": "BgxesjdpRhfmdlfUarIH",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T16:53:30.556Z",
+      "id": "b5u7KPHRHzbEKVobgj7V",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-19T16:55:55.614Z",
+      "id": "AJEKE4UnEuUjy5XkPij5",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T17:04:01.070Z",
+      "id": "PQypvDN0J0urEInEsNVN",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T17:37:44.525Z",
+      "id": "5cg09eKzffKboQj2LaD3",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T17:59:26.290Z",
+      "id": "CKNmxcZo0jtyn2dMunTj",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T19:43:36.270Z",
+      "id": "cTrUjheJoMZZokW34kHy",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-19T19:51:31.927Z",
+      "id": "a9eGe1qqJl6nZQVQ9frX",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-19T20:10:12.657Z",
+      "id": "5Gqv0Ru29wArrIFGrD6C",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-19T20:17:34.756Z",
+      "id": "zQmRq9AUbgoUoANR4U7a",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-19T20:44:33.444Z",
+      "id": "CS2ZdOVutysANmLLUGp5",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-19T22:26:34.576Z",
+      "id": "GmxoBwhl4WvfVkOjpaxr",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-20T00:00:31.788Z",
+      "id": "rPXrauC73rbJVbvTzXjW",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-20T01:49:21.222Z",
+      "id": "AxRnLgH53YDs6LoWnLtG",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-20T17:21:10.620Z",
+      "id": "HFwybUnnahEG149fvSlu",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-20T17:49:59.351Z",
+      "id": "UEzguJcNPPcFcUygnOp4",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-20T18:04:53.817Z",
+      "id": "OoLnWpwRO5A2E1XEIVUQ",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-20T18:05:30.881Z",
+      "id": "bZabXlshd37N4hSWGX1d",
+      "source_raw": "Website Form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "c5mtY94nDsl72pszdLUS",
+      "date_added": "2025-11-20T18:37:45.409Z",
+      "id": "BOe39VmjMHJTGAvMPruB",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-20T23:52:40.804Z",
+      "id": "2V8SRwubYxCNHBRTUjBz",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-21T13:58:58.143Z",
+      "id": "PWfEA1R4uNS9CHrSYZbK",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-21T14:57:18.504Z",
+      "id": "2uZhlBc0G1kFXmZp6CyD",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-21T15:42:26.749Z",
+      "id": "WYx4OI54jd8T4pqrZGBd",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-21T15:53:16.788Z",
+      "id": "uncm60cvHjdzl98QisWD",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-21T16:01:24.819Z",
+      "id": "08q4cItMyxzEtH6qXOBQ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-21T16:07:04.487Z",
+      "id": "u3uHVIGnfXE1zpK8H2Qp",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-21T16:09:11.871Z",
+      "id": "hpcHPNQIMAFhTXVHSVbH",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "2xE1dD3kMvC6KAXpCfCI",
+      "date_added": "2025-11-21T16:40:53.962Z",
+      "id": "2N5ENHhCdnlJ3qxCT6j8",
+      "source_raw": "va in-bound lead form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-11-21T17:19:55.231Z",
+      "id": "OPvUt7Ng0vsNMRTYmIeh",
+      "source_raw": "quickbooks",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-21T18:18:47.304Z",
+      "id": "auKhRGbjIeRmExOvQWBl",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "2xE1dD3kMvC6KAXpCfCI",
+      "date_added": "2025-11-21T18:58:22.686Z",
+      "id": "qMEGOGKtQBKXwtpeD3c5",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-21T19:30:07.045Z",
+      "id": "JDhLj3eYtKkzkdtaNiRh",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-21T19:55:42.130Z",
+      "id": "mduVv1BgcLWiq5S5T4bf",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2025-11-21T20:42:02.041Z",
+      "id": "jJeqJ3Vxcfndz7kTEV3w",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-21T20:59:40.902Z",
+      "id": "eGkMZV9fcWKCMcp2ihq3",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-22T15:22:20.012Z",
+      "id": "L436p1C15lELvG42Uwe9",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "created_at": "2025-11-21T21:02:00.420Z",
+      "id": "I2qhnkbluKKV8lugfMmy",
+      "monetary_value": 0,
+      "pipeline_stage": "4027f2f5-3ed8-41b2-aecf-27edd5a9fb59",
+      "source_raw": "quickbooks",
+      "status": "open",
+      "status_changed_at": "2025-11-21T21:02:00.420Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-11-21T19:30:10.942Z",
+      "id": "6l4xhuPIhDcw8fmwdRjo",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Allstate \nKim \nChita",
+      "status": "open",
+      "status_changed_at": "2025-11-21T19:30:10.942Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "2xE1dD3kMvC6KAXpCfCI",
+      "created_at": "2025-11-21T18:58:28.868Z",
+      "id": "lvBffwjW5hi4wKkZoGqA",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Fod-Fls-Veronica-3tab 30yr roof-state farm-missing shingles-ho is home and you can do inspection today-explained how we can help him get new roof through insurance if storm damages were sufficient and if he has RCV coverage then he would just pay difference on metal roof-he does want a metal roof estimate of whole house-back porch isn’t asphalt shingles but he wants that included in estimate-he does have some siding holes and on screen so we can possibly help him with siding also but he would like siding cleaned if we do that but told him maybe we can include as part of storm damage but inspector would be able to be more specific on details and estimate after inspection-very nice HO",
+      "status": "open",
+      "status_changed_at": "2025-11-21T18:58:28.868Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-11-21T18:18:52.779Z",
+      "id": "0oKkhonnMXHMTtrskUKb",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Allstate, has had lightning hit in back",
+      "status": "open",
+      "status_changed_at": "2025-11-21T18:18:52.779Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-11-21T15:53:20.724Z",
+      "id": "0fWdk8md5zMaCx6BDItR",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Fod-Fls-Veronica-15-older 3tab roof-progressive-storms knocked tree on roof got insurance to come out about 5 months ago and they paid him 900$ for gutters-they had taken pictures with tree on it-not sure if they came back out but maybe not but ho patch it with some shingles because he has a leak-he showed me and ceiling is stained and he tried to explained it could be because of water staying in gutter and not drain-told him if there is a way we can help him possibly get him new roof through insurance from storms we can try but if anything I told him we can put a small tarp to cover area where water seeping in where he has shingles on edge of roof but we would still be able to at least identify where the leak is coming from and give him an idea of repair if we can do that-he said he could have money for repairs later in the meantime-appointment for today if possible-I advised that I would have an inspector call him for inspection",
+      "status": "open",
+      "status_changed_at": "2025-11-21T15:53:20.724Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-21T15:42:31.185Z",
+      "id": "nmuubbVKARFj4746YaqS",
+      "monetary_value": 14350,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Frontline Sales: Fod-fls-Veronica-18yr old architectural roof-does have insurance-house is fathers in laws but he is going to run it by him and it should be fine for inspection-explained how we can help them get new roof through insurance if they qualify with storm damage and would go that route/he knows roof is old and does need new roof so would like to have quote even if they don’t qualify through insurance.Appointment for next Wednesday 12noon will be there.you can call and leave message if he doesn’t answer.this is his work cell-706-934-9273 if he doesn’t get back to you on appointment date but he will be home then.",
+      "status": "open",
+      "status_changed_at": "2025-11-21T15:42:31.185Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "c5mtY94nDsl72pszdLUS",
+      "created_at": "2025-11-20T18:37:49.136Z",
+      "id": "ulUc61uWB1un7JaAw6C4",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Fod-fls-Veronica-3tab missing shingles old roof-does not have insurance-they’re having “revival” as they call it, to raise money specifically for roof-Chris is one of 4 board members that make decisions and talk amongst decision making regarding to church renovations etc/Chris wants appointment for Tuesday at or around 12(noon) I mentioned to Chris that Terrel and I would come by and do inspection but that Terrell is more knowledgeable on how to proceed overall on the costs since we wouldn’t be using insurance to cover costs.",
+      "status": "open",
+      "status_changed_at": "2025-11-20T18:37:49.136Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-20T18:05:40.767Z",
+      "id": "wH6bM7QIrTB7sNuCg7iX",
+      "monetary_value": 14350,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Website Form",
+      "status": "open",
+      "status_changed_at": "2025-11-20T18:05:40.767Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-20T18:04:58.095Z",
+      "id": "51b9pdIQDjv1ZiNVq0lM",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim\nChita \nMay 2 1” hail",
+      "status": "open",
+      "status_changed_at": "2025-11-20T18:04:58.095Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-20T17:50:04.117Z",
+      "id": "Bp7aLIJ5lS0XgXxCHsqi",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: State Farm \nMay 2 .75”\nKenzlee \nChita",
+      "status": "open",
+      "status_changed_at": "2025-11-20T17:50:04.117Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-11-20T17:21:15.149Z",
+      "id": "ZSbxwn4ffv54Iw8f7w3O",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Fod-fls-Veronica-3tb missing shingles 20+yr old roof-leak(s) living room closet area-shelter insurance-POA Marsha Thompson-rubys daughter is Betty Johnson lives there-spoke with Marsha and is good for inspection for today-so POA Marsha wants inspection and after I explained how we can help with new roof or repairs through insurance without them having their insurance go up would like to go that route after Christmas/right now she would like inspection and find out if there are more spots leaking told her we could cover small area temporary/she would like to do something about it after Christmas and wants me to call her after Christmas and leave message and she will call back and then start process on getting her a new roof through insurance if possible-ruby’s HO daughter is home also-tell her Veronica spoke with Marsha already and she said ok for inspection",
+      "status": "open",
+      "status_changed_at": "2025-11-20T17:21:15.149Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-11-19T20:44:38.130Z",
+      "id": "0eLy2G5GzR1CJVvMW9IP",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Chita \nPersonal Property Insurance \nApril 10 1” hail",
+      "status": "open",
+      "status_changed_at": "2025-11-19T20:44:38.130Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-11-19T20:10:16.922Z",
+      "id": "IDdl6NqaQMgVtTzFLktu",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim \nChita \nFarm Bureau \nApril 10 1”",
+      "status": "open",
+      "status_changed_at": "2025-11-19T20:10:16.922Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-11-19T19:51:36.398Z",
+      "id": "1rc8b15FMj0b7eGB4KWi",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim \nChita \nFarm Bureau \nApril 10 1”",
+      "status": "open",
+      "status_changed_at": "2025-11-19T19:51:36.398Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-19T16:52:41.015Z",
+      "id": "Tg44Txl0LxXKoVm4VWKs",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Fod-fls-Veronica-almost 10yr old architectural roof-state farm-explained how we can help him with repairs or replacement of roof but he doesn’t think it’ll matter but he wants us to inspect a part in middle of roof since it’s sunk in-doesn’t have leak as of now- home now-Chris j already talking to ho-",
+      "status": "open",
+      "status_changed_at": "2025-11-19T16:52:41.015Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-19T15:58:28.642Z",
+      "id": "r9cBPNTSPHjeCBJjMXF8",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Fod-fls-Veronica-3tab old roof-does have insurance-ho wants a metal roof quote-husband is home after 4-5 she would like for you to come back to talk to him and explain things-Chris briefly already talked to Mrs Bethune 👍🏽",
+      "status": "open",
+      "status_changed_at": "2025-11-19T15:58:28.642Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "ZhKGAFwgKQPWL7DFeEqq",
+      "created_at": "2025-11-19T13:57:59.117Z",
+      "id": "Bu2sGIqvSdUfAvtj8vLT",
+      "monetary_value": 14350,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Website Form",
+      "status": "open",
+      "status_changed_at": "2025-11-19T13:57:59.117Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "ZhKGAFwgKQPWL7DFeEqq",
+      "created_at": "2025-11-18T22:22:32.429Z",
+      "id": "badlPYVTCvz0xcpRHjQT",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Fod-fls-Veronica-12yr old architectural roof-Allstate-ho has a 2000 deductible-advised on in-house financing-there was a storm that hit tree and hit powerlines and yanked out of her house and made damage to her house-also moved her foundation and she’s trying to fix but doesn’t know who to contact and told her we can direct her if we can’t help her/told her we can help her fix or replace roof if damages are enough to get her new roof and she would go that route but she doesn’t want her insurance to go up and explained it wouldn’t since it happened when storms occurred/told her our insurance house financing would be a way to go for her deductible situation if we went that route-right now we can at least look at roof and siding and affected areas at no costs to see how we can help her/she is home now and ready for inspection when Josh is done with previous inspection-",
+      "status": "open",
+      "status_changed_at": "2025-11-18T22:22:32.429Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-18T21:47:06.904Z",
+      "id": "KA1g0Kl85eQk50ju6YzI",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: 92 years old",
+      "status": "open",
+      "status_changed_at": "2025-11-18T21:47:06.904Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "ZhKGAFwgKQPWL7DFeEqq",
+      "created_at": "2025-11-18T21:37:06.866Z",
+      "id": "C2n7sltOyls9x2bDXKnb",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Fod-fls-Veronica-3tab missing shingles 15yr roof-can’t remember old insurance but has State Farm now for 6 months and explained how we can help him get a new roof and like idea just wants to make sure which insurance would cover him previous or current- home now for inspection- he is waiting for you",
+      "status": "open",
+      "status_changed_at": "2025-11-18T21:37:06.867Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-18T20:58:16.984Z",
+      "id": "YDW0FtG6OQjGsDd1micG",
+      "monetary_value": 14350,
+      "pipeline_stage": "edddaed4-3d82-4cb0-be86-ec76a3574d2f",
+      "source_raw": "Frontline Sales:",
+      "status": "open",
+      "status_changed_at": "2025-11-18T20:58:16.984Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "ZhKGAFwgKQPWL7DFeEqq",
+      "created_at": "2025-11-18T20:45:10.277Z",
+      "id": "B87lRdWpsCTZ1vPmCCiS",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Fod-Fls-Veronica-22 yr old architectural roof-ho would like an estimate-they know their roof is old and looking to buy retail-i explained how we can help buy them a new roof through insurance if we find damages from storm and they just want to buy retail-taking pictures for estimate now-",
+      "status": "open",
+      "status_changed_at": "2025-11-18T20:45:10.277Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-17T20:44:59.973Z",
+      "id": "P4MOqGafbSMm0duul2za",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Dos-fls-Verónica-3tab 15yr old roof- explained to ho how we can help through insurance claim if we found damage from storm- he is home now if you call him. You can do inspection today- nice old man- Alfa insurance",
+      "status": "open",
+      "status_changed_at": "2025-11-17T20:44:59.973Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2025-11-17T20:11:40.047Z",
+      "id": "9vxpeOD1q2jSzysNIiqY",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Chris Dyer's Calendar",
+      "status": "open",
+      "status_changed_at": "2025-11-17T20:11:40.047Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-11-17T20:10:01.804Z",
+      "id": "lmJIoO0pQK7AgKB18ilC",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: May 12 1” \nState Farm \nKim \nChita",
+      "status": "open",
+      "status_changed_at": "2025-11-17T20:10:01.804Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-17T19:31:44.362Z",
+      "id": "mJNVt6USRE1W2ExBgmo2",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Food-fls-Verónica-3tab 7-8yr roof-he wants a gutter quote but also thinking of getting new roof and offered a free inspection-he is a roofer but said he’s getting old-I joked around about if he didn’t want to do his own roof to give us a call and that’s when he mentioned that he may hire us because he’s getting too old-he is home and he is going to answer your call- I’ve told him you’ve got an inspection near by so you will come over afterwards so just give him a call ok 🙏🏽",
+      "status": "open",
+      "status_changed_at": "2025-11-17T19:31:44.362Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-11-17T19:12:01.152Z",
+      "id": "Hm8E1Za6F3UCC78MtycX",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Food-fls-Verónica-24yr old architectural roof-would like to file if we can cans damage but I think he may be aware his roof may be too old but wants to try but does want an estimate on new roof however because he will be looking into a few companies to see if he can get best quote-he may be looking into other things besides roof I mentioned we do gutters siding and windows as well-inspection at 3 please for today-he is home- please text him first because he won’t answer if he doesn’t know your #",
+      "status": "open",
+      "status_changed_at": "2025-11-17T19:12:01.152Z",
+      "type": "opportunity"
+    }
+  ],
+  "source": "ghl",
+  "status": "ok",
+  "week": "2025-W47",
+  "week_end": "2025-11-23",
+  "week_start": "2025-11-17"
+}

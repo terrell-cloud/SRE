@@ -1,0 +1,168 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:47:55.562606-04:00",
+  "records": [
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-22T17:42:32.990Z",
+      "id": "KO0JVTLlgmCtZEs2QOFn",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-22T18:07:16.517Z",
+      "id": "bokkcxdby2mcE8mdSxhn",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2025-12-22T18:51:20.501Z",
+      "id": "mWmGvNMhr2hYfzL8kY7o",
+      "source_raw": "Chris Dyer's Calendar",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-22T20:56:13.878Z",
+      "id": "xpBRBA61kKnjSWvvxJwO",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-22T21:41:02.590Z",
+      "id": "qmIYutH6BsYOqEzHua62",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-22T21:46:33.802Z",
+      "id": "EIV3bd05MgZ8dTJbqVbp",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-23T09:13:56.548Z",
+      "id": "L8sNd5NHtK0gggySuxuj",
+      "source_raw": "Website Form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-23T15:33:32.095Z",
+      "id": "oAfcetRgzhXNnW1tiwyl",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-23T19:13:38.083Z",
+      "id": "5CI5V6YxThtmyPSttVHT",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-23T19:17:58.928Z",
+      "id": "KcJgNxLlIiMKoNutUq8Y",
+      "source_raw": "Website Form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-24T14:36:12.405Z",
+      "id": "TjqFqjiSpzvfEVrj6YZu",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-26T15:01:44.268Z",
+      "id": "wkNLl8Lv0WS3kdjJu6mW",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-27T18:14:36.391Z",
+      "id": "YgH3JqOHM2Vw2Y4AJaM7",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "created_at": "2025-12-23T19:18:09.332Z",
+      "id": "ebWTjsm7bwF4cDpfMVB5",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Website Form",
+      "status": "open",
+      "status_changed_at": "2025-12-23T19:18:09.332Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": null,
+      "created_at": "2025-12-23T09:14:08.388Z",
+      "id": "FxKFtxuhCiM6IjoFj7Lx",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Website Form",
+      "status": "open",
+      "status_changed_at": "2025-12-23T09:14:08.388Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2025-12-22T20:56:17.904Z",
+      "id": "NILpKmgcRmb9bEdhJWcl",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Mathew \nChita",
+      "status": "open",
+      "status_changed_at": "2025-12-22T20:56:17.904Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": null,
+      "created_at": "2025-12-22T20:03:56.241Z",
+      "id": "FF62dxerGvdlatNl9cF9",
+      "monetary_value": 14350,
+      "pipeline_stage": "bb25bdab-e9bb-4f65-a68e-426cc497cfb2",
+      "source_raw": "Chris Dyer's Calendar",
+      "status": "open",
+      "status_changed_at": "2025-12-22T20:03:56.241Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2025-12-22T18:56:28.915Z",
+      "id": "2DAurptwEqa5O32cIo8z",
+      "monetary_value": 0,
+      "pipeline_stage": "57ec884d-9af8-4551-9ef3-ef6be7208b21",
+      "source_raw": "Chris Dyer's Calendar",
+      "status": "won",
+      "status_changed_at": "2025-12-22T20:03:52.967Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-12-22T17:42:36.824Z",
+      "id": "kr4iN02NjIf5h8UY28lP",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Akira Bell \nChita",
+      "status": "open",
+      "status_changed_at": "2025-12-22T17:42:36.824Z",
+      "type": "opportunity"
+    }
+  ],
+  "source": "ghl",
+  "status": "ok",
+  "week": "2025-W52",
+  "week_end": "2025-12-28",
+  "week_start": "2025-12-22"
+}

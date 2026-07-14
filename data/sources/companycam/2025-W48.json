@@ -1,0 +1,146 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:47:02.971771-04:00",
+  "records": [
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2025-11-24T07:04:57-05:00",
+      "last_capture": "2025-11-24T17:42:37-05:00",
+      "photo_count": 91,
+      "project_id": "88257421",
+      "project_name": null
+    },
+    {
+      "creator_id": "3691218",
+      "creator_name": "Riley Moorehead",
+      "first_capture": "2025-11-24T11:29:39-05:00",
+      "last_capture": "2025-11-24T11:42:43-05:00",
+      "photo_count": 115,
+      "project_id": "94798729",
+      "project_name": null
+    },
+    {
+      "creator_id": "3691218",
+      "creator_name": "Riley Moorehead",
+      "first_capture": "2025-11-24T12:37:03-05:00",
+      "last_capture": "2025-11-24T12:54:23-05:00",
+      "photo_count": 94,
+      "project_id": "94813276",
+      "project_name": null
+    },
+    {
+      "creator_id": "3810579",
+      "creator_name": "Scott Gray",
+      "first_capture": "2025-11-24T14:01:46-05:00",
+      "last_capture": "2025-11-24T14:38:25-05:00",
+      "photo_count": 31,
+      "project_id": "94901976",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2025-11-24T14:14:13-05:00",
+      "last_capture": "2025-11-24T14:24:04-05:00",
+      "photo_count": 41,
+      "project_id": "94905233",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2025-11-24T14:37:31-05:00",
+      "last_capture": "2025-11-24T15:43:43-05:00",
+      "photo_count": 78,
+      "project_id": "94732846",
+      "project_name": null
+    },
+    {
+      "creator_id": "3030147",
+      "creator_name": "Justin Carnes",
+      "first_capture": "2025-11-24T14:38:42-05:00",
+      "last_capture": "2025-11-24T14:46:19-05:00",
+      "photo_count": 91,
+      "project_id": "94079156",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2025-11-24T16:44:37-05:00",
+      "last_capture": "2025-11-24T17:00:41-05:00",
+      "photo_count": 11,
+      "project_id": "94926256",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2025-11-26T10:02:25-05:00",
+      "last_capture": "2025-11-26T10:29:55-05:00",
+      "photo_count": 6,
+      "project_id": "89788272",
+      "project_name": null
+    },
+    {
+      "creator_id": "3760773",
+      "creator_name": "Chris Johnson",
+      "first_capture": "2025-11-26T11:26:07-05:00",
+      "last_capture": "2025-11-26T11:36:56-05:00",
+      "photo_count": 33,
+      "project_id": "94791339",
+      "project_name": null
+    },
+    {
+      "creator_id": "3170181",
+      "creator_name": "Mason Broughman",
+      "first_capture": "2025-11-26T11:30:07-05:00",
+      "last_capture": "2025-11-26T11:57:50-05:00",
+      "photo_count": 10,
+      "project_id": "87930613",
+      "project_name": null
+    },
+    {
+      "creator_id": "3810579",
+      "creator_name": "Scott Gray",
+      "first_capture": "2025-11-26T13:01:00-05:00",
+      "last_capture": "2025-11-26T13:21:29-05:00",
+      "photo_count": 38,
+      "project_id": "95032416",
+      "project_name": null
+    },
+    {
+      "creator_id": "3810579",
+      "creator_name": "Scott Gray",
+      "first_capture": "2025-11-26T14:15:35-05:00",
+      "last_capture": "2025-11-26T14:17:48-05:00",
+      "photo_count": 11,
+      "project_id": "94677639",
+      "project_name": null
+    },
+    {
+      "creator_id": "3810579",
+      "creator_name": "Scott Gray",
+      "first_capture": "2025-11-26T14:44:41-05:00",
+      "last_capture": "2025-11-26T15:34:18-05:00",
+      "photo_count": 11,
+      "project_id": "95042876",
+      "project_name": null
+    },
+    {
+      "creator_id": "3810579",
+      "creator_name": "Scott Gray",
+      "first_capture": "2025-11-28T14:01:30-05:00",
+      "last_capture": "2025-11-28T14:16:59-05:00",
+      "photo_count": 30,
+      "project_id": "95039059",
+      "project_name": null
+    }
+  ],
+  "source": "companycam",
+  "status": "ok",
+  "week": "2025-W48",
+  "week_end": "2025-11-30",
+  "week_start": "2025-11-24"
+}

@@ -80,3 +80,6 @@ stages:
   - name: "PIF - NH"
     class: sold
     production: completed
+  - name: "Paid In Full"    # legacy stage name seen in backfilled history
+    class: sold
+    production: completed

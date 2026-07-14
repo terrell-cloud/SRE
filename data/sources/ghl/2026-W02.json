@@ -1,0 +1,1057 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:47:55.563891-04:00",
+  "records": [
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T14:29:48.310Z",
+      "id": "6wkT9T04fggZ8OjOcEfm",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-05T14:31:02.711Z",
+      "id": "aP846BAlvuPgGUBZTBTi",
+      "source_raw": "VA IN-BOUND LEAD FORM",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T14:33:11.485Z",
+      "id": "JrdP8KlXcLT0H5aXAtze",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T14:36:28.979Z",
+      "id": "V77fMCPw83wU2rQV11Zv",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T14:37:29.721Z",
+      "id": "9DWTKx041dlG7zTrfNFu",
+      "source_raw": "quickbooks",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T14:44:41.181Z",
+      "id": "qa1ZoHkfAyVnCZEcZgt8",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T14:56:25.653Z",
+      "id": "uKOthhFZDwqXwMwKg831",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T14:58:43.071Z",
+      "id": "HCFsr8uZ3nt11QYDVozh",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T15:00:58.427Z",
+      "id": "8ygNW6kg479VyMykE5HS",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T15:02:01.723Z",
+      "id": "thNqn1lKGzr4mlM3QmsG",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T15:04:07.964Z",
+      "id": "M8OZO3Stqm3qRJwOX5Ks",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T15:08:10.357Z",
+      "id": "4JtVYBRL1llOLdQWLzGm",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2026-01-05T16:28:28.478Z",
+      "id": "SEdiwidJBSuvxT44JvKw",
+      "source_raw": "VA IN-BOUND LEAD FORM",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T16:54:24.303Z",
+      "id": "0uGzFWhZIh5P7tOie9Hy",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T16:55:55.153Z",
+      "id": "sTVvv6tuk6MSZJ29ji5Y",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T16:57:37.291Z",
+      "id": "Z2KR7PPZBY80dajTPrJO",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T17:40:28.111Z",
+      "id": "2ppn26poJCDgaqsyRMs9",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T17:46:38.667Z",
+      "id": "cxzAfawjGssHSkDtcrdl",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T17:55:31.241Z",
+      "id": "ppxdxyWvy3CG83ci6xxE",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T17:57:53.719Z",
+      "id": "SHZlVbcHDH6p93JrgGVx",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T18:52:59.277Z",
+      "id": "lXlHXr6VaaVy7rj2XAyk",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "cgQxZGl5BFMni7BjzOAb",
+      "date_added": "2026-01-05T18:55:27.856Z",
+      "id": "AwUtcluBYFi6RpAczhU3",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T18:57:15.125Z",
+      "id": "etcGnYXpsDY5KcszUNCE",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T18:59:59.052Z",
+      "id": "sryH5Q41Jv5VJuq5W07J",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T19:01:40.503Z",
+      "id": "k6yPL40o7m0DwHGwJdaF",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T19:05:13.850Z",
+      "id": "BYOjVsY8X5PWD9DhUFfT",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T19:05:13.866Z",
+      "id": "5b3c72GFHif1sIxYZKiq",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T19:06:45.349Z",
+      "id": "74eNrGy16W9zd7GoCDaS",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T19:11:26.189Z",
+      "id": "431YB0pXFgjxfc5ci29Y",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T19:38:38.788Z",
+      "id": "YOK7aRzWXJpokawaR630",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T19:40:55.665Z",
+      "id": "t1qjgySobMrzEqnQX3fL",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T19:42:05.774Z",
+      "id": "Oh8MP3thoVeUHqPXBeav",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T19:42:14.973Z",
+      "id": "OIq6Qk7YhgQSJNEvElap",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T19:52:50.024Z",
+      "id": "JyMniK2bcrwN10edb1wJ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T20:36:06.125Z",
+      "id": "5lMSom8lYW2CRJDvLCs4",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-05T21:27:29.281Z",
+      "id": "ZsW9OALOtBxqMUZCcQbq",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T15:25:45.917Z",
+      "id": "FG0xmc09InZaspfZRCrW",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T16:39:01.108Z",
+      "id": "vXxv1ikxt8UzXfo1b0VG",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T16:47:49.224Z",
+      "id": "o4gt7vxsSmNDQJQXbn8w",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T16:51:19.919Z",
+      "id": "Az41kh2Iz14hlqnv4Fhq",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T17:08:35.154Z",
+      "id": "YIJORtLZiTQBWNwn5EMb",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T17:12:28.528Z",
+      "id": "Y4pRfNNClezmBxYfZ4gL",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T17:15:50.666Z",
+      "id": "TWKWhK1H5NFMZoPY7IT4",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T17:19:17.231Z",
+      "id": "lYpW6jPecBfYrb4m9Php",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T18:04:09.644Z",
+      "id": "zTVh6TqyinFBO0RQC9uj",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T18:04:30.928Z",
+      "id": "CHFAHFuOYRqg36CAq69a",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T18:09:03.697Z",
+      "id": "kj1jd2JTdW5qSO41vDF7",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T18:10:16.577Z",
+      "id": "DeUpRZWFppi3nuRoy1KR",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T18:14:53.080Z",
+      "id": "QWcek6mIQC6TqoJN8sHO",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T18:36:42.883Z",
+      "id": "IWAxzLhcJTaIz6DFIiPL",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-06T18:36:53.737Z",
+      "id": "pWom8PDQYYoeZbW76syW",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T18:44:58.055Z",
+      "id": "gavSalCoUrC3TcOA6aVv",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-06T19:36:27.043Z",
+      "id": "p4ZLpy0uAVJdUFXXTN7P",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T19:37:26.075Z",
+      "id": "L34UWMgQpMymgrPGwhn4",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-06T21:56:04.185Z",
+      "id": "9qnQ3txhv9BU8fEfshXT",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-07T15:00:15.729Z",
+      "id": "yrMe9mvC3XxzfwY1jC1e",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-07T15:09:51.162Z",
+      "id": "8Eif8rcPWrlMRRiUY6Yt",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-07T17:12:11.201Z",
+      "id": "gUbUh58CQdI8U697wAJt",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-07T19:01:01.398Z",
+      "id": "WJfd3khEAvsAcIfUU9bz",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-07T19:21:18.508Z",
+      "id": "fLJbXMKfq9y8b8Zwm1Bi",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-07T19:26:13.133Z",
+      "id": "8j7ty9sz94e5AturVrXn",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-07T19:39:05.248Z",
+      "id": "V1EaTuBaXnRNaxeotkzZ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-07T19:39:13.326Z",
+      "id": "RlJAt0fJhC7IZx74NRuY",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-07T19:59:25.976Z",
+      "id": "4RNbM3txwdKPet4asSWo",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-07T20:01:17.137Z",
+      "id": "DCikxsi6bL03slViDOhd",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-07T20:30:59.589Z",
+      "id": "amzIT8LQL9W2OKHAya5N",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T16:09:29.494Z",
+      "id": "OvcbiZeo2RK89TlFDPaL",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-08T16:15:10.252Z",
+      "id": "NZUMwfaxpFkDFfZBghXv",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T16:59:13.333Z",
+      "id": "6wzOWRv05km0vQMoaTA3",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2026-01-08T17:04:48.829Z",
+      "id": "hhwxs0M3AHf8OUrRXXJL",
+      "source_raw": "VA IN-BOUND LEAD FORM",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T17:16:09.304Z",
+      "id": "pqfu97GPMtSwbDMxefb6",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-08T17:48:07.531Z",
+      "id": "9ufLylk7gZ1eXyKykNx0",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T18:01:47.569Z",
+      "id": "lXgElvwpibQEFZNBPhXz",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T18:05:06.700Z",
+      "id": "aQwBCpwrzODGqIq1NE4M",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T18:09:14.619Z",
+      "id": "Y6Z8jjz2ih9KPGrbdMQ0",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T18:33:27.561Z",
+      "id": "K9S8L2fzEW0jC2QpnX3b",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T19:17:57.079Z",
+      "id": "8l68uX6C9HdavtWYcimt",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T19:20:21.384Z",
+      "id": "qLZh79joLWA4pzxd8cif",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T19:41:24.156Z",
+      "id": "hsLw578JIiT1oXbKDUDp",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T19:46:47.730Z",
+      "id": "AHvgiiYCl4PMKb2rDlnu",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T20:13:23.367Z",
+      "id": "7xrq6Af5w6gzLNcx86Sb",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T20:13:43.617Z",
+      "id": "j660QRKgxbOhfx3hDe1o",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-08T20:32:59.617Z",
+      "id": "FMkLkDhkt7c4doVLUpa7",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T20:51:13.302Z",
+      "id": "qqME4KUvaKOWCV2fs1N1",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-08T21:23:44.027Z",
+      "id": "DFfai6Fmzu1Sr9XxDVBT",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2026-01-08T22:11:12.576Z",
+      "id": "Hlc5jNtQW2hqahoyDmIX",
+      "source_raw": "VA IN-BOUND LEAD FORM",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-08T22:24:18.075Z",
+      "id": "EdbujcvuL94zwzafF2AP",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-09T16:13:53.159Z",
+      "id": "oVfzXZyX548ca88i39e9",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-09T17:23:46.523Z",
+      "id": "olVaNKhoDxJCDmAXuqhy",
+      "source_raw": "quickbooks",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-09T18:50:26.115Z",
+      "id": "YENM8HEWzFHLCARZGk4o",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-09T18:56:59.207Z",
+      "id": "acaYDgNrY8kyGibvXPd2",
+      "source_raw": "Website Form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-09T19:07:09.017Z",
+      "id": "WLmwHJcomCrm51h0ed0C",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-09T19:39:39.106Z",
+      "id": "bDE3jneHzjTSKkODOAle",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-09T19:42:06.489Z",
+      "id": "7gDjlN5kBAr68ZljylUN",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-09T20:57:37.238Z",
+      "id": "SsQy3j9CJTdAXluUFekJ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-09T23:14:04.225Z",
+      "id": "6apmy7X3uJjr95rqkzpC",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-01-10T14:30:58.724Z",
+      "id": "vEPiQAWIYbRFySyootcN",
+      "source_raw": "Riley Moorehead's Inspection Calendar",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-11T18:16:39.337Z",
+      "id": "Rh4kRzfvU5tAn3Y3Ubx9",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-11T18:19:39.625Z",
+      "id": "JTH1r0IbcK61wCwUm17q",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-11T18:22:25.318Z",
+      "id": "r8LRjwC8xfPRKBOsCXgy",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-11T18:26:31.678Z",
+      "id": "7ucxYVZ8DHEnq9JpNRRo",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-11T18:32:26.242Z",
+      "id": "Ecje58vuN6emhrXz1s11",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-11T18:34:05.629Z",
+      "id": "KX8SozDq8pgShFgUrEJ5",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "cgQxZGl5BFMni7BjzOAb",
+      "date_added": "2026-01-11T18:36:18.679Z",
+      "id": "aTIo0DOfaXDG23LUxacO",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-11T18:41:28.986Z",
+      "id": "2wOobuOGsQnnnA5ffDCY",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "yOTvVxL6vbI2hWHbtr3I",
+      "date_added": "2026-01-11T18:46:44.639Z",
+      "id": "8PpoXzouqZBjeh8R4uEG",
+      "source_raw": "VA IN-BOUND LEAD FORM",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-01-11T18:50:23.309Z",
+      "id": "lPcZqjTuZgwyF5QpVBfe",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-01-10T14:36:17.107Z",
+      "id": "PZkQu8nbnk89kDVqNxwh",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Riley Moorehead's Inspection Calendar",
+      "status": "open",
+      "status_changed_at": "2026-01-10T14:36:17.107Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-09T19:07:12.669Z",
+      "id": "E9p0KdHzpWG6cpmFe5SU",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: FLS-Ann\nFOD-Megan\n3tab\nJose Magana \n(706)459-2983\nIns-country financial \n813 Brentwood Dr \n30721\nCall to schedule for next week",
+      "status": "open",
+      "status_changed_at": "2026-01-09T19:07:12.669Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-01-09T18:57:10.575Z",
+      "id": "IjJUD2wPOKYwZ5YLN8dy",
+      "monetary_value": 14350,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Website Form",
+      "status": "open",
+      "status_changed_at": "2026-01-09T18:57:10.575Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-09T18:50:30.282Z",
+      "id": "wtaYAK9QQWggLRXccKWR",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: FLS-Ann\nFOD-Megan \nMarcus Macon\n(706)773-1426\n803 Brentwood Dr Dalton \nIn’s-Universal property \n3 tab \nSingle story\nPlease call to schedule for next week.",
+      "status": "open",
+      "status_changed_at": "2026-01-09T18:50:30.282Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-09T16:13:57.668Z",
+      "id": "l3ZsWuuxhRTLQfiwMkiJ",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: FLS-Ann white\nFOD-Megan\nLeak on North end of house \n3 Tab, 20yo \n 4pm Monday inspection please \nState Farm",
+      "status": "open",
+      "status_changed_at": "2026-01-09T16:13:57.668Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-01-08T21:23:47.681Z",
+      "id": "RSqiZd3OsKuhWE2AxhvQ",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Scott - FOD\nAdrianne- FLS\nState Farm\n10 year old Arc roof.  Interested in having his carport (Rolled roof) redone.  Wants estimate",
+      "status": "open",
+      "status_changed_at": "2026-01-08T21:23:47.681Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-01-08T20:33:03.597Z",
+      "id": "YuoyAcuxhntMeStbdaQD",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Scott - FOD\nAdrianna - FLS\nAcuity insurance.  Had some interior leaks repaired previously.  May be selling soon and knows a new roof will help.",
+      "status": "open",
+      "status_changed_at": "2026-01-08T20:33:03.597Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-08T20:13:27.083Z",
+      "id": "oU1KlIiMTMmwIUyTRubj",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Chita \nDrew",
+      "status": "open",
+      "status_changed_at": "2026-01-08T20:13:27.083Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-08T19:18:00.549Z",
+      "id": "fYcGAqmkxdytdTsjxRpB",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: FLS-Tyshawn\nFOD - Megan \nJulia Rardin\n\n5720 Alabama Avenue\n\nJuliagracec@gmail.com",
+      "status": "open",
+      "status_changed_at": "2026-01-08T19:18:00.549Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-01-08T17:48:12.014Z",
+      "id": "bETirP6l8REEJrjq1Pce",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Scott - FOD\nLane - FLS",
+      "status": "open",
+      "status_changed_at": "2026-01-08T17:48:12.014Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-08T17:16:13.751Z",
+      "id": "WFs4Me3VxcnIKws9xbB7",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim\nChita",
+      "status": "open",
+      "status_changed_at": "2026-01-08T17:16:13.751Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-08T16:59:17.217Z",
+      "id": "9zECWgY7fE7KWMiEKyqe",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: FLS-Tyshawn \nFod -Megan \n\nSam Lemons\n(423)660-0977\nSamlemons10@gmail.com\n4303 Michigan ave Chattanooga tn \n\nInspection Today please at or after 3pm not before 3pm",
+      "status": "open",
+      "status_changed_at": "2026-01-08T16:59:17.217Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-01-08T16:15:18.564Z",
+      "id": "iElI2LSc50d8cOX6wDVE",
+      "monetary_value": 14350,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Frontline Sales: Scott FOD\nAdrianna FLS\nNot sure insurance.  Will call his wife.  Looking to get an insurance replacement.",
+      "status": "open",
+      "status_changed_at": "2026-01-08T16:15:18.564Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-07T20:31:03.683Z",
+      "id": "6bMISDZtbYe6iJS7Ksl0",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Chita\nKenzlee",
+      "status": "open",
+      "status_changed_at": "2026-01-07T20:31:03.683Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-07T20:01:21.460Z",
+      "id": "D0kZRL6V9NXJi62CLWg8",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kenzlee\nChita",
+      "status": "open",
+      "status_changed_at": "2026-01-07T20:01:21.460Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-07T19:39:20.425Z",
+      "id": "wzhHrzGMCdfsUtY1vltm",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Chita",
+      "status": "open",
+      "status_changed_at": "2026-01-07T19:39:20.425Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-01-07T19:26:17.098Z",
+      "id": "XcRL7s980LCez3Qvfgxx",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Wyatt fod \nKada fls",
+      "status": "open",
+      "status_changed_at": "2026-01-07T19:26:17.099Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-07T19:01:06.284Z",
+      "id": "8iZfEYJk5ZgQdc2Yr8S9",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim \nChita",
+      "status": "open",
+      "status_changed_at": "2026-01-07T19:01:06.284Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-01-07T17:12:15.480Z",
+      "id": "VutAdcC08D1vHCq1G6hu",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Wyatt fod \nKada fls",
+      "status": "open",
+      "status_changed_at": "2026-01-07T17:12:15.481Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-01-06T19:36:31.040Z",
+      "id": "5zggFNsavkXTOddOFlrG",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Lane fls \nWyatt fod",
+      "status": "open",
+      "status_changed_at": "2026-01-06T19:36:31.040Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-01-06T18:36:58.199Z",
+      "id": "6E0fLqtdlZu38gazZoVt",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Lane fls \nWyatt fod",
+      "status": "open",
+      "status_changed_at": "2026-01-06T18:36:58.199Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-06T18:04:13.735Z",
+      "id": "XQBKMw2Bz5FttdZvto4k",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim \nChita",
+      "status": "open",
+      "status_changed_at": "2026-01-06T18:04:13.735Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-06T17:08:39.517Z",
+      "id": "o3jMAWSy5HS7JIRxD2nX",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim \nChita",
+      "status": "open",
+      "status_changed_at": "2026-01-06T17:08:39.517Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-06T16:39:06.406Z",
+      "id": "fgoLy6MQlBpOyotiZYVo",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim \nChita",
+      "status": "open",
+      "status_changed_at": "2026-01-06T16:39:06.406Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2026-01-05T20:44:08.198Z",
+      "id": "ZKbTpzjJE6lA9ffnbAl0",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Referred by Cecil R. Jenkins",
+      "status": "open",
+      "status_changed_at": "2026-01-05T20:44:08.198Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-05T19:42:09.651Z",
+      "id": "UVpBZCsrIGLrwyeTZTVD",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Chita \nTyshawn",
+      "status": "open",
+      "status_changed_at": "2026-01-05T19:42:09.651Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2026-01-05T17:40:33.455Z",
+      "id": "rOXrJJjOqSsLhaqacozr",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales:",
+      "status": "open",
+      "status_changed_at": "2026-01-05T17:40:33.455Z",
+      "type": "opportunity"
+    }
+  ],
+  "source": "ghl",
+  "status": "ok",
+  "week": "2026-W02",
+  "week_end": "2026-01-11",
+  "week_start": "2026-01-05"
+}

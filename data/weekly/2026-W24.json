@@ -1,0 +1,163 @@
+{
+  "generated_at": "2026-07-13T20:52:20.103222-04:00",
+  "kpis": {
+    "avg_job_size": 16731.52,
+    "cac_by_source": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": 290.66,
+      "referral": null,
+      "website": null
+    },
+    "closing_pct_insurance": {
+      "by_rep": {
+        "adrien": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        }
+      },
+      "overall": {
+        "lost": 0,
+        "pct": 100.0,
+        "sold": 1
+      }
+    },
+    "closing_pct_retail": {
+      "by_rep": {
+        "chris_dyer": {
+          "lost": 1,
+          "pct": 0.0,
+          "sold": 0
+        },
+        "chris_johnson": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        },
+        "terrell": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        },
+        "unmapped": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        }
+      },
+      "overall": {
+        "lost": 1,
+        "pct": 75.0,
+        "sold": 3
+      }
+    },
+    "cost_per_lead": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": 13.01,
+      "referral": null,
+      "website": null
+    },
+    "customers_by_source": {
+      "door_knocking": 0,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 3,
+      "referral": 1,
+      "website": 0
+    },
+    "gross_margin": {
+      "basis": "quickbooks_pnl_prorata",
+      "jobs_counted": 0,
+      "pct": 34.4
+    },
+    "inspections_by_rep": {
+      "adrien": 0,
+      "chris_dyer": 0,
+      "chris_johnson": 4,
+      "christian": 2,
+      "justin": 1,
+      "mason": 2,
+      "scott": 0,
+      "terrell": 5,
+      "wilson": 0,
+      "wyatt": 0
+    },
+    "leads_by_source": {
+      "door_knocking": 2,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 67,
+      "referral": 0,
+      "website": 0
+    },
+    "pipeline": {
+      "appointments_run": 0,
+      "appointments_set": 1,
+      "contracts_signed": 4,
+      "estimates_given": 2
+    },
+    "production": {
+      "backlog_jobs": null,
+      "backlog_value": null,
+      "completed": 1,
+      "in_production": null,
+      "started": 0
+    },
+    "revenue_collected": {
+      "invoiced": 76153.16,
+      "leap": 34100.0,
+      "note": "quickbooks = monthly P&L revenue pro-rated to the week (different accounting basis)",
+      "quickbooks": 55326.48
+    },
+    "revenue_sold": {
+      "contracts": 4,
+      "total": 66926.07
+    },
+    "spend_by_channel": {
+      "door_knocking": 0.0,
+      "facebook": 1265.69,
+      "google": 594.69,
+      "google_lsa": 453.29,
+      "other": 871.98,
+      "referral": 0.0,
+      "website": 0.0
+    }
+  },
+  "schema_version": 1,
+  "sections": {
+    "inspections": {
+      "as_of_week": "2026-W24",
+      "status": "ok"
+    },
+    "marketing": {
+      "as_of_week": "2026-W24",
+      "status": "ok"
+    },
+    "revenue_production": {
+      "as_of_week": "2026-W24",
+      "status": "ok"
+    },
+    "sales": {
+      "as_of_week": "2026-W24",
+      "status": "ok"
+    },
+    "spend": {
+      "as_of_week": "2026-W24",
+      "status": "ok"
+    }
+  },
+  "warnings": [
+    "1 Leap job(s) assigned to unmapped user id '101550' (add to reps.yaml)"
+  ],
+  "week": "2026-W24",
+  "week_end": "2026-06-14",
+  "week_start": "2026-06-08"
+}

@@ -1,0 +1,452 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:47:55.579182-04:00",
+  "records": [
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-01T12:41:15.785Z",
+      "id": "5sRLQjrk0ghLAv5TjZk9",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-01T13:16:28.424Z",
+      "id": "5cS7J5TYl1W5qeWRjgsX",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-01T14:27:06.641Z",
+      "id": "zBRKz9igmVBb5ms2PDyX",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-01T14:48:33.927Z",
+      "id": "1tmY8yDqDAk0Yr6y8K0a",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-01T15:34:49.513Z",
+      "id": "uVLWB6JIB2rQQNSI0G6u",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-01T16:36:42.976Z",
+      "id": "oLBSbu84el6oXBSUk6a1",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-01T16:37:35.702Z",
+      "id": "A4OfDQSlHAGSeQ1QD8PS",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-01T17:43:36.468Z",
+      "id": "C3tYI3eH3ksLH1sldd0Y",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-01T18:20:27.595Z",
+      "id": "1TVVuZfc8Va3zrwVNSuW",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-06-01T18:29:25.773Z",
+      "id": "hWxeTfMvnJDpOKigxdK3",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-01T19:03:01.251Z",
+      "id": "4f4kspa7OEOx1Eb56MRK",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-01T19:52:11.049Z",
+      "id": "ZIwSWDt7Yfxs2yMyQoNU",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-06-01T19:53:13.806Z",
+      "id": "xaxDpy2zrzVz7gMXOrZL",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-01T20:20:08.818Z",
+      "id": "KlvWg00I8y9RBDT5EatD",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-02T13:05:23.301Z",
+      "id": "8TaKpTgIbRhMDK0coZul",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-02T14:28:26.539Z",
+      "id": "Fo6WjSLqKNkBtFhlAgJX",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-02T15:08:55.294Z",
+      "id": "O4GiAFREtKf9PiwXP7g1",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-02T16:59:24.289Z",
+      "id": "ASUATU2Xg4hodkvut1gR",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-02T17:55:12.930Z",
+      "id": "LfAydz0eHPrF1Qj8OuHZ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-02T20:14:43.829Z",
+      "id": "GS3l1buCk9FFESMweXa8",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-02T20:24:48.902Z",
+      "id": "Ui9erm5t18KKo5r3QyTQ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-02T20:55:19.074Z",
+      "id": "8dpi6MQ7SZlpieTSTm65",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-02T21:02:58.362Z",
+      "id": "PVtFsESpqWT1KGecAy2P",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-02T21:36:51.946Z",
+      "id": "RlKeBOfaRN0zROlVJNbG",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-02T21:56:30.861Z",
+      "id": "GZ4Z9dxSZhgy8JmMZQ0P",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-02T22:30:37.011Z",
+      "id": "E5wipcwl1tdUlXHwhhzY",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-03T00:55:52.770Z",
+      "id": "9mfYZqww99ws4BPOUZxN",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-03T13:56:54.253Z",
+      "id": "sh2gUsLVBdjEEfWnbgzj",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-03T14:11:32.715Z",
+      "id": "UBOyD3DQt4E1eyGGdRoK",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-03T17:22:24.548Z",
+      "id": "2tsA4Rq7qgOBw7Lnu5bJ",
+      "source_raw": "quickbooks",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-03T17:49:33.979Z",
+      "id": "olLcuHYqVfQGQqJglPTj",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-03T18:41:04.288Z",
+      "id": "BOrCxAwhrHlHOvtvuf7d",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-03T18:58:24.489Z",
+      "id": "ydsmw1DQFiz4sU8SJYgO",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-03T19:18:57.253Z",
+      "id": "VdVT40tFlK9v3IRN9nVd",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-03T19:23:33.089Z",
+      "id": "Dj9nmoUWXD8ra7KePK5Q",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-03T19:28:32.523Z",
+      "id": "fVeVfhZSGIqJPT3C6AbW",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-03T20:09:09.905Z",
+      "id": "jRDcVAhMOyPfrjZFTsD3",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-03T22:49:37.506Z",
+      "id": "2QkoVsZtvEunZvv4Gnko",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-03T23:15:19.901Z",
+      "id": "cSr4J51DK6fST1IvKMGI",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "c5mtY94nDsl72pszdLUS",
+      "date_added": "2026-06-04T00:51:12.726Z",
+      "id": "YxBmOPqWugb8vJVg4wZf",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "9VEH4WZW8un896aCe9OG",
+      "date_added": "2026-06-04T12:54:45.428Z",
+      "id": "E9ceF1l9ZPuCfL5o0C2b",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "9VEH4WZW8un896aCe9OG",
+      "date_added": "2026-06-04T13:38:41.107Z",
+      "id": "aqIKZGe36mDkwu052D50",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "9VEH4WZW8un896aCe9OG",
+      "date_added": "2026-06-04T14:41:05.892Z",
+      "id": "2E7y0YAu6sj1rGtz3XcC",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "9VEH4WZW8un896aCe9OG",
+      "date_added": "2026-06-04T14:53:19.407Z",
+      "id": "UbLXu3AiXE2HJPDLUKO9",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-04T15:58:17.192Z",
+      "id": "e1TV5IZJ8hjYXanzH8B3",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "9VEH4WZW8un896aCe9OG",
+      "date_added": "2026-06-04T16:00:09.479Z",
+      "id": "L6d5Sx7T1CujVpuiOdY3",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "y2FtWGB7jzCZcWHrYEeE",
+      "date_added": "2026-06-04T17:25:05.274Z",
+      "id": "Zp404vPQgFYcxHAyYD8U",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-06-04T17:50:07.159Z",
+      "id": "FjG9KmAzewxbGD5F2ldi",
+      "source_raw": "quickbooks",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "9VEH4WZW8un896aCe9OG",
+      "date_added": "2026-06-04T22:23:43.250Z",
+      "id": "cednAYzP5dLeP5z1nKg6",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-04T22:43:44.556Z",
+      "id": "pu43OaesyhkTZn0nvteC",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-05T12:18:23.692Z",
+      "id": "Yue58wcNGq7cLzyfmT6H",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-05T16:46:44.355Z",
+      "id": "IDyfHdXTr6kKxhjwI0eH",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-05T17:08:58.250Z",
+      "id": "jTJSYTL7vy3rq4YGnONC",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-05T17:39:38.050Z",
+      "id": "ohys9b0u3nbIvDVUtiaH",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-05T17:48:32.034Z",
+      "id": "FQJ1LvMLLP35iXsothG2",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-05T20:29:29.859Z",
+      "id": "kclFbwyY0EBGjq9gDRhS",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-05T20:45:03.650Z",
+      "id": "7mpvanKV27l0v7opissq",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-05T21:27:53.936Z",
+      "id": "9gux97KefO22A2f6Qw1u",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-06T21:46:59.513Z",
+      "id": "2eIspYNqRXDiITgAln6C",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-07T12:06:41.555Z",
+      "id": "PJfEozHk57zSdi8g8MA7",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-07T12:25:52.046Z",
+      "id": "oPuLDNbJs0gzzPDJqMrJ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-07T23:09:28.853Z",
+      "id": "HGIBC3xnc9bBtDKbYWIk",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-08T01:35:05.462Z",
+      "id": "o4kJoTyTiplXXW4I5Mzc",
+      "source_raw": "",
+      "type": "contact"
+    }
+  ],
+  "source": "ghl",
+  "status": "ok",
+  "week": "2026-W23",
+  "week_end": "2026-06-07",
+  "week_start": "2026-06-01"
+}

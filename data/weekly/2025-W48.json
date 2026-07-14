@@ -1,0 +1,149 @@
+{
+  "generated_at": "2026-07-13T20:52:20.009338-04:00",
+  "kpis": {
+    "avg_job_size": 56260.98,
+    "cac_by_source": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": null,
+      "referral": null,
+      "website": null
+    },
+    "closing_pct_insurance": {
+      "by_rep": {
+        "justin": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        }
+      },
+      "overall": {
+        "lost": 0,
+        "pct": 100.0,
+        "sold": 1
+      }
+    },
+    "closing_pct_retail": {
+      "by_rep": {
+        "terrell": {
+          "lost": 0,
+          "pct": 100.0,
+          "sold": 1
+        }
+      },
+      "overall": {
+        "lost": 0,
+        "pct": 100.0,
+        "sold": 1
+      }
+    },
+    "cost_per_lead": {
+      "door_knocking": null,
+      "facebook": null,
+      "google": null,
+      "google_lsa": null,
+      "other": 32.78,
+      "referral": null,
+      "website": null
+    },
+    "customers_by_source": {
+      "door_knocking": 0,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 0,
+      "referral": 2,
+      "website": 0
+    },
+    "gross_margin": {
+      "basis": "quickbooks_pnl_prorata",
+      "jobs_counted": 0,
+      "pct": 27.6
+    },
+    "inspections_by_rep": {
+      "adrien": 0,
+      "chris_dyer": 0,
+      "chris_johnson": 5,
+      "christian": 0,
+      "justin": 1,
+      "mason": 2,
+      "scott": 5,
+      "terrell": 0,
+      "unmapped": 2,
+      "wilson": 0,
+      "wyatt": 0
+    },
+    "leads_by_source": {
+      "door_knocking": 0,
+      "facebook": 0,
+      "google": 0,
+      "google_lsa": 0,
+      "other": 38,
+      "referral": 0,
+      "website": 0
+    },
+    "pipeline": {
+      "appointments_run": 0,
+      "appointments_set": 0,
+      "contracts_signed": 2,
+      "estimates_given": 2
+    },
+    "production": {
+      "backlog_jobs": null,
+      "backlog_value": null,
+      "completed": 10,
+      "in_production": null,
+      "started": 0
+    },
+    "revenue_collected": {
+      "invoiced": 209170.11,
+      "leap": 157060.61,
+      "note": "quickbooks = monthly P&L revenue pro-rated to the week (different accounting basis)",
+      "quickbooks": 52654.37
+    },
+    "revenue_sold": {
+      "contracts": 2,
+      "total": 112521.95
+    },
+    "spend_by_channel": {
+      "door_knocking": 0.0,
+      "facebook": 0.0,
+      "google": 0.0,
+      "google_lsa": 0.0,
+      "other": 1245.47,
+      "referral": 0.0,
+      "website": 0.0
+    }
+  },
+  "schema_version": 1,
+  "sections": {
+    "inspections": {
+      "as_of_week": "2025-W48",
+      "status": "ok"
+    },
+    "marketing": {
+      "as_of_week": "2025-W48",
+      "status": "ok"
+    },
+    "revenue_production": {
+      "as_of_week": "2025-W48",
+      "status": "ok"
+    },
+    "sales": {
+      "as_of_week": "2025-W48",
+      "status": "ok"
+    },
+    "spend": {
+      "as_of_week": "2025-W48",
+      "status": "ok"
+    }
+  },
+  "warnings": [
+    "2 CompanyCam photo-activity row(s) from unmapped user 'Riley Moorehead' (add to reps.yaml or ignore if not a sales rep)"
+  ],
+  "week": "2025-W48",
+  "week_end": "2025-11-30",
+  "week_start": "2025-11-24"
+}

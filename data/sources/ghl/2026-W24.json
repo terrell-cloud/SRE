@@ -1,0 +1,582 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:47:55.580031-04:00",
+  "records": [
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-08T11:46:31.895Z",
+      "id": "GIKrQc9FlXOApMR3xWls",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-08T13:08:40.770Z",
+      "id": "Iri0rqZcM0mz5UjIiRjY",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "y2FtWGB7jzCZcWHrYEeE",
+      "date_added": "2026-06-08T13:38:40.278Z",
+      "id": "aA1tMQqxNCgHjzXCGYTh",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-08T14:00:05.453Z",
+      "id": "HJrSEngYLNB19jf4blMH",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-08T15:04:05.988Z",
+      "id": "X323nMXZesb7j4yWsTvT",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-08T17:48:28.584Z",
+      "id": "Vo7Qe11QB4WFqKQGBMMJ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-08T18:49:43.168Z",
+      "id": "61cew5qtgf3ueModV6t0",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-08T18:53:12.385Z",
+      "id": "6PKnX0TW6ShnbZ6zyPhY",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-08T19:01:38.616Z",
+      "id": "AVhFwJa5mhj4uub5EmSk",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-06-08T20:22:58.876Z",
+      "id": "A4H4E3nvu3I0tVz8Kokb",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-08T21:44:39.589Z",
+      "id": "I23qdoKxgPLrLePe4MaB",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-08T21:57:30.952Z",
+      "id": "QQohtJeRDIlvEOg4O2dN",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-09T02:58:26.337Z",
+      "id": "UZDVPhzj415Dj5Nl0pM8",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-09T10:47:26.717Z",
+      "id": "TK3Cm2xg06aIOowgQg6v",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-09T14:33:06.968Z",
+      "id": "uOkLpg11XcdJ30LgRPzh",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-09T15:02:19.351Z",
+      "id": "Zgu9BDBeYeWTvAVbjgDm",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-09T15:12:15.779Z",
+      "id": "fQyN9gmnd9L8lzzhszHV",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-06-09T18:15:32.834Z",
+      "id": "tF6OAoHLridVLLWA3a1R",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-09T18:21:12.483Z",
+      "id": "LZQE99Au0nf6ulTqB2D8",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-09T18:33:17.407Z",
+      "id": "V0858Y0F4TbDrJgzB7YK",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-09T20:48:50.224Z",
+      "id": "9yI1whhihSW3Y326rTX8",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-10T13:31:55.759Z",
+      "id": "vPslPf5AMAYA92uvS9Im",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-10T13:54:45.977Z",
+      "id": "cISSBbDUit7HSBqoOFGt",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-10T14:02:10.107Z",
+      "id": "iBkO0b7opxY5Wi1DJ2zJ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2026-06-10T14:22:01.805Z",
+      "id": "93jChBZtqZoQUcf35XqJ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2026-06-10T15:01:13.312Z",
+      "id": "Onhbv8kkxT3vcGp6YSPy",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-10T16:45:20.795Z",
+      "id": "iaWdVA0ImeHeV0auH5w6",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "y2FtWGB7jzCZcWHrYEeE",
+      "date_added": "2026-06-10T17:43:56.807Z",
+      "id": "I3CjXE00bJy9B2SaycaJ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-10T18:53:01.140Z",
+      "id": "siJzsTqQlmbID4PvCoUs",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-10T19:42:01.015Z",
+      "id": "UzF1ZLJkrTYN1tO3njD4",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-10T20:51:37.087Z",
+      "id": "PdEKbb0emYBgjvGGsO49",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-10T21:58:35.674Z",
+      "id": "rWtt69sCns8K8KbsYdo7",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-10T21:58:36.230Z",
+      "id": "q4HstWIKVJ3uia4Ks0XW",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-10T22:15:11.088Z",
+      "id": "q6qQ6Q81S2bynuyTn9ki",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-11T02:14:52.105Z",
+      "id": "2pmMilttF20duNzCaZoR",
+      "source_raw": "quickbooks",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-11T09:40:49.862Z",
+      "id": "HwIobd5hz1SLZhS9C8Dl",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-11T10:56:42.789Z",
+      "id": "JYnKMoFXpDWRsxDWyriB",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-11T14:32:19.688Z",
+      "id": "91ZihEg2yjylzwl2PFUQ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-11T14:50:12.220Z",
+      "id": "gbTHjxIxRe3Bwf6r5tz9",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-11T15:01:59.996Z",
+      "id": "OePhY3c2vlkFqGhZvmwb",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-11T17:00:50.405Z",
+      "id": "pye87JUnWy1mLsRVY8X4",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-11T18:28:46.264Z",
+      "id": "23KRUG5GtwwHeGX4uxE9",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-11T18:42:00.767Z",
+      "id": "Qa2f4saih5kRjzHsH8WF",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-11T19:28:25.754Z",
+      "id": "AksP5NvVlWOOQceYsO39",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-11T19:34:58.758Z",
+      "id": "RtltUZTF9XyNIKITfFIb",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-06-11T20:01:55.884Z",
+      "id": "OEngXQRaUPJoCJgH6Uk1",
+      "source_raw": "Southern Roofing & Exterior Inspection",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "6JbTqf2rt0nj3sID1ymy",
+      "date_added": "2026-06-11T21:05:04.036Z",
+      "id": "XAOGy5cNqgbEekAGGqhP",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-11T21:41:24.567Z",
+      "id": "R7RE1WqJTUYoXM6N8Ck8",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-12T16:34:04.779Z",
+      "id": "ryoLCF3T0DDuc4yPvT3Z",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-12T16:50:36.531Z",
+      "id": "1nxmeAA3dqpP1cWt7Nqx",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-12T18:35:15.238Z",
+      "id": "YSKOehlD6CsDPrgeWCbd",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-12T19:26:53.235Z",
+      "id": "Qr01CLULF5Vxbrcjv1z8",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-12T19:53:38.464Z",
+      "id": "iBz9seMnEbX0YRtkDxZ3",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2026-06-12T20:50:31.369Z",
+      "id": "MQld54L3LXe80YCvy4kP",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2026-06-12T21:09:51.123Z",
+      "id": "tHmF5K1zduxc4TXWBz4s",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "c5mtY94nDsl72pszdLUS",
+      "date_added": "2026-06-12T21:09:55.031Z",
+      "id": "fnFyJ8ttbPbHSrgDYpwM",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "c5mtY94nDsl72pszdLUS",
+      "date_added": "2026-06-12T21:10:02.755Z",
+      "id": "zHXFLUlntAqgnuNSgqOh",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-06-12T21:10:12.597Z",
+      "id": "5e4JSiFQIma8cENiKlBK",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-12T21:11:07.196Z",
+      "id": "e2vox6jVRguMxLGj55uC",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-12T21:29:30.333Z",
+      "id": "UsfPyv0ybY3f84z4Mri1",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2026-06-12T23:06:00.989Z",
+      "id": "FBXiUXK5Ewz4JYlgb8PX",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2026-06-12T23:11:50.467Z",
+      "id": "DRYKkRZf7YdX64nBzH64",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-13T01:37:16.660Z",
+      "id": "wP4U5OAuPnO6R9YmOX8H",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-13T02:45:55.574Z",
+      "id": "m9h1Qzg91fWIgCyIDCuI",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-13T12:54:44.496Z",
+      "id": "CQ03IWe2Z4moxygikn0L",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-13T16:21:10.591Z",
+      "id": "087HA4z91sUyA4qq8vtE",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "mtLReXXNTJs6t50mJiS4",
+      "date_added": "2026-06-13T19:07:34.847Z",
+      "id": "xikTVUn4UwkHMmkGRHEB",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2026-06-13T20:55:31.995Z",
+      "id": "n4OtBYMTjYIggYBH20tA",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "cgQxZGl5BFMni7BjzOAb",
+      "date_added": "2026-06-14T23:21:06.761Z",
+      "id": "cRfUUpu67jVuGqWv5Ua0",
+      "source_raw": "Southern Roofing & Exterior Inspection",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2026-06-14T23:28:28.835Z",
+      "id": "4vBAVW8DNE4RfXSmKpXW",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Southern Roofing & Exterior Inspection",
+      "status": "open",
+      "status_changed_at": "2026-06-14T23:28:28.835Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-06-12T23:17:07.258Z",
+      "id": "VoDIQSlHQX6234sM2JmD",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "",
+      "status": "open",
+      "status_changed_at": "2026-06-12T23:17:07.258Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-06-12T22:37:32.653Z",
+      "id": "AkUm0xU6qvqhHj3LeTh0",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "",
+      "status": "open",
+      "status_changed_at": "2026-06-12T22:37:32.653Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2026-06-12T22:37:16.941Z",
+      "id": "RDMZmqAy4FQoJ5EqLEWG",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "",
+      "status": "open",
+      "status_changed_at": "2026-06-12T22:37:16.941Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2026-06-12T22:37:14.757Z",
+      "id": "YwIBB2PAKDbspKfI1g6D",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "",
+      "status": "open",
+      "status_changed_at": "2026-06-12T22:37:14.757Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2026-06-11T20:07:08.649Z",
+      "id": "Fdj0TD5XHHXZXhrfDQmk",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Southern Roofing & Exterior Inspection",
+      "status": "open",
+      "status_changed_at": "2026-06-11T20:07:08.649Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2026-06-10T20:02:03.941Z",
+      "id": "03h23ZGJBwfTflbD3qfY",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "",
+      "status": "open",
+      "status_changed_at": "2026-06-10T20:02:03.941Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2026-06-10T14:27:11.120Z",
+      "id": "ZcDDyAF7gkJftyC3ZR0P",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "",
+      "status": "open",
+      "status_changed_at": "2026-06-10T14:27:11.120Z",
+      "type": "opportunity"
+    }
+  ],
+  "source": "ghl",
+  "status": "ok",
+  "week": "2026-W24",
+  "week_end": "2026-06-14",
+  "week_start": "2026-06-08"
+}

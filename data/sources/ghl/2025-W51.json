@@ -1,0 +1,521 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:47:55.561850-04:00",
+  "records": [
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-15T14:54:22.590Z",
+      "id": "JI2DZoxMc6qezTAizt37",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-15T16:41:33.578Z",
+      "id": "vnJCHH94ADK3M3TX0LjG",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-15T19:37:29.297Z",
+      "id": "53uUiMsWLwGCCIZjxjKj",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-12-15T20:11:07.526Z",
+      "id": "aNzXjks2DrGLxCKVSMzK",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-15T21:12:12.281Z",
+      "id": "JWWgoEJTyjsAEb03l1e3",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-16T13:09:29.609Z",
+      "id": "GWU0bGFXhPBQxdhnZ2q0",
+      "source_raw": "Website Form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-16T13:38:11.988Z",
+      "id": "aX370OYdHZJjWHGc7sa0",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-16T14:11:58.178Z",
+      "id": "546OEygKxGYncbhzHRY7",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-16T14:14:31.028Z",
+      "id": "IloSKoTH3ImCFlBGUoog",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-16T15:12:52.070Z",
+      "id": "Q0nDjdMPiKdA8bGpT6mH",
+      "source_raw": "VA IN-BOUND LEAD FORM",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-16T17:25:01.070Z",
+      "id": "cy69TTdQ9HAzYlM8gT0S",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-16T17:47:44.212Z",
+      "id": "kTmxEU0Zdv5IOvsgYpqs",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-16T18:30:48.300Z",
+      "id": "mFOroWMYjDGAijwmgrAh",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-16T18:34:15.789Z",
+      "id": "58pyp5K1zaSIKHSV5F29",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-12-16T18:36:24.942Z",
+      "id": "Pv8akhZlGMBfQO8jR10q",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-16T19:07:53.285Z",
+      "id": "tUqIm7J5vcPag3CPcHmR",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-12-16T19:28:07.189Z",
+      "id": "dctolYy3VUesPC74Eik5",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-16T19:49:18.399Z",
+      "id": "HHo1Rjmz0ouoQnjc5ZyP",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2025-12-16T21:16:41.260Z",
+      "id": "GocQnunc1ULc8x0WJ3yh",
+      "source_raw": "Chris Dyer's Calendar",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-17T16:23:37.568Z",
+      "id": "q8ne5BkWpjrodibfykoO",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-17T16:39:00.685Z",
+      "id": "HmrxGCG5AoXAbwlZahMR",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-17T16:51:07.835Z",
+      "id": "5Pu9t5A0vDSJWQNAMAA6",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-17T16:54:20.596Z",
+      "id": "yQ78bCThnDqMAYxiyITI",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-17T17:40:59.455Z",
+      "id": "fQLl9bgsR6ejh6t7YcyP",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-17T18:19:08.007Z",
+      "id": "igJyKfO29NwMJUvK8NAs",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-17T19:07:18.732Z",
+      "id": "oCRH0jsbVjODoJlUirDE",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-17T19:48:39.206Z",
+      "id": "SWBZNbFOvDFXKiF5kN3h",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-17T20:13:05.582Z",
+      "id": "XuLGLUySwlNyeMHQ5TEu",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-12-18T15:29:35.570Z",
+      "id": "9D8qxvVfpVbhIaXIM7IK",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-18T17:20:55.126Z",
+      "id": "dg1iRhsoj3iKc23MbTdB",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-18T18:30:45.000Z",
+      "id": "QH2XmNwEhmVdHsHIl3Jz",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-19T14:16:51.940Z",
+      "id": "iXV8okHCBADI0sp2jxFy",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "c5mtY94nDsl72pszdLUS",
+      "date_added": "2025-12-19T15:03:03.467Z",
+      "id": "560XWburNXezm6IDPLyl",
+      "source_raw": "VA IN-BOUND LEAD FORM",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-19T16:49:38.804Z",
+      "id": "O3JXCVbh6ACDhZhKxiaa",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-19T17:20:23.875Z",
+      "id": "kPXtkKQnohanTVf1d5XH",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2025-12-19T17:24:32.002Z",
+      "id": "WtTI8XWxpQiqX2OqepRh",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2025-12-19T20:55:17.400Z",
+      "id": "Hh8LFa6Yv6Nt7HasB5Bo",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2025-12-19T20:56:58.241Z",
+      "id": "zzyPibghiAm2jIHXW5Jl",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-19T21:10:50.520Z",
+      "id": "RR5YLsCOZgZ36hl9aprD",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-12-19T21:19:08.660Z",
+      "id": "j6SiB2sfr6DajQ21YGpk",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-19T21:24:23.213Z",
+      "id": "0xcgRTa5rxapZ9FVFiUd",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-20T16:26:20.756Z",
+      "id": "1zg1Yp3BWAItQDVlwEZE",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-12-20T18:17:40.967Z",
+      "id": "1da2rYRHJvKlVrWqfI68",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-12-20T18:17:44.638Z",
+      "id": "me8HqTVhzzSu8BnuuGRq",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Ty \nChita",
+      "status": "open",
+      "status_changed_at": "2025-12-20T18:17:44.638Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-12-20T16:26:25.650Z",
+      "id": "DiEOGuARSJHJ4OXhxTba",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Ty \nChita",
+      "status": "open",
+      "status_changed_at": "2025-12-20T16:26:25.650Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2025-12-19T18:18:57.468Z",
+      "id": "SMLXqv5G0btONj5qCVkE",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Chris Dyer's Calendar",
+      "status": "open",
+      "status_changed_at": "2025-12-19T18:18:57.468Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "h6AZxYMlQHoXxPsdyOwn",
+      "created_at": "2025-12-19T17:20:27.910Z",
+      "id": "V8ljHK0FbLArOAXud2Ij",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Needs to be assigned to kaylib",
+      "status": "open",
+      "status_changed_at": "2025-12-19T17:20:27.910Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "JrBC3IdX8CNfLN0hmBMo",
+      "created_at": "2025-12-19T16:49:42.623Z",
+      "id": "cse0ePjfeLOpPCysBg2z",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: This should be assigned to kaylib",
+      "status": "open",
+      "status_changed_at": "2025-12-19T16:49:42.623Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-12-17T20:13:09.686Z",
+      "id": "zOwP7QzdQV4KUoJBaZdZ",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim \nChita \nEerie",
+      "status": "open",
+      "status_changed_at": "2025-12-17T20:13:09.686Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-12-17T19:48:43.866Z",
+      "id": "FJF1ngpuIFxpI74g02d6",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Call to set up time",
+      "status": "open",
+      "status_changed_at": "2025-12-17T19:48:43.866Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-12-17T18:19:11.905Z",
+      "id": "87XnXxi0z6P2o20ccGlU",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim \nChita",
+      "status": "open",
+      "status_changed_at": "2025-12-17T18:19:11.905Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-12-17T17:41:04.171Z",
+      "id": "QyResh98JLQIbxsCgKPH",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kenzlee \nChita\nFarm Bureau",
+      "status": "open",
+      "status_changed_at": "2025-12-17T17:41:04.171Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-12-17T16:54:26.432Z",
+      "id": "CuDtrcI9F65uaXRBBIFo",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim \nChita \nAllstate",
+      "status": "open",
+      "status_changed_at": "2025-12-17T16:54:26.432Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2025-12-16T21:21:49.876Z",
+      "id": "O9AIRWM0FWOoUyvccRCC",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Chris Dyer's Calendar",
+      "status": "open",
+      "status_changed_at": "2025-12-16T21:21:49.876Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-12-16T19:49:22.639Z",
+      "id": "Od2fEenoq0FkBlJZsutT",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Call for inspection time\nFls: Tyshawn\nFod: Matthew",
+      "status": "open",
+      "status_changed_at": "2025-12-16T19:49:22.639Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-12-16T19:28:11.188Z",
+      "id": "615oA9Zp16Lz7tEWsNYB",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kim\nChita \nJune 27 2025 3/4” hail",
+      "status": "open",
+      "status_changed_at": "2025-12-16T19:28:11.188Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-12-16T19:07:57.236Z",
+      "id": "p02D3PDha8YrR4Qx5sCW",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: 12/16/25\nCanveser: Ryan\nFod:matthew",
+      "status": "open",
+      "status_changed_at": "2025-12-16T19:07:57.236Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-12-16T18:36:28.751Z",
+      "id": "yjkvZIZPKsSvYV5EeXNI",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Chita \nJune 27 3/4” hail",
+      "status": "open",
+      "status_changed_at": "2025-12-16T18:36:28.751Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-12-16T17:47:48.314Z",
+      "id": "UiCF4JnLWcGuMj9IKrQo",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Call before arriving\nKnocker: tyshawn\nFod: Matthew\n12/16/25",
+      "status": "open",
+      "status_changed_at": "2025-12-16T17:47:48.314Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": null,
+      "created_at": "2025-12-16T13:09:41.896Z",
+      "id": "lLhChzihSnYPU2Ui9zpw",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Website Form",
+      "status": "open",
+      "status_changed_at": "2025-12-16T13:09:41.896Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-12-15T21:12:16.534Z",
+      "id": "cEAqSMfC26UUXqyyuOVw",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Call for a Wednesday appointment",
+      "status": "open",
+      "status_changed_at": "2025-12-15T21:12:16.534Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-12-15T19:37:33.448Z",
+      "id": "CVGPlt3xJyRbaxQHUEQQ",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kat \nChita",
+      "status": "open",
+      "status_changed_at": "2025-12-15T19:37:33.448Z",
+      "type": "opportunity"
+    }
+  ],
+  "source": "ghl",
+  "status": "ok",
+  "week": "2025-W51",
+  "week_end": "2025-12-21",
+  "week_start": "2025-12-15"
+}

@@ -1,0 +1,576 @@
+{
+  "error": null,
+  "fetched_at": "2026-07-13T20:47:55.556048-04:00",
+  "records": [
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-27T14:42:31.462Z",
+      "id": "PyGEin1a2z2ob41K6NBM",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "jb2v1ctTSpRmlmQPGBto",
+      "date_added": "2025-10-27T15:49:47.128Z",
+      "id": "KlN1g4I13OfDABQL2yP8",
+      "source_raw": "va in-bound lead form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-27T16:30:45.954Z",
+      "id": "ZvxI7CgouKfHTaC9O4tc",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-10-27T16:39:15.457Z",
+      "id": "pHIrhPOHH8F1grhbRMCK",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "jb2v1ctTSpRmlmQPGBto",
+      "date_added": "2025-10-27T16:57:02.821Z",
+      "id": "qQR7rC4GggwgU1RWO0Tj",
+      "source_raw": "quickbooks",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-27T17:27:41.807Z",
+      "id": "2LIb5LJviULN6pgQ8rUm",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-10-27T19:04:26.070Z",
+      "id": "Y5mk9o6knRlWc39q5Ljs",
+      "source_raw": "va in-bound lead form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-27T19:34:17.349Z",
+      "id": "8EWJS57DAXRlcRt1ZH7Q",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2025-10-28T13:34:13.967Z",
+      "id": "x5Da50UshgHH9FNyh07j",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-28T14:28:45.144Z",
+      "id": "cm4EDMP0zgHngcFKuS5u",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-28T14:52:50.828Z",
+      "id": "y6i32SwyDohmdXkyznav",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-28T15:17:21.939Z",
+      "id": "NjNhfXRdyzLG0A17XLto",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-28T15:35:03.063Z",
+      "id": "fRerRCnmSCGojklqcJQw",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "jb2v1ctTSpRmlmQPGBto",
+      "date_added": "2025-10-28T15:55:37.154Z",
+      "id": "VaAqA2H6n5OezGKLpzOJ",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "2xE1dD3kMvC6KAXpCfCI",
+      "date_added": "2025-10-28T16:05:46.428Z",
+      "id": "Zabq8h2OMTsIDkUc91J0",
+      "source_raw": "va in-bound lead form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-28T16:09:28.704Z",
+      "id": "qOJgJt1qDnT7oqLRWuB0",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-28T17:33:23.109Z",
+      "id": "brX1kwBU4ekLojPUqLVr",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-28T19:00:20.773Z",
+      "id": "jF20c5omZVUecCJAZjZM",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "c5mtY94nDsl72pszdLUS",
+      "date_added": "2025-10-28T19:11:23.787Z",
+      "id": "dwpUfx9V3vKcWjz2IOcW",
+      "source_raw": "va in-bound lead form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-28T20:51:32.098Z",
+      "id": "RkFcF3eKFgMiYd9XjNib",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-28T22:01:38.453Z",
+      "id": "bwPtpDxfLD3eoVvhwAYQ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-28T22:50:51.505Z",
+      "id": "eUjVXGS5glFTwhUUpwOR",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-10-29T14:46:31.640Z",
+      "id": "o2ka6eyrthDK732aK2Wp",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-29T14:47:40.753Z",
+      "id": "D2gY8Lj817Sdtkf7uEOR",
+      "source_raw": "quickbooks",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2025-10-29T15:57:57.785Z",
+      "id": "GQIct3JCoBdsmgfbBIw1",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-29T17:41:24.223Z",
+      "id": "vNgpEoQgpcnHiCo4uCoW",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-29T18:13:18.015Z",
+      "id": "46G74ksonsTO33Gw2Sd0",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-29T19:54:22.501Z",
+      "id": "ZPR3HSDECwilGjU7ysyX",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-30T12:08:26.206Z",
+      "id": "4k3Ewc5SQ51QsFnU8fmq",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "jb2v1ctTSpRmlmQPGBto",
+      "date_added": "2025-10-30T13:33:27.276Z",
+      "id": "Kb2r0pEPQqPIlL2orP2K",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-10-30T15:49:49.883Z",
+      "id": "rmbzKmbpOSJwAij0dL4g",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-30T16:08:46.130Z",
+      "id": "ipaemyzwLhyR343VoWHx",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2025-10-30T16:09:40.038Z",
+      "id": "NCYNu9UlD0ZWkewYgWH4",
+      "source_raw": "Chris Dyer's Calendar",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-10-30T16:52:18.658Z",
+      "id": "OwVA4f118dsSfNZjXyV4",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "2xE1dD3kMvC6KAXpCfCI",
+      "date_added": "2025-10-30T17:07:25.207Z",
+      "id": "7iptYEBD8f7fha22nPlF",
+      "source_raw": "va in-bound lead form",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-30T17:48:26.168Z",
+      "id": "ROMfhoOXKaLQop8dmPBt",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-10-30T18:12:50.114Z",
+      "id": "0SNlkIukBXRw88wmEHK7",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-31T12:44:03.238Z",
+      "id": "Fnpmnzb1R4IIdtJgAA64",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-31T13:09:29.769Z",
+      "id": "76LicWPKZgwQoAdDdAyT",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-31T13:42:20.990Z",
+      "id": "ew2iyj6kbs3sqKg62eRk",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-31T14:51:49.025Z",
+      "id": "HkePkMmYpYQsDdILfDvU",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-31T14:59:05.017Z",
+      "id": "TlfsOJKOWWfVAxG6L6S0",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-10-31T15:12:14.797Z",
+      "id": "9tBzXTQPIhVnZ5dO1D7P",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-31T16:22:15.144Z",
+      "id": "XMR1cvMFbFWib5kyT7xm",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-10-31T16:49:40.906Z",
+      "id": "hSJUW6ezbpySPMQEq9h2",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-10-31T16:59:38.655Z",
+      "id": "SDyDpUEUQjlccGiPnzww",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "date_added": "2025-10-31T17:31:02.960Z",
+      "id": "mVOJng89WpWP6IPlu0NZ",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-10-31T18:57:36.969Z",
+      "id": "5WGYuHGFtFgO7VT0L795",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "jb2v1ctTSpRmlmQPGBto",
+      "date_added": "2025-10-31T20:12:46.751Z",
+      "id": "NzLtCITO0U9AjE1PECVK",
+      "source_raw": "",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-10-31T20:34:10.754Z",
+      "id": "ZmpRKEJcSWCbwEmwoduM",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": null,
+      "date_added": "2025-11-01T16:07:36.499Z",
+      "id": "2K0xLhbqSeKNPI4ugwZg",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "date_added": "2025-11-01T18:07:04.446Z",
+      "id": "7ZRIhKPIb5Q4PGbpDTZG",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "date_added": "2025-11-01T18:31:34.777Z",
+      "id": "I1X0yZtr3jFhzA2pVNjY",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "yOTvVxL6vbI2hWHbtr3I",
+      "date_added": "2025-11-01T19:41:04.812Z",
+      "id": "JSThoAc8DvhVV7OXgqgl",
+      "source_raw": "Frontline Sales",
+      "type": "contact"
+    },
+    {
+      "assigned_to": "yOTvVxL6vbI2hWHbtr3I",
+      "created_at": "2025-11-01T19:41:08.133Z",
+      "id": "8EKj3F5VVEVNjasGpoSf",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales:",
+      "status": "open",
+      "status_changed_at": "2025-11-01T19:41:08.134Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-11-01T18:31:38.258Z",
+      "id": "hEyMkrZWmwFCPn630yDg",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales:",
+      "status": "open",
+      "status_changed_at": "2025-11-01T18:31:38.258Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-11-01T18:07:07.820Z",
+      "id": "dVOiIBiJ0sGTP27uPWix",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Referral by Dominic D'Amico",
+      "status": "open",
+      "status_changed_at": "2025-11-01T18:07:07.820Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-11-01T16:07:40.089Z",
+      "id": "P5lAZLMfuWLsySEWVOTQ",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Friendly home owner",
+      "status": "open",
+      "status_changed_at": "2025-11-01T16:07:40.089Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-10-31T20:34:15.175Z",
+      "id": "iPwn5MZTlpvgVbKLGVbE",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales:",
+      "status": "open",
+      "status_changed_at": "2025-10-31T20:34:15.175Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-10-31T16:49:45.131Z",
+      "id": "9M1iH6fSEFfhQWu2KEuX",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kyle \nChita \nStatefarm",
+      "status": "open",
+      "status_changed_at": "2025-10-31T16:49:45.131Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-10-31T16:22:25.388Z",
+      "id": "PGVKTDyeOxgR2qktZqvo",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kyle \nChita \nAllstate",
+      "status": "open",
+      "status_changed_at": "2025-10-31T16:22:25.388Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-10-31T15:12:19.531Z",
+      "id": "DnKl9uK4tgupDb0kV58L",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Kyle \nChita",
+      "status": "open",
+      "status_changed_at": "2025-10-31T15:12:19.531Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-10-30T18:12:53.683Z",
+      "id": "bIJxqcB6SPTKrpSRID8x",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Previously denied \nAllstate \nBrandon \nChita",
+      "status": "open",
+      "status_changed_at": "2025-10-30T18:12:53.683Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-10-30T16:52:22.104Z",
+      "id": "8b4WAMq84tVrp2lt5Fjq",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Xavier fls\nWyatt fod",
+      "status": "open",
+      "status_changed_at": "2025-10-30T16:52:22.104Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2025-10-30T16:14:49.783Z",
+      "id": "rjJ3ZUauFXOsUoQGCgp2",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "Chris Dyer's Calendar",
+      "status": "open",
+      "status_changed_at": "2025-10-30T16:14:49.783Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "PEPwnJJ63oZcl025tEty",
+      "created_at": "2025-10-30T15:49:54.134Z",
+      "id": "GlWaltXndBbFNMygvHkJ",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Brandon L \nChita",
+      "status": "open",
+      "status_changed_at": "2025-10-30T15:49:54.134Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Pojy2ZEeUHW9VfczjAyP",
+      "created_at": "2025-10-30T13:33:33.008Z",
+      "id": "RBzyrXxPEiFMuL28gVcd",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Xavier \nChita",
+      "status": "open",
+      "status_changed_at": "2025-10-30T13:33:33.008Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-10-29T14:46:34.918Z",
+      "id": "PmT8JCOnvSnagSjtmkaQ",
+      "monetary_value": 14350,
+      "pipeline_stage": "7b7ad463-04e7-46cf-9ab8-c9d775bcb10e",
+      "source_raw": "Frontline Sales: Veronica-statefarm-home under contract-waiting to confirm inspection for this Friday-will send over to Chris J when realtor calls-explained we could help with claim if we find damage with current ho and if nothings wrong we can offer a maintenance plan for the meantime",
+      "status": "open",
+      "status_changed_at": "2025-10-29T14:46:34.918Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2025-10-28T18:39:41.479Z",
+      "id": "aPEJDhClKrIIeguM9C8N",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "",
+      "status": "open",
+      "status_changed_at": "2025-10-28T18:39:41.479Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "htrHGVsYCwZSO0jewHMB",
+      "created_at": "2025-10-28T15:55:40.644Z",
+      "id": "j4Rw3eZmPP8iOMpN1mZ7",
+      "monetary_value": 13961.74,
+      "pipeline_stage": "8fe8afcd-942d-4839-a3af-a4a6ae4fca30",
+      "source_raw": "Frontline Sales: Kyle \nChita \nLiberty Mutual",
+      "status": "open",
+      "status_changed_at": "2025-10-28T15:55:40.644Z",
+      "type": "opportunity"
+    },
+    {
+      "assigned_to": "Mnfia0eqKLWihs1tlOJ7",
+      "created_at": "2025-10-27T16:10:14.466Z",
+      "id": "ULFPBLn5fE3X5OD4d2og",
+      "monetary_value": 0,
+      "pipeline_stage": "7dfe1a4b-fc63-4728-b721-ee179af8cf6c",
+      "source_raw": "va in-bound lead form",
+      "status": "open",
+      "status_changed_at": "2025-10-27T16:10:14.466Z",
+      "type": "opportunity"
+    }
+  ],
+  "source": "ghl",
+  "status": "ok",
+  "week": "2025-W44",
+  "week_end": "2025-11-02",
+  "week_start": "2025-10-27"
+}
